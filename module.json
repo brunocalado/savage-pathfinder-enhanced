@@ -26,6 +26,12 @@
       "type": "Macro",
       "name": "macros-savage-pathfinder-enhanced",
       "path": "packs/macros-savage-pathfinder-enhanced.db"
+    },
+    {
+      "label": "Journal - Savage Pathfinder - Enhanced",
+      "type": "JournalEntry",
+      "name": "journal-savage-pathfinder-enhanced",
+      "path": "packs/journal-savage-pathfinder-enhanced.db"
     }  
   ],
 
