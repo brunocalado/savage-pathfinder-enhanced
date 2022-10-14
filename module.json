@@ -20,7 +20,14 @@
   "scripts": [],  
 	"esmodules": ["./scripts/init.js"],
 
-  "packs": [],
+  "packs": [
+    {
+      "label": "Macros - Savage Pathfinder - Enhanced",
+      "type": "Macro",
+      "name": "macros-savage-pathfinder-enhanced",
+      "path": "packs/macros-savage-pathfinder-enhanced.db"
+    }  
+  ],
 
   "relationships": {
     "systems": [
