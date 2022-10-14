@@ -18,20 +18,20 @@
   },
   
   "scripts": [],  
-	"esmodules": ["./scripts/init.js"],
+	"esmodules": [],
 
   "packs": [
     {
-      "label": "Macros - Savage Pathfinder - Enhanced",
+      "label": "Macros - SWPF - Enhanced",
       "type": "Macro",
-      "name": "macros-savage-pathfinder-enhanced",
-      "path": "packs/macros-savage-pathfinder-enhanced.db"
+      "name": "macros-swpf-enhanced",
+      "path": "packs/macros-swpf-enhanced.db"
     },
     {
-      "label": "Journal - Savage Pathfinder - Enhanced",
+      "label": "Journal - SWPF - Enhanced",
       "type": "JournalEntry",
-      "name": "journal-savage-pathfinder-enhanced",
-      "path": "packs/journal-savage-pathfinder-enhanced.db"
+      "name": "journal-swpf-enhanced",
+      "path": "packs/journal-swpf-enhanced.db"
     }  
   ],
 
@@ -39,8 +39,7 @@
     "systems": [
       {
         "id": "swade",
-        "type": "system",
-        "compatibility": {}
+        "type": "system"
       }
     ]
   },

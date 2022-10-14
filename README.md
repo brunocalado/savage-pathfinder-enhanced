@@ -1,6 +1,26 @@
 # Savage Pathfinder - Enhanced
 Macros and other resources for Savage Pathfinder.
 
+## Coin Manager
+<p align="center">
+  <img width="500" src="docs/docs_coin.webp">
+</p>
+
+## Enchantments 
+<p align="center">
+  <img width="500" src="docs/docs_enchant.webp">
+</p>
+
+## Masterwork Forge 
+<p align="center">
+  <img width="500" src="docs/docs_master.webp">
+</p>
+
+## Scroll Craft
+<p align="center">
+  <img width="500" src="docs/docs_scroll.webp">
+</p>
+
 # Installation
 
 ## Foundry VTT
