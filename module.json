@@ -1,0 +1,41 @@
+{   
+  "id": "savage-pathfinder-enhanced",   
+  "title": "Savage Pathfinder - Enhanced",
+  "description": "Macros and other resources for Savage Pathfinder.",   
+  
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "https://www.youtube.com/c/MestreDigital",
+      "flags": {}
+    }
+  ],
+  
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  
+  "scripts": [],  
+	"esmodules": ["./scripts/init.js"],
+
+  "packs": [],
+
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+
+ "styles": [],
+  
+  "url": "https://github.com/brunocalado/savage-pathfinder-enhanced",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/savage-pathfinder-enhanced/main/module.json",  
+  "download": "https://codeload.github.com/brunocalado/savage-pathfinder-enhanced/zip/main"
+  
+}
