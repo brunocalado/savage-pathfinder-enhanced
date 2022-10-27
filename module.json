@@ -11,7 +11,7 @@
     }
   ],
   
-  "version": "0.0.2",
+  "version": "0.0.3",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -32,6 +32,13 @@
       "type": "JournalEntry",
       "name": "journal-swpf-enhanced",
       "path": "packs/journal-swpf-enhanced.db"
+    },
+    {
+      "label": "Items - SWPF - Enhanced",
+      "type": "Item",
+      "name": "items-swpf-enhanced",
+      "path": "packs/items-swpf-enhanced.db",
+      "system": "swade"
     }  
   ],
 
@@ -41,8 +48,15 @@
         "id": "swade",
         "type": "system"
       }
-    ]
-  },
+    ],
+    "requires": [
+      {
+        "id": "warpgate",
+        "type": "module",
+        "manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json"
+      }
+    ]    
+  },  
 
  "styles": [],
   

@@ -21,6 +21,11 @@ Macros and other resources for Savage Pathfinder.
   <img width="500" src="docs/docs_scroll.webp">
 </p>
 
+## Active Effects Builder and Templates
+<p align="center">
+  <img width="500" src="docs/docs_ae_templates.webp">
+</p>
+
 # Installation
 
 ## Foundry VTT
