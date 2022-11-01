@@ -11,14 +11,14 @@
     }
   ],
   
-  "version": "0.0.3",
+  "version": "0.0.4",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
   },
   
   "scripts": [],  
-	"esmodules": [],
+	"esmodules": ["./scripts/init.js"],
 
   "packs": [
     {

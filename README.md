@@ -26,6 +26,11 @@ Macros and other resources for Savage Pathfinder.
   <img width="500" src="docs/docs_ae_templates.webp">
 </p>
 
+## Better Rolls Integration
+<p align="center">
+  <img src="docs/docs_betterrolls.webp">
+</p>
+
 # Installation
 
 ## Foundry VTT
