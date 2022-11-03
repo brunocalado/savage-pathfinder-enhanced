@@ -1,3 +1,20 @@
+Hooks.once('init', () => {
+  // --------------------------------------------------
+  // SETTINGS
+  const debouncedReload = debounce(() => location.reload(), 1000); // RELOAD AFTER CHANGE
+  
+  // call this with: game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions")
+  game.settings.register('savage-pathfinder-enhanced', 'betterrolls_globalactions', {
+    name: 'Better Rolls - Global Actions',
+    hint: 'Check this to load SWPF global actions to Better Rolls module. Change this will reload the world.',
+    scope: 'world',
+    config: true,
+    default: true,
+    type: Boolean,
+    onChange: debouncedReload
+  });  
+}); // END HOOKS
+
 Hooks.once('ready', () => {
   const groupName = "Savage Pathfinder";
 
@@ -104,7 +121,15 @@ Hooks.once('ready', () => {
       ],
       group: "Savage Pathfinder"
     }
-];
-
-  game.brsw.add_actions(BETTER_ROLLS_SWPF);
+  ];
+  
+  const useBetterRollsGA =  game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions");
+  if ( useBetterRollsGA && game.modules.get("betterrolls-swade2")?.active ) { 
+    game.brsw.add_actions(BETTER_ROLLS_SWPF);
+  } else {
+    if ( game.modules.get("betterrolls-swade2")?.active ) { 
+      console.log("!!! Savage Pathfinder - Enhanced: You must activate Better Rolls Module!")    
+    }
+  }
+  
 }); // END HOOKS
