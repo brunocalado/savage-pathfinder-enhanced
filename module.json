@@ -11,7 +11,7 @@
     }
   ],
   
-  "version": "0.0.5",
+  "version": "0.0.6",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -39,7 +39,14 @@
       "name": "items-swpf-enhanced",
       "path": "packs/items-swpf-enhanced.db",
       "system": "swade"
-    }  
+    },
+    {
+      "label": "Legendary Boss",
+      "type": "Adventure",
+      "name": "legendary-boss",
+      "path": "packs/legendary-boss.db",
+      "system": "swade"
+    }    
   ],
 
   "relationships": {

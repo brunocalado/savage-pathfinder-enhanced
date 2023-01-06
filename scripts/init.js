@@ -85,7 +85,7 @@ Hooks.once('ready', () => {
             selector_value: "power"
           }
         ],
-        group: "Savage Pathfinder"
+        group: groupName
       },
       {
         id: "ENVIRONMENTALWEAKNESS",
@@ -102,7 +102,7 @@ Hooks.once('ready', () => {
           selector_value: "power"
         }
       ],
-      group: "Savage Pathfinder"
+      group: groupName
     },
     {
       id: "SNEAKATTACK",
@@ -119,8 +119,31 @@ Hooks.once('ready', () => {
           selector_value: "Fighting"
         }
       ],
-      group: "Savage Pathfinder"
-    }
+      group: groupName
+    },
+    {
+      id: "POUNCINGWILDATTACK",
+      name: "Pounce",
+      button_name: "Pounce",
+      skillMod: "+2",
+      dmgMod: "+4",
+      and_selector: [
+        {
+          selector_type: "actor_has_ability",
+          selector_value: "Pounce"
+        },
+        {
+          selector_type: "skill",
+          selector_value: "Fighting"
+        },
+        {
+          selector_type: "item_type",
+          selector_value: "weapon"
+        }
+      ],
+      group: groupName,
+      self_add_status: "Vulnerable",
+    }        
   ];
   
   const useBetterRollsGA =  game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions");

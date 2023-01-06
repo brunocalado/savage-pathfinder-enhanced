@@ -1,3 +1,7 @@
+# 0.0.6
+- pounce
+- legendary boss
+
 # 0.0.5
 - br global action setting to disable
 

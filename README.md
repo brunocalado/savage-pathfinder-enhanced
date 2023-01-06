@@ -31,6 +31,18 @@ Macros and other resources for Savage Pathfinder.
   <img src="docs/docs_betterrolls.webp">
 </p>
 
+Better Rolls Global Actions List:
+- Desperate Attack +2
+- Desperate Attack +4
+- Environmental Resistance
+- Environmental Weakness
+- Monk Edge
+- Pounce, core p249
+- Sneak Attack
+
+## Legendary Boss
+Add material from [Zadmar](https://savage-stuff.blogspot.com/2016/04/like-boss-dealing-with-solo-opponents.html?m=1) to make bosses more powerful.
+
 # Installation
 
 ## Foundry VTT
