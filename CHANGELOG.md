@@ -1,3 +1,6 @@
+# 0.0.7
+- legendary boss eye tyrant
+
 # 0.0.6
 - pounce
 - legendary boss
