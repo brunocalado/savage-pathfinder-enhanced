@@ -17,7 +17,7 @@ reduce the Minimum Strength requirement by one die type, to a minimum of d4. Shi
 
 */
 
-const version = 'v0.4';
+const version = 'v0.5';
 const icon = "icons/tools/smithing/anvil.webp";
 let coreRules = false;
 if (game.modules.get("swpf-core-rules")?.active) { coreRules = true; }
@@ -113,8 +113,8 @@ async function getItem( compendiumLabel='Savage Pathfinder Gear', itemLabel ) {
   return items.find(p=> p.name==itemLabel);
 }    
 
-// v0.2
-async function forgeMasterwork( data ) {
+// v0.3
+async function forgeMasterwork( data, shareItem ) {
   let description = '';
   if ( data.type=='shield') {
     const minStr = parseInt( data.system.minStr.toLowerCase().replace('d', '') );
@@ -128,6 +128,18 @@ async function forgeMasterwork( data ) {
     </div>`;     
     data.system.description = description + data.system.description;
     data.system.price = data.data.price + 300;    
+  } else if ( data.type=='armor') {
+    const minStr = parseInt( data.system.minStr.toLowerCase().replace('d', '') );
+    if (minStr>=4) {
+      data.system.minStr = `d${minStr-2}`;
+    }
+    description = `<div class="swpf-core">
+    <h2>Craft Notes</h2>
+    <p>Armor and shields reduce the Minimum Strength requirement by one die type, to a minimum of d4.</p>          
+    <p>Shields cost an extra 300 gp, while armor costs an extra 150 gp per piece.</p>          
+    </div>`;     
+    data.system.description = description + data.system.description;
+    data.system.price = data.data.price + 150;       
   } else if ( data.type=='weapon') {
     description = `<div class="swpf-core">
     <h2>Craft Notes</h2>
@@ -157,6 +169,12 @@ async function forgeMasterwork( data ) {
     data.system.description = description + data.system.description;
     data.system.price = data.system.price + 6;    
   }
+  
+  data.name = `${suffix} ${data.name}`;
+  if (shareItem) {
+    data.ownership.default = 2;
+  }
+  
   const folder = await getFolder(craftFolder, 'Item');
   data.folder = folder;
   return data;

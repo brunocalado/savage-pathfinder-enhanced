@@ -18,7 +18,7 @@ power’s Rank × the number of Power Points it uses; then multiply that total b
 
 */
 
-const version = 'v0.5';
+const version = 'v0.6';
 const icon = "icons/sundries/scrolls/scroll-plain-red.webp";
 
 const rulesLink = '@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore06magici.JournalEntryPage.06magicitems0000#scrolls]{SCROLLS}';
@@ -113,7 +113,7 @@ async function main() {
           const folder = await getFolder(craftFolder, 'Item');
 
           let data = {
-            "name": 'Scroll: ' + power.name,
+            "name": `Scroll: ${power.name}`,
             "type": "gear",
             "img": icon,
             "folder": folder,
@@ -125,7 +125,7 @@ async function main() {
               "equippable": true
             },
             "ownership": {
-              "default": shareItem ? 3 : 0
+              "default": shareItem ? 2 : 0
             }            
           };    
           

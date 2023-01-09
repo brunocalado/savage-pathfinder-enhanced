@@ -1,3 +1,8 @@
+# 0.0.8
+- macros: masterwork fix for armor
+- macros: scroll fix for permission
+- macros: enchantement fix
+
 # 0.0.7
 - legendary boss eye tyrant
 

@@ -4,7 +4,7 @@ const craftFolder = 'Craft - Enchantments';
 const suffix = '🔮';
 //const extraGear = []; // You can add items filtered to the search box. Example: you will not find Arrow, you can add 'Arrow', it will try to find it.
 
-const version = 'v0.3';
+const version = 'v0.5';
 
 // RULES
 /*
@@ -450,7 +450,7 @@ async function enchantItem( selectedEnchantments, item ) {
   const itemData = await forgeMasterwork(item.toObject());
   let description='';
   // CONFIG THE ITEM
-  itemData.ownership.default = 3;
+  itemData.ownership.default = 2;
   itemData.name = `${suffix} ${itemData.name}`;  
 
   let quality=0, price=0;
@@ -475,7 +475,7 @@ async function enchantItem( selectedEnchantments, item ) {
   game.items.get(forgedItem[0].id).sheet.render(true);
 }
 
-// v0.2
+// v0.3
 async function forgeMasterwork( data ) {
   let description = '';
   if ( data.type=='shield') {
@@ -490,6 +490,18 @@ async function forgeMasterwork( data ) {
     </div>`;     
     data.system.description = description + data.system.description;
     data.system.price = data.data.price + 300;    
+  } else if ( data.type=='armor') {
+    const minStr = parseInt( data.system.minStr.toLowerCase().replace('d', '') );
+    if (minStr>=4) {
+      data.system.minStr = `d${minStr-2}`;
+    }
+    description = `<div class="swpf-core">
+    <h2>Craft Notes</h2>
+    <p>Armor and shields reduce the Minimum Strength requirement by one die type, to a minimum of d4.</p>          
+    <p>Shields cost an extra 300 gp, while armor costs an extra 150 gp per piece.</p>          
+    </div>`;     
+    data.system.description = description + data.system.description;
+    data.system.price = data.data.price + 150;       
   } else if ( data.type=='weapon') {
     description = `<div class="swpf-core">
     <h2>Craft Notes</h2>
@@ -519,6 +531,7 @@ async function forgeMasterwork( data ) {
     data.system.description = description + data.system.description;
     data.system.price = data.system.price + 6;    
   }
+  
   const folder = await getFolder(craftFolder, 'Item');
   data.folder = folder;
   return data;
