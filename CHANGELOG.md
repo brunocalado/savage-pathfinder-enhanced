@@ -1,3 +1,6 @@
+# 0.1.3
+- docs for Torch
+
 # 0.1.2
 - lamp for Torch config file
 
