@@ -1,7 +1,6 @@
 Hooks.once('init', () => {
   // --------------------------------------------------
   // SETTINGS
-  const debouncedReload = debounce(() => location.reload(), 1000); // RELOAD AFTER CHANGE
   
   // call this with: game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions")
   game.settings.register('savage-pathfinder-enhanced', 'betterrolls_globalactions', {
@@ -11,8 +10,21 @@ Hooks.once('init', () => {
     config: true,
     default: true,
     type: Boolean,
-    onChange: debouncedReload
+    requiresReload: true
   });  
+
+
+  // call this with: game.settings.get("savage-pathfinder-enhanced", "torch_loaddefaults")
+  game.settings.register('savage-pathfinder-enhanced', 'torch_loaddefaults', {
+    name: 'Torch - Load Default Lights',
+    hint: 'Check this to load a JSON file for the module Torch. This will the the players which have items like Torch to access a button to turn on/off a light.',
+    scope: 'world',
+    config: true,
+    default: true,
+    type: Boolean,
+    requiresReload: true
+  });  
+  
 }); // END HOOKS
 
 Hooks.once('ready', () => {
@@ -153,6 +165,13 @@ Hooks.once('ready', () => {
     if ( game.modules.get("betterrolls-swade2")?.active ) { 
       console.log("!!! Savage Pathfinder - Enhanced: You must activate Better Rolls Module!")    
     }
+  }
+  
+  const useTorchDefault =  game.settings.get("savage-pathfinder-enhanced", "torch_loaddefaults");
+  if ( useTorchDefault && game.modules.get("torch")?.active ) { 
+    console.log("!!! Savage Pathfinder - Enhanced: You must activate Torch Module!")    
+  } else {
+    game.settings.set("torch", "gameLightSources", "modules/savage-pathfinder-enhanced/config/torch_swade.json");
   }
   
 }); // END HOOKS

@@ -1,3 +1,7 @@
+# 0.0.9
+- requiresReload: true
+- Torch module auto load config file for SWPF
+
 # 0.0.8
 - macros: masterwork fix for armor
 - macros: scroll fix for permission
