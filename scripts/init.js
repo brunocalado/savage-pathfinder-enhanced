@@ -169,9 +169,9 @@ Hooks.once('ready', () => {
   
   const useTorchDefault =  game.settings.get("savage-pathfinder-enhanced", "torch_loaddefaults");
   if ( useTorchDefault && game.modules.get("torch")?.active ) { 
-    console.log("!!! Savage Pathfinder - Enhanced: You must activate Torch Module!")    
-  } else {
     game.settings.set("torch", "gameLightSources", "modules/savage-pathfinder-enhanced/config/torch_swade.json");
+  } else {
+    console.log("!!! Savage Pathfinder - Enhanced: You must activate Torch Module!")        
   }
   
 }); // END HOOKS

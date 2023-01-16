@@ -1,3 +1,6 @@
+# 0.1.0
+- fix auto load Torch config file
+
 # 0.0.9
 - requiresReload: true
 - Torch module auto load config file for SWPF
