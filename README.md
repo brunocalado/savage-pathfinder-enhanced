@@ -40,8 +40,17 @@ Better Rolls Global Actions List:
 - Pounce, core p249
 - Sneak Attack
 
+[Learn more about Better Rolls](https://github.com/javierriveracastro/betteroll-swade)
+
 ## Legendary Boss
 Add material from [Zadmar](https://savage-stuff.blogspot.com/2016/04/like-boss-dealing-with-solo-opponents.html?m=1) to make bosses more powerful.
+
+## Torch Integration
+Torch module allow the player to turn on/off lights. If the player have a torch item, he can light it on to provide illumination.
+
+There is a configuration JSON file which will auto load with Savage Pathfinder default light items.
+
+[Learn more about Torch Module](https://github.com/League-of-Foundry-Developers/torch)
 
 # Installation
 
