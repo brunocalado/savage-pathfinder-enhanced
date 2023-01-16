@@ -67,7 +67,16 @@
             "animation": { "type": "sunburst", "speed": 1, "intensity": 3, "reverse": false } 
           } 
         ]
-      }                
+      },
+      "Lamp, Small (3\" radius)": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 1, "dim": 3, "angle": 360, "color": "#e9c40c", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 1, "intensity": 3, "reverse": false } 
+          } 
+        ]
+      }                 
     }
   },
 

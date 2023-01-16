@@ -1,3 +1,6 @@
+# 0.1.2
+- lamp for Torch config file
+
 # 0.1.1
 - sundrod for Torch config file
 

@@ -45,8 +45,16 @@ Better Rolls Global Actions List:
 ## Legendary Boss
 Add material from [Zadmar](https://savage-stuff.blogspot.com/2016/04/like-boss-dealing-with-solo-opponents.html?m=1) to make bosses more powerful.
 
+<p align="center">
+  <img src="docs/docs_legendary_boss.webp">
+</p>
+
 ## Torch Integration
 Torch module allow the player to turn on/off lights. If the player have a torch item, he can light it on to provide illumination.
+
+<p align="center">
+  <img src="docs/docs_torch.webp">
+</p>
 
 There is a configuration JSON file which will auto load with Savage Pathfinder default light items.
 
