@@ -58,7 +58,16 @@
             "animation": { "type": "torch", "speed": 2, "intensity": 5, "reverse": false } 
           } 
         ]
-      }         
+      },
+      "Sunrod": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 6, "dim": 12, "angle": 360, "color": "#e9c40c", "alpha": 0.15,
+            "animation": { "type": "sunburst", "speed": 1, "intensity": 3, "reverse": false } 
+          } 
+        ]
+      }                
     }
   },
 
