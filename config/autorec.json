@@ -1,0 +1,98 @@
+{
+  "swade": {
+    "system": "swade",
+    "topology": "standard",
+    "quantity" : "quantity",
+    "aliases": {
+      "Candle (1 hr, 2\" radius)": "Candle",
+      "Torch (1 hour, 4\" radius)": "Torch",
+      "Lantern, bullseye (10\" cone)": "Lantern, bullseye",
+      "Lantern, hooded (6\" radius)": "Lantern, hooded"
+    },
+    "sources": {
+      "Candle (1 hr, 2\" radius)": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 0.5, "dim": 2, "angle": 360, "color": "#e68805", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 2, "intensity": 4, "reverse": false } 
+          }           
+        ]
+      },
+      "Everburning Torch": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 0.5, "dim": 4, "angle": 360, "color": "#e68805", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 2, "intensity": 4, "reverse": false } 
+          }               
+        ]
+      },
+      "Lantern, bullseye (10\" cone)": {
+        "states": 3,
+        "light": [
+          {
+            "bright": 4, "dim": 10, "angle": 180, "color": "#e68805", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 2, "intensity": 4, "reverse": false }          
+          },          
+          {
+            "bright": 0, "dim": 3, "angle": 180, "color": "#e68805", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 2, "intensity": 4, "reverse": false }          
+          }
+        ]
+      },
+      "Lantern, hooded (6\" radius)": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 3, "dim": 6, "angle": 360, "color": "#e68805", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 2, "intensity": 4, "reverse": false }
+          }
+        ]
+      },
+      "Torch (1 hour, 4\" radius)": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 0.5, "dim": 4, "angle": 360, "color": "#e68805", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 2, "intensity": 5, "reverse": false } 
+          } 
+        ]
+      },
+      "Sunrod": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 6, "dim": 12, "angle": 360, "color": "#e9c40c", "alpha": 0.15,
+            "animation": { "type": "sunburst", "speed": 1, "intensity": 3, "reverse": false } 
+          } 
+        ]
+      },
+      "Lamp, Small (3\" radius)": {
+        "states": 2,
+        "light": [
+          {
+            "bright": 1, "dim": 3, "angle": 360, "color": "#e9c40c", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 1, "intensity": 3, "reverse": false } 
+          } 
+        ]
+      }                 
+    }
+  },
+
+  "default": {
+    "system": "default",
+    "topology": "none",
+    "quantity" : "quantity",
+    "sources": {
+      "Self": {
+        "name": "Self",
+        "type": "none",
+        "states": 2,
+        "light": [
+          {"bright": 40, "dim":20, "angle": 360}
+        ]
+      }            
+    }
+  }
+}

@@ -1,3 +1,6 @@
+# 0.1.4
+- automated animations autorec alpha
+
 # 0.1.3
 - docs for Torch
 
