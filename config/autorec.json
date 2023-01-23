@@ -205,7 +205,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -419,7 +419,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -633,7 +633,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -663,7 +663,9 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+        "playWhen": "0"
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -704,8 +706,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Whoosh_2_5.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -845,7 +847,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -918,8 +920,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Blunt_Swing_1_2.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -1059,7 +1061,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -1132,8 +1134,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Blunt_Swing_1_2.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -1273,7 +1275,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -4328,205 +4330,6 @@
       }
     },
     {
-      "id": "8a4029be-2eaf-4d3b-a83b-f9f9927a23bc",
-      "label": "Morningstar",
-      "levels3d": {
-        "type": "explosion",
-        "data": {
-          "color01": "#FFFFFF",
-          "color02": "#FFFFFF"
-        },
-        "sound": {
-          "enable": false
-        },
-        "secondary": {
-          "enable": false,
-          "data": {
-            "color01": "#FFFFFF",
-            "color02": "#FFFFFF"
-          }
-        }
-      },
-      "macro": {
-        "enable": false,
-        "playWhen": "0"
-      },
-      "meleeSwitch": {
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "arrow",
-          "variant": "regular",
-          "color": "regular"
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "detect": "automatic",
-          "range": 2,
-          "returning": false,
-          "switchType": "on"
-        }
-      },
-      "menu": "melee",
-      "primary": {
-        "video": {
-          "dbSection": "melee",
-          "menuType": "weapon",
-          "animation": "mace",
-          "variant": "01",
-          "color": "red",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isWait": false,
-          "opacity": 1,
-          "playbackRate": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1.5,
-          "zIndex": 1
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        }
-      },
-      "source": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "target": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "liquid",
-          "animation": "splash",
-          "variant": "01",
-          "color": "black",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        }
-      }
-    },
-    {
       "id": "18370ba2-549b-43b1-96eb-ed030a6c2b18",
       "label": "Morningstar",
       "levels3d": {
@@ -7166,7 +6969,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -7380,7 +7183,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -7594,7 +7397,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -7808,7 +7611,7 @@
         }
       },
       "advanced": {
-        "exactMatch": true,
+        "exactMatch": false,
         "excludedTerms": [],
         "excludedType": {
           "enabled": false,
@@ -8043,7 +7846,9 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+        "playWhen": "0"
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -8084,7 +7889,7 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
+          "enable": true,
           "file": "",
           "startTime": 0,
           "volume": 1,
@@ -8094,9 +7899,9 @@
         "video": {
           "dbSection": "melee",
           "menuType": "weapon",
-          "animation": "unarmedstrike",
+          "animation": "flurryofblows",
           "variant": "physical",
-          "color": "blue",
+          "color": "yellow",
           "enableCustom": false
         }
       },
@@ -8281,7 +8086,7 @@
           "menuType": "weapon",
           "animation": "warhammer",
           "variant": "01",
-          "color": "random",
+          "color": "blue",
           "enableCustom": false,
           "customPath": ""
         },
@@ -8291,7 +8096,8 @@
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Punch_multi.ogg"
         },
         "options": {
           "delay": 0,
@@ -9342,183 +9148,6 @@
       }
     },
     {
-      "id": "4a8547c0-a295-4523-99ac-55b42b1ff685",
-      "label": "Bow",
-      "levels3d": {
-        "enable": false,
-        "type": "",
-        "data": {},
-        "secondary": {
-          "enable": false,
-          "data": {}
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        }
-      },
-      "macro": {},
-      "menu": "range",
-      "primary": {
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isReturning": false,
-          "isWait": false,
-          "onlyX": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "arrow",
-          "variant": "regular",
-          "color": "regular"
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 250,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "size": 1.5,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        }
-      },
-      "source": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "target": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isWait": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      }
-    },
-    {
       "id": "343ebd3f-d920-4086-9a58-d7954b9e3ecb",
       "label": "Bow (composite)",
       "levels3d": {
@@ -9556,12 +9185,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_2.ogg"
         },
         "options": {
           "delay": 0,
@@ -9735,12 +9365,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_2.ogg"
         },
         "options": {
           "delay": 0,
@@ -9914,12 +9545,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_2.ogg"
         },
         "options": {
           "delay": 0,
@@ -10056,215 +9688,6 @@
       }
     },
     {
-      "id": "de4735dd-aad7-4bbe-9452-eddf7d261ee9",
-      "label": "Crossbow",
-      "levels3d": {
-        "enable": false,
-        "type": "",
-        "data": {
-          "color01": "#000000",
-          "color02": "#000000",
-          "speed": null,
-          "repeat": null,
-          "arc": null,
-          "delay": null,
-          "scale": null,
-          "alpha": null,
-          "gravity": null,
-          "mass": null,
-          "life": null,
-          "emittersize": null,
-          "rate": null,
-          "addexplosion": {
-            "enable": false,
-            "color01": "#000000",
-            "color02": "#000000",
-            "speed": null,
-            "scale": null,
-            "alpha": null,
-            "gravity": null,
-            "mass": null,
-            "life": null,
-            "emittersize": null,
-            "rate": null,
-            "sprite": ""
-          },
-          "sprite": ""
-        },
-        "secondary": {
-          "enable": false,
-          "data": {}
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        }
-      },
-      "macro": {
-        "enable": false
-      },
-      "menu": "range",
-      "primary": {
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isReturning": false,
-          "isWait": false,
-          "onlyX": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "bolt",
-          "variant": "physical",
-          "color": "orange",
-          "enableCustom": false
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 250,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "size": 1.5,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        }
-      },
-      "source": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "target": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isWait": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      }
-    },
-    {
       "id": "bbdc0e91-cf38-41f3-8fbf-c7425f90d32c",
       "label": "Crossbow (Hand, repeating)",
       "levels3d": {
@@ -10302,12 +9725,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_multi.ogg"
         },
         "options": {
           "delay": 0,
@@ -10481,12 +9905,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_4.ogg"
         },
         "options": {
           "delay": 0,
@@ -10660,12 +10085,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_multi.ogg"
         },
         "options": {
           "delay": 0,
@@ -10833,18 +10259,19 @@
           "dbSection": "range",
           "menuType": "weapon",
           "animation": "dart",
-          "variant": "regular",
-          "color": "regular",
+          "variant": "01",
+          "color": "white",
           "enableCustom": false,
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_4.ogg"
         },
         "options": {
           "delay": 0,
@@ -11018,12 +10445,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_multi.ogg"
         },
         "options": {
           "delay": 0,
@@ -11197,12 +10625,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_4.ogg"
         },
         "options": {
           "delay": 0,
@@ -15080,12 +14509,192 @@
           "zIndex": 1
         }
       }
+    },
+    {
+      "id": "e0783823-565b-48e9-9594-3fe445ee1ca4",
+      "label": "Oathbow",
+      "levels3d": {
+        "type": "explosion",
+        "data": {
+          "color01": "#FFFFFF",
+          "color02": "#FFFFFF",
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+        },
+        "sound": {
+          "enable": false
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+            "color01": "#FFFFFF",
+            "color02": "#FFFFFF",
+            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          }
+        }
+      },
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "menu": "range",
+      "primary": {
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "arrow",
+          "variant": "regular",
+          "color": "random",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": true,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_2.ogg"
+        },
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isReturning": false,
+          "isWait": false,
+          "onlyX": false,
+          "opacity": 1,
+          "playbackRate": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "zIndex": 1
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1.5,
+          "zIndex": 1
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        }
+      },
+      "source": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "target": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        }
+      }
     }
   ],
   "ontoken": [
     {
       "id": "ca6e0f84-9af1-48e0-ae47-852878079b00",
-      "label": "Claws",
+      "label": "Natural Claws",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -15131,8 +14740,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Monster_Bite_3.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -15143,7 +14752,7 @@
           "menuType": "creature",
           "animation": "claw",
           "variant": "01",
-          "color": "red",
+          "color": "darkred",
           "enableCustom": false
         }
       },
@@ -17153,6 +16762,384 @@
           "zIndex": 1
         }
       }
+    },
+    {
+      "id": "3eb82607-0215-4188-af57-d64669a353e4",
+      "label": "Natural Bite",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {},
+        "secondary": {
+          "enable": false,
+          "data": {}
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "playWhen": "0"
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "target",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Monster_Bite_3.ogg",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "creature",
+          "animation": "bite",
+          "variant": "01",
+          "color": "red",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
+    },
+    {
+      "id": "21ce694b-d93b-430f-aadb-636765ab3dfe",
+      "label": "Natural Horns",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {},
+        "secondary": {
+          "enable": false,
+          "data": {}
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "playWhen": "0"
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "target",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Monster_Bite_3.ogg",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "impact",
+          "animation": "groundcrack",
+          "variant": "01",
+          "color": "purple",
+          "enableCustom": false
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
     }
   ],
   "templatefx": [
@@ -18541,8 +18528,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Aura_I.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
