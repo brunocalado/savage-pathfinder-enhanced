@@ -18,7 +18,7 @@ power’s Rank × the number of Power Points it uses; then multiply that total b
 
 */
 
-const version = 'v0.6';
+const version = 'v0.7';
 const icon = "icons/sundries/scrolls/scroll-plain-red.webp";
 
 const rulesLink = '@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore06magici.JournalEntryPage.06magicitems0000#scrolls]{SCROLLS}';
@@ -114,15 +114,20 @@ async function main() {
 
           let data = {
             "name": `Scroll: ${power.name}`,
-            "type": "gear",
+            "type": "consumable",
             "img": icon,
             "folder": folder,
-            "data": {
+            "system": {
               "description": extraMessage + power.system.description,
               "quantity": 1,
               "weight": 0.1,
               "price": finalCraftCost,
-              "equippable": true
+              "charges": {
+                "value": 1,
+                "max": 1
+              },
+              "destroyOnEmpty": true,
+              "source": "Scroll Craft for Savage Pathfinder"
             },
             "ownership": {
               "default": shareItem ? 2 : 0

@@ -1,3 +1,7 @@
+# 0.1.6
+- automated animations autorec alpha
+- scroll craft create a consumable with 1 charge
+
 # 0.1.5
 - automated animations autorec alpha
 
