@@ -1,3 +1,6 @@
+# 0.1.9
+- scene to swade macro
+
 # 0.1.8
 - automated animations autorec update
 
