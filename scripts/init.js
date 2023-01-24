@@ -154,8 +154,9 @@ Hooks.once('ready', () => {
         }
       ],
       group: groupName,
-      self_add_status: "Vulnerable",
-    }        
+      self_add_status: "Vulnerable"
+    }
+    
   ];
   
   const useBetterRollsGA =  game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions");

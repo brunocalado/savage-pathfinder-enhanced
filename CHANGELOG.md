@@ -1,3 +1,6 @@
+# 0.1.8
+- automated animations autorec update
+
 # 0.1.7
 - automated animations autorec sounds
 
