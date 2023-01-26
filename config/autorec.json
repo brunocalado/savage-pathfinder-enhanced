@@ -1,7 +1,7 @@
 {
   "melee": [
     {
-      "id": "76acca6c-0a1b-4dcd-baac-6cba06478e2e",
+      "id": "51f5c5c6-09f7-4ad1-b211-1503278ed788",
       "label": "Assassin's Dagger",
       "levels3d": {
         "enable": false,
@@ -215,7 +215,7 @@
       }
     },
     {
-      "id": "d7256d09-fdc8-4e93-a4c3-5b6f55776e8a",
+      "id": "8c2611ec-44e8-4964-a760-0c64db46fe89",
       "label": "Axe, Battle",
       "levels3d": {
         "enable": false,
@@ -429,7 +429,7 @@
       }
     },
     {
-      "id": "8d537d0b-f429-4ab6-a4e9-9570508e9c3f",
+      "id": "2820b11b-7d44-4904-b6ae-956859b11e23",
       "label": "Axe, Great",
       "levels3d": {
         "enable": false,
@@ -643,7 +643,7 @@
       }
     },
     {
-      "id": "f3cd6f3c-c5fa-43ee-8b2c-f3ce65ee8181",
+      "id": "67211712-8436-4d13-9e1d-de5560c25684",
       "label": "Axe, Hand",
       "levels3d": {
         "enable": false,
@@ -855,7 +855,7 @@
       }
     },
     {
-      "id": "7cb0e6ed-5136-452b-a51d-9d54d79a7007",
+      "id": "a8dc31e4-d1f1-46c7-bb5b-a7d54c6d4e86",
       "label": "Club, Heavy",
       "levels3d": {
         "enable": false,
@@ -1051,7 +1051,7 @@
         "video": {
           "dbSection": "static",
           "menuType": "spell",
-          "animation": "curewounds",
+          "animation": "antilifeshell",
           "variant": "01",
           "color": "blue",
           "enableCustom": false,
@@ -1069,7 +1069,7 @@
       }
     },
     {
-      "id": "c9f5e5aa-d50b-4d4d-98a2-190f94151c95",
+      "id": "fff3c553-c0e4-49f4-bcec-03d3877e7750",
       "label": "Club, Light",
       "levels3d": {
         "enable": false,
@@ -1283,7 +1283,7 @@
       }
     },
     {
-      "id": "9fe0e93c-9c92-4c62-8323-1fc93a114989",
+      "id": "3e55ef1c-d517-48e5-a8fa-3e3a3245d3ac",
       "label": "Dagger/Knife",
       "levels3d": {
         "enable": false,
@@ -1345,7 +1345,7 @@
           "zIndex": 1
         },
         "sound": {
-          "delay": 600,
+          "delay": 400,
           "enable": true,
           "file": "modules/savage-pathfinder-enhanced/assets/sfx/Critical_Dagger_Hit_I.ogg",
           "startTime": 0,
@@ -1488,7 +1488,7 @@
       }
     },
     {
-      "id": "4b9428e3-3f9f-4e80-a79d-2e3b1c7f5fa8",
+      "id": "6c86632a-0440-4270-92a8-54c6760da9e8",
       "label": "Dogslicer",
       "levels3d": {
         "enable": false,
@@ -1693,7 +1693,7 @@
       }
     },
     {
-      "id": "bd496cd4-5172-4614-91f2-5faa3a2caba7",
+      "id": "682e6d43-a2f8-463a-9290-fe9c523bd064",
       "label": "Falchion",
       "levels3d": {
         "type": "explosion",
@@ -1892,7 +1892,7 @@
       }
     },
     {
-      "id": "d6185220-5e5b-4b27-9958-5b8bb49a4e62",
+      "id": "0b42ebdf-f0a2-4444-883a-4cf6006c4748",
       "label": "Flail",
       "levels3d": {
         "type": "explosion",
@@ -2091,7 +2091,7 @@
       }
     },
     {
-      "id": "180bfedd-e767-476d-83e9-bb7cb5a27d88",
+      "id": "cd8d2616-2e60-4b67-918b-461469491199",
       "label": "Flail (Heavy)",
       "levels3d": {
         "type": "explosion",
@@ -2154,7 +2154,8 @@
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/CriticalHitII.ogg"
         },
         "options": {
           "delay": 0,
@@ -2290,8 +2291,8 @@
       }
     },
     {
-      "id": "2a0405d9-4488-4296-a514-66dbe5fdfb45",
-      "label": "Flurry of Blows",
+      "id": "4ac08ad9-c365-4cef-a6da-c81f2719a162",
+      "label": "Unarmed Strike",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -2336,7 +2337,7 @@
           "detect": "automatic",
           "range": 2,
           "isReturning": false,
-          "switchType": "on"
+          "switchType": "off"
         }
       },
       "menu": "melee",
@@ -2353,8 +2354,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Punch_multi.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -2495,7 +2496,7 @@
       }
     },
     {
-      "id": "fce668c4-3445-4554-8ea3-61e830b1ff94",
+      "id": "47deed7c-4727-4a32-a4a6-573a46aa1841",
       "label": "Glaive",
       "levels3d": {
         "type": "explosion",
@@ -2696,210 +2697,7 @@
       }
     },
     {
-      "id": "afeccdb3-570a-4f6c-86b7-c797a3d84064",
-      "label": "Greatsword",
-      "levels3d": {
-        "enable": false,
-        "type": "",
-        "data": {},
-        "secondary": {
-          "enable": false,
-          "data": {}
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        }
-      },
-      "macro": {},
-      "meleeSwitch": {
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "arrow",
-          "variant": "regular",
-          "color": "regular",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "options": {
-          "detect": "automatic",
-          "range": 2,
-          "isReturning": false,
-          "switchType": "on"
-        }
-      },
-      "menu": "melee",
-      "primary": {
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "size": 1,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "melee",
-          "menuType": "weapon",
-          "animation": "greatsword",
-          "variant": "01",
-          "color": "white",
-          "enableCustom": false
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 250,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "size": 1.5,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        }
-      },
-      "source": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "target": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isWait": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      }
-    },
-    {
-      "id": "f0bfa7c0-7162-44e3-afa1-ad285b0cddbe",
+      "id": "2850a486-7325-4fbc-bd45-367a381305b2",
       "label": "Guisarme",
       "levels3d": {
         "type": "explosion",
@@ -3100,7 +2898,7 @@
       }
     },
     {
-      "id": "380ff1b6-3b16-4fc8-bdd5-c3127324173e",
+      "id": "a2a6ea45-f30f-4265-a0c1-1c9426d265fa",
       "label": "Halberd",
       "levels3d": {
         "enable": false,
@@ -3305,7 +3103,7 @@
       }
     },
     {
-      "id": "9e55b519-14a9-4a76-889c-a830f0db2310",
+      "id": "337447e9-9d65-44e3-b17f-51b5c7b05f5e",
       "label": "Katana",
       "levels3d": {
         "enable": false,
@@ -3510,7 +3308,7 @@
       }
     },
     {
-      "id": "a5499944-b153-4ae1-8a42-d92c70fea17c",
+      "id": "39e0e89c-fbcb-4e69-87d5-3dc91e05d9f7",
       "label": "Lance",
       "levels3d": {
         "enable": false,
@@ -3715,7 +3513,7 @@
       }
     },
     {
-      "id": "faa62908-c3cb-4a5c-888c-63dda1ad5197",
+      "id": "196e73e2-eee3-4585-b33a-dd78094e885e",
       "label": "Mace, Heavy",
       "levels3d": {
         "enable": false,
@@ -3920,7 +3718,7 @@
       }
     },
     {
-      "id": "790a158a-a902-415c-85a5-1f50653a44f1",
+      "id": "096f1c24-b04d-48c5-8355-3fe6166b1d48",
       "label": "Mace, Light",
       "levels3d": {
         "enable": false,
@@ -4125,7 +3923,7 @@
       }
     },
     {
-      "id": "98bbd3d3-f01b-42f2-a4f3-2b3396ef2036",
+      "id": "4cf39e21-1738-4050-8944-822193f74d10",
       "label": "Maul",
       "levels3d": {
         "enable": false,
@@ -4145,7 +3943,9 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+        "playWhen": "0"
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -4186,8 +3986,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Shield_Strike.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -4287,11 +4087,11 @@
         }
       },
       "target": {
-        "enable": false,
+        "enable": true,
         "options": {
           "addTokenWidth": false,
           "anchor": "0.5",
-          "delay": 0,
+          "delay": 1700,
           "elevation": 1000,
           "fadeIn": 250,
           "fadeOut": 500,
@@ -4318,216 +4118,17 @@
         },
         "video": {
           "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
+          "menuType": "generic",
+          "animation": "boulderimpact",
           "variant": "01",
-          "color": "blue",
+          "color": "white",
           "enableCustom": false,
           "customPath": ""
         }
       }
     },
     {
-      "id": "4fe56983-3b9c-490b-91be-9d1a6f540dab",
-      "label": "Morningstar",
-      "levels3d": {
-        "type": "explosion",
-        "data": {
-          "color01": "#FFFFFF",
-          "color02": "#FFFFFF"
-        },
-        "sound": {
-          "enable": false
-        },
-        "secondary": {
-          "enable": false,
-          "data": {
-            "color01": "#FFFFFF",
-            "color02": "#FFFFFF"
-          }
-        }
-      },
-      "macro": {
-        "enable": false,
-        "playWhen": "0"
-      },
-      "meleeSwitch": {
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "arrow",
-          "variant": "regular",
-          "color": "regular"
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "detect": "automatic",
-          "range": 2,
-          "returning": false,
-          "switchType": "on"
-        }
-      },
-      "menu": "melee",
-      "primary": {
-        "video": {
-          "dbSection": "melee",
-          "menuType": "weapon",
-          "animation": "mace",
-          "variant": "01",
-          "color": "red",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isWait": false,
-          "opacity": 1,
-          "playbackRate": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1.5,
-          "zIndex": 1
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        }
-      },
-      "source": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "target": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "liquid",
-          "animation": "splash",
-          "variant": "01",
-          "color": "black",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        }
-      }
-    },
-    {
-      "id": "07e99781-bba4-44d8-beda-4a542d6cad27",
+      "id": "1bc922b7-ed8b-4e8c-b1fb-97bbbbf88b79",
       "label": "Morningstar",
       "levels3d": {
         "enable": false,
@@ -4573,7 +4174,7 @@
           "detect": "automatic",
           "range": 2,
           "isReturning": false,
-          "switchType": "on"
+          "switchType": "off"
         }
       },
       "menu": "melee",
@@ -4732,7 +4333,7 @@
       }
     },
     {
-      "id": "547c0bb7-a8a3-4df3-aec1-c5afd6c944fc",
+      "id": "3061ea3e-b978-42f8-8264-4c933d65e304",
       "label": "Pike",
       "levels3d": {
         "enable": false,
@@ -4794,9 +4395,9 @@
           "zIndex": 1
         },
         "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
+          "delay": 300,
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/CriticalHitII.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -4937,7 +4538,7 @@
       }
     },
     {
-      "id": "675be288-4bbe-4b1b-b476-51fd79d528c3",
+      "id": "6b2bf832-873f-483b-bc21-b4f73aa8dbf9",
       "label": "Ranseur",
       "levels3d": {
         "type": "explosion",
@@ -5138,7 +4739,7 @@
       }
     },
     {
-      "id": "9ce45c13-2c5d-4d9a-8d7d-e0bfd344eca2",
+      "id": "5b240972-dada-47b6-9815-bdcc74227c31",
       "label": "Rapier",
       "levels3d": {
         "enable": false,
@@ -5341,7 +4942,7 @@
       }
     },
     {
-      "id": "78a0a60e-0407-45c1-9050-348e445ef40c",
+      "id": "30622088-11a1-4d04-befe-1381ef68402a",
       "label": "Sap",
       "levels3d": {
         "type": "explosion",
@@ -5542,7 +5143,7 @@
       }
     },
     {
-      "id": "7a59fd7f-dfe4-441d-adc1-8d1cac1ce0df",
+      "id": "8298f2fa-014e-484a-90d1-eb75e07cc56f",
       "label": "Scimitar",
       "levels3d": {
         "type": "explosion",
@@ -5743,7 +5344,7 @@
       }
     },
     {
-      "id": "0ba13477-9d87-46e0-9950-909ca743f126",
+      "id": "ad9358ac-cc14-4b0b-a3fb-40af078981e8",
       "label": "Scythe",
       "levels3d": {
         "type": "explosion",
@@ -5944,7 +5545,7 @@
       }
     },
     {
-      "id": "bff78c22-8666-4e37-a7c6-a017c972f158",
+      "id": "3f561288-314c-4b64-ad00-584f009decc7",
       "label": "Sickle",
       "levels3d": {
         "type": "explosion",
@@ -6145,7 +5746,7 @@
       }
     },
     {
-      "id": "342648e6-4f65-4777-aaea-8e89e1f68091",
+      "id": "2328e7a2-252c-4ac4-8008-874e867875eb",
       "label": "Spear",
       "levels3d": {
         "enable": false,
@@ -6191,7 +5792,7 @@
           "detect": "automatic",
           "range": 2,
           "isReturning": false,
-          "switchType": "on"
+          "switchType": "off"
         }
       },
       "menu": "melee",
@@ -6208,8 +5809,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/CriticalHitII.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -6350,7 +5951,7 @@
       }
     },
     {
-      "id": "0359864a-a491-46e1-868a-f8e2134d2745",
+      "id": "1ca0bd81-324e-4835-bb61-69a68607c3fd",
       "label": "Spear, Short",
       "levels3d": {
         "enable": false,
@@ -6396,7 +5997,7 @@
           "detect": "automatic",
           "range": 2,
           "isReturning": false,
-          "switchType": "on"
+          "switchType": "off"
         }
       },
       "menu": "melee",
@@ -6412,9 +6013,9 @@
           "zIndex": 1
         },
         "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
+          "delay": 400,
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/CriticalHitII.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -6555,7 +6156,7 @@
       }
     },
     {
-      "id": "c4d9af3a-c36f-4c33-b38a-c96b80695921",
+      "id": "ad50820d-17b7-4a19-8093-85bdf805ea8d",
       "label": "Spiked Chain",
       "levels3d": {
         "type": "explosion",
@@ -6756,7 +6357,7 @@
       }
     },
     {
-      "id": "db0acbc5-e621-4dfa-adad-e1fdc72ac999",
+      "id": "df25597d-9d59-4c65-aaeb-7b2f9d130fa8",
       "label": "Staff/Quarterstaff",
       "levels3d": {
         "enable": false,
@@ -6962,7 +6563,7 @@
       }
     },
     {
-      "id": "bf072890-b2ef-4b2c-a701-5455b8980bb2",
+      "id": "e01f5e5e-ad11-4290-b71a-bdeeb0f5883a",
       "label": "Sword of the Planes",
       "levels3d": {
         "enable": false,
@@ -7176,7 +6777,7 @@
       }
     },
     {
-      "id": "ae892861-8ba4-4073-b3ae-95198a8cb21a",
+      "id": "bc3a220f-da97-4e5f-b3f0-34e2da11bdc0",
       "label": "Sword, Bastard",
       "levels3d": {
         "enable": false,
@@ -7390,7 +6991,7 @@
       }
     },
     {
-      "id": "af4fb3d9-1442-4d87-aa14-161eb9fbeeca",
+      "id": "955a8e2a-cbac-4d1f-a59a-cbfb87d4127c",
       "label": "Sword, Great",
       "levels3d": {
         "enable": false,
@@ -7452,9 +7053,9 @@
           "zIndex": 1
         },
         "sound": {
-          "delay": 0,
+          "delay": 700,
           "enable": true,
-          "file": "modules/savage-pathfinder-enhanced/assets/SH101_Sword%20Attack_Hollywood_Fienup_004.wav",
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/SH101_SwordAttack_Hollywood_Fienup_004.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -7604,7 +7205,7 @@
       }
     },
     {
-      "id": "e8a1832c-09e0-4bc8-8d23-e5e27d9166a5",
+      "id": "7b017a31-e160-4c6d-805b-f181a975dd16",
       "label": "Sword, Long",
       "levels3d": {
         "enable": false,
@@ -7666,9 +7267,9 @@
           "zIndex": 1
         },
         "sound": {
-          "delay": 0,
+          "delay": 100,
           "enable": true,
-          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Sword_Swing_10_1.ogg",
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/SH101_SwordAttack_Hollywood_Fienup_004.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -7818,7 +7419,7 @@
       }
     },
     {
-      "id": "fa9fc5bb-f1ea-437c-83bd-fe33805dbcf5",
+      "id": "e7367728-5b5d-4b9b-a9a4-22935bdaea51",
       "label": "Sword, Short",
       "levels3d": {
         "enable": false,
@@ -7880,7 +7481,7 @@
           "zIndex": 1
         },
         "sound": {
-          "delay": 0,
+          "delay": 100,
           "enable": true,
           "file": "modules/savage-pathfinder-enhanced/assets/sfx/Sword_Swing_1_1.ogg",
           "startTime": 0,
@@ -8020,11 +7621,1027 @@
           "enableCustom": false,
           "customPath": ""
         }
+      },
+      "advanced": {
+        "exactMatch": true,
+        "excludedTerms": [],
+        "excludedType": {
+          "enabled": false,
+          "path": "",
+          "property": ""
+        }
       }
     },
     {
-      "id": "4dc0f9a9-e241-464a-8a44-7b4e983a6778",
-      "label": "Unarmed Strike",
+      "id": "a6d36600-a521-42c5-af3d-d49a3b2a5013",
+      "label": "Warhammer",
+      "levels3d": {
+        "type": "explosion",
+        "data": {
+          "color01": "#FFFFFF",
+          "color02": "#FFFFFF",
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+        },
+        "sound": {
+          "enable": false
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+            "color01": "#FFFFFF",
+            "color02": "#FFFFFF",
+            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          }
+        }
+      },
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "meleeSwitch": {
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "arrow",
+          "variant": "regular",
+          "color": "regular"
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "detect": "automatic",
+          "range": 2,
+          "returning": false,
+          "switchType": "on"
+        }
+      },
+      "menu": "melee",
+      "primary": {
+        "video": {
+          "dbSection": "melee",
+          "menuType": "weapon",
+          "animation": "warhammer",
+          "variant": "01",
+          "color": "random",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": true,
+          "delay": 300,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Shield_Strike.ogg"
+        },
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isWait": false,
+          "opacity": 1,
+          "playbackRate": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1.5,
+          "zIndex": 1
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        }
+      },
+      "source": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "target": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        }
+      }
+    },
+    {
+      "id": "7c224b8d-9d41-49b6-a662-a1362bdcdb01",
+      "label": "Whip",
+      "levels3d": {
+        "type": "explosion",
+        "data": {
+          "color01": "#FFFFFF",
+          "color02": "#FFFFFF",
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+        },
+        "sound": {
+          "enable": false
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+            "color01": "#FFFFFF",
+            "color02": "#FFFFFF",
+            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          }
+        }
+      },
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "meleeSwitch": {
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "arrow",
+          "variant": "regular",
+          "color": "regular"
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "detect": "automatic",
+          "range": 2,
+          "returning": false,
+          "switchType": "on"
+        }
+      },
+      "menu": "melee",
+      "primary": {
+        "video": {
+          "dbSection": "melee",
+          "menuType": "generic",
+          "animation": "slashing",
+          "variant": "03",
+          "color": "orange",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": true,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Swoosh_Rope_Whip_075.ogg"
+        },
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isWait": false,
+          "opacity": 1,
+          "playbackRate": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1.5,
+          "zIndex": 1
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        }
+      },
+      "source": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "target": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        }
+      }
+    },
+    {
+      "id": "c4a963f8-3ca8-4c8b-ace3-f95e3a822f87",
+      "label": "Improvised Weapon (Light)",
+      "levels3d": {
+        "type": "explosion",
+        "data": {
+          "color01": "#FFFFFF",
+          "color02": "#FFFFFF",
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+        },
+        "sound": {
+          "enable": false
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+            "color01": "#FFFFFF",
+            "color02": "#FFFFFF",
+            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          }
+        }
+      },
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "meleeSwitch": {
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "arrow",
+          "variant": "regular",
+          "color": "regular"
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "detect": "automatic",
+          "range": 2,
+          "returning": false,
+          "switchType": "on"
+        }
+      },
+      "menu": "melee",
+      "primary": {
+        "video": {
+          "dbSection": "melee",
+          "menuType": "weapon",
+          "animation": "wrench",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isWait": false,
+          "opacity": 1,
+          "playbackRate": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1.5,
+          "zIndex": 1
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        }
+      },
+      "source": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "target": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        }
+      }
+    },
+    {
+      "id": "66d4fdaf-9ab6-4b22-8508-fb78869bab1b",
+      "label": "Improvised Weapon (Medium)",
+      "levels3d": {
+        "type": "explosion",
+        "data": {
+          "color01": "#FFFFFF",
+          "color02": "#FFFFFF",
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+        },
+        "sound": {
+          "enable": false
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+            "color01": "#FFFFFF",
+            "color02": "#FFFFFF",
+            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          }
+        }
+      },
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "meleeSwitch": {
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "arrow",
+          "variant": "regular",
+          "color": "regular"
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "detect": "automatic",
+          "range": 2,
+          "returning": false,
+          "switchType": "on"
+        }
+      },
+      "menu": "melee",
+      "primary": {
+        "video": {
+          "dbSection": "melee",
+          "menuType": "weapon",
+          "animation": "wrench",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isWait": false,
+          "opacity": 1,
+          "playbackRate": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1.5,
+          "zIndex": 1
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        }
+      },
+      "source": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "target": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        }
+      }
+    },
+    {
+      "id": "3ac9dc43-4390-472c-b178-7e64b516f477",
+      "label": "Improvised Weapon (Heavy)",
+      "levels3d": {
+        "type": "explosion",
+        "data": {
+          "color01": "#FFFFFF",
+          "color02": "#FFFFFF",
+          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+        },
+        "sound": {
+          "enable": false
+        },
+        "secondary": {
+          "enable": false,
+          "data": {
+            "color01": "#FFFFFF",
+            "color02": "#FFFFFF",
+            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
+          }
+        }
+      },
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "meleeSwitch": {
+        "video": {
+          "dbSection": "range",
+          "menuType": "weapon",
+          "animation": "arrow",
+          "variant": "regular",
+          "color": "regular"
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "detect": "automatic",
+          "range": 2,
+          "returning": false,
+          "switchType": "on"
+        }
+      },
+      "menu": "melee",
+      "primary": {
+        "video": {
+          "dbSection": "melee",
+          "menuType": "weapon",
+          "animation": "wrench",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "delay": 0,
+          "elevation": 1000,
+          "isWait": false,
+          "opacity": 1,
+          "playbackRate": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1.5,
+          "zIndex": 1
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        }
+      },
+      "source": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        }
+      },
+      "target": {
+        "enable": false,
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        },
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "startTime": 0,
+          "volume": 0.75
+        },
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        }
+      }
+    },
+    {
+      "id": "477cbbd7-c9ac-46a5-9b37-e8da9c72a81d",
+      "label": "Short Spear/Javelin",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -8043,7 +8660,9 @@
           "volume": 1
         }
       },
-      "macro": {},
+      "macro": {
+        "playWhen": "0"
+      },
       "meleeSwitch": {
         "video": {
           "dbSection": "range",
@@ -8083,9 +8702,9 @@
           "zIndex": 1
         },
         "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
+          "delay": 400,
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/CriticalHitII.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -8094,9 +8713,9 @@
         "video": {
           "dbSection": "melee",
           "menuType": "weapon",
-          "animation": "unarmedstrike",
-          "variant": "physical",
-          "color": "blue",
+          "animation": "spear",
+          "variant": "fire",
+          "color": "random",
           "enableCustom": false
         }
       },
@@ -8223,414 +8842,21 @@
           "enableCustom": false,
           "customPath": ""
         }
-      }
-    },
-    {
-      "id": "d93b8b5e-22b5-4105-83a6-10d5a0a993a2",
-      "label": "Warhammer",
-      "levels3d": {
-        "type": "explosion",
-        "data": {
-          "color01": "#FFFFFF",
-          "color02": "#FFFFFF",
-          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
-        },
-        "sound": {
-          "enable": false
-        },
-        "secondary": {
-          "enable": false,
-          "data": {
-            "color01": "#FFFFFF",
-            "color02": "#FFFFFF",
-            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
-          }
-        }
       },
-      "macro": {
-        "enable": false,
-        "playWhen": "0"
-      },
-      "meleeSwitch": {
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "arrow",
-          "variant": "regular",
-          "color": "regular"
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "detect": "automatic",
-          "range": 2,
-          "returning": false,
-          "switchType": "on"
-        }
-      },
-      "menu": "melee",
-      "primary": {
-        "video": {
-          "dbSection": "melee",
-          "menuType": "weapon",
-          "animation": "warhammer",
-          "variant": "01",
-          "color": "random",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isWait": false,
-          "opacity": 1,
-          "playbackRate": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1.5,
-          "zIndex": 1
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        }
-      },
-      "source": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "target": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        }
-      }
-    },
-    {
-      "id": "290071dd-6f1d-4ba3-b03e-86cdf5aba18c",
-      "label": "Whip",
-      "levels3d": {
-        "type": "explosion",
-        "data": {
-          "color01": "#FFFFFF",
-          "color02": "#FFFFFF",
-          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
-        },
-        "sound": {
-          "enable": false
-        },
-        "secondary": {
-          "enable": false,
-          "data": {
-            "color01": "#FFFFFF",
-            "color02": "#FFFFFF",
-            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
-          }
-        }
-      },
-      "macro": {
-        "enable": false,
-        "playWhen": "0"
-      },
-      "meleeSwitch": {
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "arrow",
-          "variant": "regular",
-          "color": "regular"
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "detect": "automatic",
-          "range": 2,
-          "returning": false,
-          "switchType": "on"
-        }
-      },
-      "menu": "melee",
-      "primary": {
-        "video": {
-          "dbSection": "melee",
-          "menuType": "generic",
-          "animation": "slashing",
-          "variant": "03",
-          "color": "orange",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isWait": false,
-          "opacity": 1,
-          "playbackRate": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1.5,
-          "zIndex": 1
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        }
-      },
-      "source": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "target": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
+      "advanced": {
+        "exactMatch": true,
+        "excludedTerms": [],
+        "excludedType": {
+          "enabled": false,
+          "path": "",
+          "property": ""
         }
       }
     }
   ],
   "range": [
     {
-      "id": "4c63cd3e-260d-4a8a-9bed-6a3c06a3c971",
+      "id": "42027425-8a70-4fc1-af8c-a41e5a9dea47",
       "label": "Axe, Hand",
       "levels3d": {
         "type": "explosion",
@@ -8809,184 +9035,7 @@
       }
     },
     {
-      "id": "4927b4c9-52cd-409b-81dd-ad2591ea83d1",
-      "label": "Blowgun",
-      "levels3d": {
-        "type": "explosion",
-        "data": {
-          "color01": "#FFFFFF",
-          "color02": "#FFFFFF"
-        },
-        "sound": {
-          "enable": false
-        },
-        "secondary": {
-          "enable": false,
-          "data": {
-            "color01": "#FFFFFF",
-            "color02": "#FFFFFF"
-          }
-        }
-      },
-      "macro": {
-        "enable": false,
-        "playWhen": "0"
-      },
-      "menu": "range",
-      "primary": {
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "dart",
-          "variant": "01",
-          "color": "white",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isReturning": false,
-          "isWait": false,
-          "onlyX": false,
-          "opacity": 1,
-          "playbackRate": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "zIndex": 1
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1.5,
-          "zIndex": 1
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        }
-      },
-      "source": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "target": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        }
-      }
-    },
-    {
-      "id": "e4e65e94-cc3f-42e6-bf6f-161f83384f2c",
+      "id": "8dc41f5f-7eba-4e77-8c76-930e34e2399f",
       "label": "Blowgun",
       "levels3d": {
         "type": "explosion",
@@ -9165,7 +9214,7 @@
       }
     },
     {
-      "id": "2d29af5c-1a96-4201-86c8-4885c58f3a1e",
+      "id": "7da2e201-ebf6-4f21-9d6b-fca8d8c8e043",
       "label": "Bolas",
       "levels3d": {
         "type": "explosion",
@@ -9342,184 +9391,7 @@
       }
     },
     {
-      "id": "657f7324-ff86-4247-993f-4d3d85576a22",
-      "label": "Bow",
-      "levels3d": {
-        "enable": false,
-        "type": "",
-        "data": {},
-        "secondary": {
-          "enable": false,
-          "data": {}
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        }
-      },
-      "macro": {},
-      "menu": "range",
-      "primary": {
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isReturning": false,
-          "isWait": false,
-          "onlyX": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "arrow",
-          "variant": "regular",
-          "color": "regular"
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 250,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "size": 1.5,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        }
-      },
-      "source": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "target": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isWait": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      }
-    },
-    {
-      "id": "567df32c-6c21-4c3b-9e58-c01973c84550",
+      "id": "6fe28c8a-5ab6-4bb3-919d-36c28fd0786e",
       "label": "Bow (composite)",
       "levels3d": {
         "type": "explosion",
@@ -9556,12 +9428,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_2.ogg"
         },
         "options": {
           "delay": 0,
@@ -9698,7 +9571,7 @@
       }
     },
     {
-      "id": "0e75c1bb-af08-499b-9101-bfe222a00104",
+      "id": "d261a014-8496-49aa-ba2b-93c306750d5f",
       "label": "Bow (long)",
       "levels3d": {
         "type": "explosion",
@@ -9735,12 +9608,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_2.ogg"
         },
         "options": {
           "delay": 0,
@@ -9877,7 +9751,7 @@
       }
     },
     {
-      "id": "ea6fdefd-61e0-4652-b08c-239cc67eb06f",
+      "id": "78edb4c0-4426-4d37-803e-445e4d1fa528",
       "label": "Bow (short)",
       "levels3d": {
         "type": "explosion",
@@ -9914,12 +9788,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_2.ogg"
         },
         "options": {
           "delay": 0,
@@ -10056,216 +9931,7 @@
       }
     },
     {
-      "id": "994e77a9-ee91-4241-a7a8-a6ba9d2b91c6",
-      "label": "Crossbow",
-      "levels3d": {
-        "enable": false,
-        "type": "",
-        "data": {
-          "color01": "#000000",
-          "color02": "#000000",
-          "speed": null,
-          "repeat": null,
-          "arc": null,
-          "delay": null,
-          "scale": null,
-          "alpha": null,
-          "gravity": null,
-          "mass": null,
-          "life": null,
-          "emittersize": null,
-          "rate": null,
-          "addexplosion": {
-            "enable": false,
-            "color01": "#000000",
-            "color02": "#000000",
-            "speed": null,
-            "scale": null,
-            "alpha": null,
-            "gravity": null,
-            "mass": null,
-            "life": null,
-            "emittersize": null,
-            "rate": null,
-            "sprite": ""
-          },
-          "sprite": ""
-        },
-        "secondary": {
-          "enable": false,
-          "data": {}
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        }
-      },
-      "macro": {
-        "enable": false
-      },
-      "menu": "range",
-      "primary": {
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isReturning": false,
-          "isWait": false,
-          "onlyX": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "bolt",
-          "variant": "physical",
-          "color": "orange",
-          "enableCustom": false
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 250,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 500,
-          "size": 1.5,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "startTime": 0,
-          "volume": 1,
-          "repeat": 1,
-          "repeatDelay": 250
-        }
-      },
-      "source": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      },
-      "target": {
-        "enable": false,
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isWait": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        },
-        "sound": {
-          "delay": 0,
-          "enable": false,
-          "file": "",
-          "startTime": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "volume": 1
-        },
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        }
-      }
-    },
-    {
-      "id": "cf0f8790-a0e3-4dd2-9255-d6a06f7dab55",
+      "id": "6a5edc3c-43fa-4c91-853c-987139939fd3",
       "label": "Crossbow (Hand, repeating)",
       "levels3d": {
         "type": "explosion",
@@ -10302,12 +9968,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_multi.ogg"
         },
         "options": {
           "delay": 0,
@@ -10444,7 +10111,7 @@
       }
     },
     {
-      "id": "a1ee41f9-cb1f-42fb-854b-4445dfb8fe12",
+      "id": "4ad52ddf-fb3f-487e-ab1c-80ab4d4dfd64",
       "label": "Crossbow (Hand)",
       "levels3d": {
         "type": "explosion",
@@ -10481,12 +10148,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_4.ogg"
         },
         "options": {
           "delay": 0,
@@ -10623,7 +10291,7 @@
       }
     },
     {
-      "id": "71636a58-eb1f-4d1d-9e80-05b84b94ec62",
+      "id": "1e462d2a-ea5f-468c-bb96-7aa61cdb2fa5",
       "label": "Crossbow (Heavy, repeating)",
       "levels3d": {
         "type": "explosion",
@@ -10660,12 +10328,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_multi.ogg"
         },
         "options": {
           "delay": 0,
@@ -10802,7 +10471,7 @@
       }
     },
     {
-      "id": "bf84349d-2235-4d9a-bcb2-fe7b18a0bb46",
+      "id": "9b18659c-62be-4331-9701-d1bf2f2bbfb0",
       "label": "Crossbow (Heavy)",
       "levels3d": {
         "type": "explosion",
@@ -10839,12 +10508,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_2_4.ogg"
         },
         "options": {
           "delay": 0,
@@ -10981,7 +10651,7 @@
       }
     },
     {
-      "id": "4ecc57a2-f333-446e-ba60-da33352de335",
+      "id": "49ccd62a-8439-4ed9-9843-f79048a83751",
       "label": "Crossbow (Light, repeating)",
       "levels3d": {
         "type": "explosion",
@@ -11018,12 +10688,13 @@
           "customPath": ""
         },
         "sound": {
-          "enable": false,
+          "enable": true,
           "delay": 0,
           "repeat": 1,
           "repeatDelay": 250,
           "startTime": 0,
-          "volume": 0.75
+          "volume": 0.75,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/ArrowFly_multi.ogg"
         },
         "options": {
           "delay": 0,
@@ -11160,7 +10831,7 @@
       }
     },
     {
-      "id": "a094d203-1d31-426b-a40a-c730a9fc4306",
+      "id": "dc1553a4-c7be-4ed5-97d0-e29beee16e6e",
       "label": "Crossbow (Light)",
       "levels3d": {
         "type": "explosion",
@@ -11339,7 +11010,7 @@
       }
     },
     {
-      "id": "9cc4045d-052f-4505-b03b-cd47649b612f",
+      "id": "fa7da940-09fd-4431-af06-c44b405aaf97",
       "label": "Disintegrate",
       "levels3d": {
         "enable": false,
@@ -11516,7 +11187,7 @@
       }
     },
     {
-      "id": "ec4ba4d0-3350-4622-827b-4fd3a55c75cb",
+      "id": "389bf1a5-cf4c-4ddb-a742-bd5e32152bed",
       "label": "Eldritch Blast",
       "levels3d": {
         "enable": false,
@@ -11693,7 +11364,7 @@
       }
     },
     {
-      "id": "25db4454-86e4-489e-b702-f0f53479a3e6",
+      "id": "ffd20521-218f-436c-a135-28c1e6daa550",
       "label": "Fire Bolt",
       "levels3d": {
         "enable": false,
@@ -11872,7 +11543,7 @@
       }
     },
     {
-      "id": "b77e7ca1-e29b-4687-a11b-60a4c3ad73ad",
+      "id": "fdea6700-c27f-4d7e-ac2a-6d02b7f65f5d",
       "label": "Guiding Bolt",
       "levels3d": {
         "enable": false,
@@ -12049,7 +11720,7 @@
       }
     },
     {
-      "id": "2ee2c995-399e-4b56-a564-98995c1491e6",
+      "id": "daaf4de8-b5ef-4420-b116-a28124c03aed",
       "label": "Magic Missile",
       "levels3d": {
         "enable": false,
@@ -12226,7 +11897,7 @@
       }
     },
     {
-      "id": "587d3bc1-a174-41de-8b7c-2a10f68bc9ee",
+      "id": "8a937ec0-0bb6-4713-aabc-103b444958a1",
       "label": "Net (Weighted)",
       "levels3d": {
         "type": "explosion",
@@ -12405,7 +12076,7 @@
       }
     },
     {
-      "id": "f2e969ff-2d25-4d77-b454-743e7ae4c4f7",
+      "id": "7800eb0d-e01d-49ca-b75a-4cf22d06943a",
       "label": "Ray of Frost",
       "levels3d": {
         "enable": false,
@@ -12582,7 +12253,7 @@
       }
     },
     {
-      "id": "0af4fc6d-cf76-459c-a72f-9ff72aaaaaa5",
+      "id": "243c3f71-c4a6-465e-81ad-2458de3510c3",
       "label": "Scorching Ray",
       "levels3d": {
         "enable": false,
@@ -12759,186 +12430,7 @@
       }
     },
     {
-      "id": "d3042b79-06ea-4868-830d-b4d78116fc7e",
-      "label": "Short Spear/Javelin",
-      "levels3d": {
-        "type": "explosion",
-        "data": {
-          "color01": "#FFFFFF",
-          "color02": "#FFFFFF",
-          "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
-        },
-        "sound": {
-          "enable": false
-        },
-        "secondary": {
-          "enable": false,
-          "data": {
-            "color01": "#FFFFFF",
-            "color02": "#FFFFFF",
-            "spritePath": "modules/levels-3d-preview/assets/particles/dust.png"
-          }
-        }
-      },
-      "macro": {
-        "enable": false,
-        "playWhen": "0"
-      },
-      "menu": "range",
-      "primary": {
-        "video": {
-          "dbSection": "range",
-          "menuType": "weapon",
-          "animation": "javelin",
-          "variant": "01",
-          "color": "random",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "delay": 0,
-          "elevation": 1000,
-          "isReturning": false,
-          "isWait": false,
-          "onlyX": false,
-          "opacity": 1,
-          "playbackRate": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "zIndex": 1
-        }
-      },
-      "secondary": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": true,
-          "isWait": false,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1.5,
-          "zIndex": 1
-        }
-      },
-      "soundOnly": {
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        }
-      },
-      "source": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "isWait": true,
-          "opacity": 1,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "zIndex": 1
-        }
-      },
-      "target": {
-        "enable": false,
-        "video": {
-          "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
-          "variant": "01",
-          "color": "blue",
-          "enableCustom": false,
-          "customPath": ""
-        },
-        "sound": {
-          "enable": false,
-          "delay": 0,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "startTime": 0,
-          "volume": 0.75
-        },
-        "options": {
-          "addTokenWidth": false,
-          "anchor": "0.5",
-          "delay": 0,
-          "elevation": 1000,
-          "fadeIn": 250,
-          "fadeOut": 500,
-          "isMasked": false,
-          "isRadius": false,
-          "opacity": 1,
-          "persistent": false,
-          "repeat": 1,
-          "repeatDelay": 250,
-          "size": 1,
-          "unbindAlpha": false,
-          "unbindVisibility": false,
-          "zIndex": 1
-        }
-      }
-    },
-    {
-      "id": "c4a6dd93-ba87-494f-ab23-9f54a79bc8e0",
+      "id": "87a8de4e-2a36-4d97-b466-7db0f22d236c",
       "label": "Shuriken",
       "levels3d": {
         "type": "explosion",
@@ -13117,7 +12609,7 @@
       }
     },
     {
-      "id": "90905c91-d17d-4c79-8c54-86c8113ee043",
+      "id": "2354615b-c83e-4fbb-b478-72538f493217",
       "label": "Sling",
       "levels3d": {
         "type": "explosion",
@@ -13296,7 +12788,7 @@
       }
     },
     {
-      "id": "e24d24b7-5cef-4d5e-9dce-444915efda32",
+      "id": "bbf2387a-0803-4f05-8167-fd8f8359622d",
       "label": "Spear",
       "levels3d": {
         "type": "explosion",
@@ -13475,7 +12967,7 @@
       }
     },
     {
-      "id": "23ad291a-7089-4bab-bec2-9e77533c8f7d",
+      "id": "204c92f0-b805-491c-8707-e50c23f6c887",
       "label": "Starknife",
       "levels3d": {
         "type": "explosion",
@@ -13654,7 +13146,7 @@
       }
     },
     {
-      "id": "2edbfcd0-9bc8-4c01-acf9-12de18a815c0",
+      "id": "1b25fe90-8aec-46f2-acdc-b7a9fcd78b85",
       "label": "Trident",
       "levels3d": {
         "type": "explosion",
@@ -13833,7 +13325,7 @@
       }
     },
     {
-      "id": "e5ea92e7-683c-4d86-b3f5-22f80ba65c05",
+      "id": "4758b3e4-17fa-406f-889e-354b9843f99b",
       "label": "Witch Bolt",
       "levels3d": {
         "enable": false,
@@ -14010,7 +13502,7 @@
       }
     },
     {
-      "id": "e3f999fb-fa52-4190-8f72-6e589a77cd2e",
+      "id": "6f1c27e7-bb52-47e9-901e-91ab4bef5300",
       "label": "Thunderstone",
       "levels3d": {
         "type": "explosion",
@@ -14189,7 +13681,7 @@
       }
     },
     {
-      "id": "a708d34b-987c-4083-894c-de0eaebec660",
+      "id": "0b5c1f09-4332-4789-9052-85be594eb494",
       "label": "Telekinesis",
       "levels3d": {
         "type": "explosion",
@@ -14368,7 +13860,7 @@
       }
     },
     {
-      "id": "4db6fdb3-8299-432b-b38e-3093d6fcd49b",
+      "id": "bef273d6-5cc9-48a4-93e2-a0ecce03f4b7",
       "label": "Banish",
       "levels3d": {
         "type": "explosion",
@@ -14547,7 +14039,7 @@
       }
     },
     {
-      "id": "458f3b28-24cf-4a0f-ac29-b73766d9c60b",
+      "id": "f5fa1d8e-24bb-458b-994f-3570b4fa8ba7",
       "label": "Stun",
       "levels3d": {
         "type": "explosion",
@@ -14726,7 +14218,7 @@
       }
     },
     {
-      "id": "40930f1e-04a1-45f6-b781-46df8b81f625",
+      "id": "0f2c1586-f172-48b5-b4d8-1ebfee449483",
       "label": "Elemental Manipulation",
       "levels3d": {
         "type": "explosion",
@@ -14905,7 +14397,7 @@
       }
     },
     {
-      "id": "dff5244c-ec36-43b3-8770-8edb8bbc507d",
+      "id": "f211e072-2b9f-41ab-8e95-0d139a90c9bf",
       "label": "Fear",
       "levels3d": {
         "type": "explosion",
@@ -15084,7 +14576,7 @@
       }
     },
     {
-      "id": "4d1648aa-59e3-4d35-ab7a-420a97bc9ab8",
+      "id": "8c0f99c7-7664-4814-9b43-9027c3ef8f88",
       "label": "Bolt",
       "levels3d": {
         "enable": false,
@@ -15263,7 +14755,7 @@
       }
     },
     {
-      "id": "8cd66487-c0c6-4a52-b857-733f6ef3cb05",
+      "id": "77b55a6c-9340-4a97-b258-5c69594fff7a",
       "label": "Drain Power Points",
       "levels3d": {
         "type": "explosion",
@@ -15444,8 +14936,8 @@
   ],
   "ontoken": [
     {
-      "id": "eea0c205-5c81-4ace-a601-2b5228af73c3",
-      "label": "Claws",
+      "id": "fb8a8e67-f8cd-43ca-a16a-f39c50ab216b",
+      "label": "Natural Claws",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -15491,8 +14983,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/BEAST_01_Attack_08.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -15633,7 +15125,7 @@
       }
     },
     {
-      "id": "b33c382b-3cf3-4b2e-a2d8-325396c6a401",
+      "id": "11fee0fd-bc7a-4e85-bd06-4797f78e0399",
       "label": "Healing",
       "levels3d": {
         "enable": false,
@@ -15822,7 +15314,7 @@
       }
     },
     {
-      "id": "ba9f0a67-87a6-4a46-a847-c3f0b7438c4d",
+      "id": "6fbb7666-d0b4-487e-af98-435f1871422c",
       "label": "Healing Word",
       "levels3d": {
         "enable": false,
@@ -16011,8 +15503,8 @@
       }
     },
     {
-      "id": "f9890ae2-5c53-4d97-8ee3-ce6922cb6eab",
-      "label": "Mordida",
+      "id": "31ec659d-c7bf-42fa-a217-b0bfb37d762f",
+      "label": "Natural Bite",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -16059,8 +15551,8 @@
         },
         "sound": {
           "delay": 0,
-          "enable": false,
-          "file": "",
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/Monster_Bite_3.ogg",
           "startTime": 0,
           "volume": 1,
           "repeat": 1,
@@ -16068,11 +15560,11 @@
         },
         "video": {
           "dbSection": "static",
-          "menuType": "spell",
-          "animation": "curewounds",
+          "menuType": "creature",
+          "animation": "bite",
           "variant": "01",
-          "color": "blue",
-          "enableCustom": true,
+          "color": "red",
+          "enableCustom": false,
           "customPath": "modules/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Purple_400x400.webm"
         }
       },
@@ -16202,7 +15694,7 @@
       }
     },
     {
-      "id": "c110d06b-bf4e-4007-aa67-4c055cd8ce2a",
+      "id": "aa5bda5b-2c22-4b44-b833-72ec73496118",
       "label": "Toll the Dead",
       "levels3d": {
         "enable": false,
@@ -16389,7 +15881,7 @@
       }
     },
     {
-      "id": "3d37d3b8-0f3b-46f2-9d9c-2df42775cae0",
+      "id": "01dfeb39-412c-4e45-9e26-f52fec88896c",
       "label": "Beast Friend",
       "levels3d": {
         "type": "explosion",
@@ -16577,7 +16069,7 @@
       }
     },
     {
-      "id": "8826c8ac-350a-4a2c-8385-4aa3d20c0106",
+      "id": "4c46d153-93d8-45a4-bdba-654979a8530d",
       "label": "Divination",
       "levels3d": {
         "type": "explosion",
@@ -16765,7 +16257,7 @@
       }
     },
     {
-      "id": "58c6fad0-2ee2-4a3f-b522-75a99665db66",
+      "id": "b9f322c1-ca67-44db-81e9-eeb4561ae443",
       "label": "Arcane Protection",
       "levels3d": {
         "type": "explosion",
@@ -16953,7 +16445,7 @@
       }
     },
     {
-      "id": "fb2d8287-e383-47a7-b396-2aaa7bea82b6",
+      "id": "0e924e39-f047-4994-a261-389c42bf87bf",
       "label": "Blind",
       "levels3d": {
         "type": "explosion",
@@ -17141,7 +16633,7 @@
       }
     },
     {
-      "id": "67582f33-cd49-4aef-ba27-e581b5ef9121",
+      "id": "ae1d569e-0b85-412e-87bf-2cd64beb40a4",
       "label": "Environmental Protection",
       "levels3d": {
         "type": "explosion",
@@ -17329,7 +16821,7 @@
       }
     },
     {
-      "id": "d7b16680-36c7-4de4-88c0-d37c5e04fc60",
+      "id": "a634c72c-f32b-455b-9785-7e29ab5d0a95",
       "label": "Growth/Shrink",
       "levels3d": {
         "type": "explosion",
@@ -17517,7 +17009,7 @@
       }
     },
     {
-      "id": "0141ea07-60a5-46f3-a1c1-5bd459e00da7",
+      "id": "fef4f491-8f72-408a-a0db-33b32b2e3bdb",
       "label": "Farsight",
       "levels3d": {
         "type": "explosion",
@@ -17705,7 +17197,7 @@
       }
     },
     {
-      "id": "1ec7689f-bfd4-4a42-8d94-7827e1c6ccb3",
+      "id": "44a3d6fd-a8f0-4786-9633-f658481bdb0b",
       "label": "Zombie",
       "levels3d": {
         "type": "explosion",
@@ -17893,7 +17385,7 @@
       }
     },
     {
-      "id": "35bdb8b7-70c2-4b63-91fe-ff1ad3a81561",
+      "id": "8c4e2098-bc94-4863-b8a2-bbed95b4d092",
       "label": "Sloth/Speed",
       "levels3d": {
         "type": "explosion",
@@ -18081,7 +17573,7 @@
       }
     },
     {
-      "id": "d9db20f2-bcbf-4a29-b380-d074c3e8474d",
+      "id": "126d0b9a-ff4e-4b65-9d60-0c4510308502",
       "label": "Baleful Polymorph",
       "levels3d": {
         "type": "explosion",
@@ -18269,7 +17761,7 @@
       }
     },
     {
-      "id": "07fb0c41-e3ca-4d35-913b-0a143ace2dd9",
+      "id": "7329a4b6-480a-49bf-8c22-2f3fa2b59ef5",
       "label": "Planar Binding",
       "levels3d": {
         "type": "explosion",
@@ -18457,7 +17949,7 @@
       }
     },
     {
-      "id": "c7a117fa-ea61-400f-aaf7-a3de5475d327",
+      "id": "cd87a990-bf73-4193-9522-da1dac6b3fe5",
       "label": "Detect/Conceal Arcana",
       "levels3d": {
         "type": "explosion",
@@ -18645,7 +18137,7 @@
       }
     },
     {
-      "id": "0b92fe8c-7325-4ce2-b6ed-035a34ae5ddb",
+      "id": "21b06fad-3277-4824-8357-93fc73fc0be3",
       "label": "Sound/Silence",
       "levels3d": {
         "type": "explosion",
@@ -18833,7 +18325,7 @@
       }
     },
     {
-      "id": "28d0571c-18e9-4eae-b312-7230eb2c5496",
+      "id": "52bda94f-d41f-40f8-8e7d-f58700e5bc10",
       "label": "Locate",
       "levels3d": {
         "type": "explosion",
@@ -19021,7 +18513,7 @@
       }
     },
     {
-      "id": "85926a92-1d12-4849-bd27-afce63967291",
+      "id": "1eff45d6-9ab8-453f-b010-5b21e0a7e833",
       "label": "Confusion",
       "levels3d": {
         "type": "explosion",
@@ -19209,7 +18701,7 @@
       }
     },
     {
-      "id": "3118f0a9-6d51-465e-83e0-ce1ffe9a598f",
+      "id": "d9d81176-0ddc-4747-b83b-8500fd6eaec4",
       "label": "Scrying",
       "levels3d": {
         "type": "explosion",
@@ -19397,7 +18889,7 @@
       }
     },
     {
-      "id": "a080d3a2-63f4-44c2-8957-165f3648ced2",
+      "id": "8c92c696-22cc-4000-889e-c11d1013248b",
       "label": "Puppet",
       "levels3d": {
         "type": "explosion",
@@ -19585,7 +19077,7 @@
       }
     },
     {
-      "id": "a483eb61-574e-4104-b0be-bde9bff331b4",
+      "id": "17a63e84-e98d-4794-8cee-f7aa20d11701",
       "label": "Time Stop",
       "levels3d": {
         "type": "explosion",
@@ -19773,7 +19265,7 @@
       }
     },
     {
-      "id": "c511a30a-51ed-4d03-aee1-5aeb0a1c0f45",
+      "id": "b78c80e3-4678-4a1c-b1b0-dac65cebf06a",
       "label": "Mind Link",
       "levels3d": {
         "type": "explosion",
@@ -19961,7 +19453,7 @@
       }
     },
     {
-      "id": "325d4a1c-d757-4715-a90b-b7ff75cf823d",
+      "id": "30798a5f-9299-4363-97ba-ca36444ca4ec",
       "label": "Speak Language",
       "levels3d": {
         "type": "explosion",
@@ -20149,7 +19641,7 @@
       }
     },
     {
-      "id": "39ff8585-5d1a-43e5-b44c-e47690b8e59b",
+      "id": "860a223c-aa50-4341-b250-85e2d3ab1f40",
       "label": "Wish",
       "levels3d": {
         "type": "explosion",
@@ -20337,7 +19829,7 @@
       }
     },
     {
-      "id": "18d2cb1b-872e-477f-86a4-463cd42dda0e",
+      "id": "a5e427e6-67ab-431e-a5ae-dee801cc1d24",
       "label": "Darksight",
       "levels3d": {
         "type": "explosion",
@@ -20525,7 +20017,7 @@
       }
     },
     {
-      "id": "95b6e7a6-c5c8-497b-b427-4bdc2b857d93",
+      "id": "c2bfb810-9a81-4d06-a817-c09c065945fe",
       "label": "Wall Walker",
       "levels3d": {
         "type": "explosion",
@@ -20713,7 +20205,7 @@
       }
     },
     {
-      "id": "3470a8dd-afe2-4e02-9846-0cfda117ac57",
+      "id": "560c5dbd-cea7-4b0b-b9b3-822f2bc7a8a9",
       "label": "Warrior's Gift",
       "levels3d": {
         "type": "explosion",
@@ -20901,7 +20393,7 @@
       }
     },
     {
-      "id": "6c336edf-9820-4fdf-a07a-c7c1bd70714b",
+      "id": "5fae420e-b151-4453-8755-70d68c2fa801",
       "label": "Resurrection",
       "levels3d": {
         "enable": false,
@@ -21093,7 +20585,7 @@
       }
     },
     {
-      "id": "3fdd2b34-1782-469b-bb56-322c165d7096",
+      "id": "2542bed1-35f0-4f2d-ab8e-5ee080a90703",
       "label": "Object Reading",
       "levels3d": {
         "type": "explosion",
@@ -21281,7 +20773,7 @@
       }
     },
     {
-      "id": "e7ab22c5-1ad8-4771-8613-4cad29818f37",
+      "id": "eeec24ea-b8ae-4ad6-807e-38d206e8dd88",
       "label": "Conjure Item",
       "levels3d": {
         "type": "explosion",
@@ -21469,7 +20961,7 @@
       }
     },
     {
-      "id": "9b7935c2-c1b6-478e-900e-188594c92673",
+      "id": "ff9bc8c1-c8af-4a07-b1ec-688c4154c1df",
       "label": "Mind Reading",
       "levels3d": {
         "type": "explosion",
@@ -21657,7 +21149,7 @@
       }
     },
     {
-      "id": "d3590aae-d451-4651-8afe-310b149ef8b5",
+      "id": "2b6604fc-c19f-46c4-8257-fa822145a325",
       "label": "Mind Wipe",
       "levels3d": {
         "type": "explosion",
@@ -21845,7 +21337,7 @@
       }
     },
     {
-      "id": "05487f99-d065-47ad-832b-f0c6781e8ee6",
+      "id": "4ae8b32b-7bda-4a4f-aad1-636d3ca36afe",
       "label": "Disguise",
       "levels3d": {
         "type": "explosion",
@@ -22033,7 +21525,7 @@
       }
     },
     {
-      "id": "117c1064-e9aa-4ed0-ad7a-b8d788720671",
+      "id": "5b7eb65a-0c17-4c24-8992-58ea3d9594cd",
       "label": "Burrow",
       "levels3d": {
         "enable": false,
@@ -22222,7 +21714,7 @@
       }
     },
     {
-      "id": "8de1073e-c66b-4ba5-838b-03fbd0ed954d",
+      "id": "23e6b509-a630-47b5-a6db-2b7c289d6a24",
       "label": "Relief",
       "levels3d": {
         "type": "explosion",
@@ -22410,7 +21902,7 @@
       }
     },
     {
-      "id": "56fc2eed-92c7-44f7-98b9-153d1869b1e1",
+      "id": "f95a9355-1b48-4c55-8e5f-a3e3fe6575cc",
       "label": "Empathy",
       "levels3d": {
         "type": "explosion",
@@ -22598,7 +22090,7 @@
       }
     },
     {
-      "id": "566430f4-8ab3-4d28-ba8c-8371d0003c24",
+      "id": "b2973541-74e1-4ac9-8e00-075d899944e2",
       "label": "Shape Change",
       "levels3d": {
         "type": "explosion",
@@ -22786,7 +22278,7 @@
       }
     },
     {
-      "id": "92cc5551-c318-4a02-8c68-ee4175217db6",
+      "id": "789907fb-48bb-4a81-8955-6e535486cdb6",
       "label": "Sanctuary",
       "levels3d": {
         "type": "explosion",
@@ -22974,7 +22466,7 @@
       }
     },
     {
-      "id": "460ed652-63e4-421c-a6b1-e0bbec3e15df",
+      "id": "8d65e2cf-3086-4ef7-9bac-5d93fd80e6ff",
       "label": "Slumber",
       "levels3d": {
         "type": "explosion",
@@ -23162,7 +22654,7 @@
       }
     },
     {
-      "id": "3db78d7b-a16c-4be6-8ced-5d4933e64332",
+      "id": "ee77e240-b7c1-4b3e-939a-bcc9727d6296",
       "label": "Curse",
       "levels3d": {
         "type": "explosion",
@@ -23348,11 +22840,202 @@
           "zIndex": 1
         }
       }
+    },
+    {
+      "id": "4becf342-f323-42b5-80ea-c1ce88a950f4",
+      "label": "Natural Horns",
+      "levels3d": {
+        "enable": false,
+        "type": "",
+        "data": {},
+        "secondary": {
+          "enable": false,
+          "data": {}
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        }
+      },
+      "macro": {
+        "enable": false,
+        "playWhen": "0"
+      },
+      "menu": "ontoken",
+      "primary": {
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": false,
+          "opacity": 1,
+          "persistent": false,
+          "playOn": "target",
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": true,
+          "file": "modules/savage-pathfinder-enhanced/assets/sfx/BEAST_01_Attack_08.ogg",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "impact",
+          "animation": "groundcrack",
+          "variant": "01",
+          "color": "white",
+          "enableCustom": false,
+          "customPath": "modules/jb2a_patreon/Library/Generic/Creature/Bite_01_Regular_Purple_400x400.webm"
+        }
+      },
+      "secondary": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 250,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": true,
+          "isWait": false,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 500,
+          "size": 1.5,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "soundOnly": {
+        "sound": {
+          "enable": false,
+          "delay": 0,
+          "startTime": 0,
+          "volume": 1,
+          "repeat": 1,
+          "repeatDelay": 250
+        }
+      },
+      "source": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isRadius": false,
+          "isWait": true,
+          "opacity": 1,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      },
+      "target": {
+        "enable": false,
+        "options": {
+          "addTokenWidth": false,
+          "anchor": "0.5",
+          "delay": 0,
+          "elevation": 1000,
+          "fadeIn": 250,
+          "fadeOut": 500,
+          "isMasked": false,
+          "isWait": false,
+          "isRadius": false,
+          "opacity": 1,
+          "persistent": false,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "size": 1,
+          "unbindAlpha": false,
+          "unbindVisibility": false,
+          "zIndex": 1
+        },
+        "sound": {
+          "delay": 0,
+          "enable": false,
+          "file": "",
+          "startTime": 0,
+          "repeat": 1,
+          "repeatDelay": 250,
+          "volume": 1
+        },
+        "video": {
+          "dbSection": "static",
+          "menuType": "spell",
+          "animation": "curewounds",
+          "variant": "01",
+          "color": "blue",
+          "enableCustom": false,
+          "customPath": ""
+        }
+      }
     }
   ],
   "templatefx": [
     {
-      "id": "848a34a8-39b5-4981-a170-0c59e4d9dcda",
+      "id": "deeca09b-2aec-4ed2-9053-f78cd196bfec",
       "label": "Call Lightning",
       "macro": {
         "enable": false,
@@ -23521,7 +23204,7 @@
       }
     },
     {
-      "id": "0fc65007-bb2d-4bbb-9567-5fb773146d58",
+      "id": "7de9f459-32f8-4cd2-b800-d1028df2b260",
       "label": "Fog Cloud",
       "macro": {},
       "menu": "templatefx",
@@ -23687,7 +23370,7 @@
       }
     },
     {
-      "id": "dd899cef-f6dc-4f98-93ff-bbb8e94ea624",
+      "id": "a0d6975e-4e4c-4b40-9fc8-33f10f28e189",
       "label": "Thunderwave",
       "macro": {
         "playWhen": "0"
@@ -23855,7 +23538,7 @@
       }
     },
     {
-      "id": "ba86a3a1-69aa-4b34-b0dc-3fd8097983e8",
+      "id": "8fbe7b48-febe-454f-880d-982d197fccbe",
       "label": "Entangle",
       "macro": {
         "enable": false,
@@ -24021,7 +23704,7 @@
       }
     },
     {
-      "id": "3554e686-c326-4395-93d4-8392c8ca4ad0",
+      "id": "de313827-da85-4540-8945-71a65017d3d6",
       "label": "Smoke Stick",
       "macro": {
         "enable": false,
@@ -24187,7 +23870,7 @@
       }
     },
     {
-      "id": "ed95d59c-6d0b-40e4-9af2-73610ce306e2",
+      "id": "5074e997-6b84-47ff-9db5-31b47a08a1b8",
       "label": "Dispel",
       "macro": {
         "enable": false,
@@ -24353,7 +24036,7 @@
       }
     },
     {
-      "id": "8e9cfa99-1592-4dc9-934c-47adf383dbb6",
+      "id": "da9ed694-905e-4ecf-98e8-0ae7adde0dc8",
       "label": "Illusion",
       "macro": {
         "enable": false,
@@ -24520,7 +24203,7 @@
       }
     },
     {
-      "id": "1730b1f9-1e25-41f2-a7e8-b99847d04610",
+      "id": "5d35719d-50eb-41a4-82d1-e6249aa99dbb",
       "label": "Barrier",
       "macro": {
         "enable": false,
@@ -24686,7 +24369,7 @@
       }
     },
     {
-      "id": "92a4ef5c-5f8a-49eb-9c27-440f4a5530a3",
+      "id": "c5732451-88a8-429f-a266-a0e9f80fe30b",
       "label": "Light / Darkness",
       "macro": {
         "enable": false,
@@ -24852,7 +24535,7 @@
       }
     },
     {
-      "id": "15d43337-8201-4a54-b2d7-d5582013318a",
+      "id": "3ea3669a-fcf9-46a1-b009-10f33f01fd16",
       "label": "Havoc",
       "macro": {
         "playWhen": "0"
@@ -25020,7 +24703,7 @@
       }
     },
     {
-      "id": "53d5e2b1-6ea3-4cc7-9188-7152c226fd82",
+      "id": "3f2bdae4-9d51-42a8-9932-e64bfd2fbaef",
       "label": "Burst",
       "macro": {
         "playWhen": "0"
@@ -25190,7 +24873,7 @@
   ],
   "aura": [
     {
-      "id": "77a4f24c-5715-4251-9905-d637b0c5c9c8",
+      "id": "ab7ff5b3-cf8f-4b98-a9f1-9dd980fe52a4",
       "label": "Spirit Guardians",
       "macro": {
         "enable": false,
@@ -25368,7 +25051,7 @@
       }
     },
     {
-      "id": "d2f7897c-0a6d-4c05-aa01-486fb33ec7d9",
+      "id": "3cfe7db1-a66a-4c65-93bd-eb95b7111285",
       "label": "Damage Field",
       "macro": {
         "enable": false,
@@ -25548,7 +25231,7 @@
   ],
   "preset": [
     {
-      "id": "3e0a7a2f-e625-4d63-b865-bf09112b0871",
+      "id": "001273e3-40ee-4d7b-9042-0854650fcfe1",
       "data": {
         "projectile": {
           "dbSection": "range",
@@ -25726,7 +25409,7 @@
       }
     },
     {
-      "id": "8adf4c34-3dac-4ed9-b24f-11e988bac4f1",
+      "id": "a1bbe1ec-3a0a-40ed-997c-7cbc72ed5731",
       "data": {
         "options": {
           "alpha": 1,
@@ -25828,7 +25511,7 @@
       }
     },
     {
-      "id": "e8f2f386-4175-4369-9625-efcbabcc24e3",
+      "id": "5384fe42-b751-4739-b817-eed53b8b7632",
       "data": {
         "projectile": {
           "dbSection": "range",
@@ -26008,7 +25691,7 @@
       }
     },
     {
-      "id": "73a91188-567e-41dd-bc8d-9644bfe7c80f",
+      "id": "2ece6ad2-c17c-49ca-a146-726acbbf2924",
       "data": {
         "options": {
           "alpha": 1,
@@ -26112,7 +25795,7 @@
   ],
   "aefx": [
     {
-      "id": "60e0fc98-486a-4209-a74c-a885648ac273",
+      "id": "71770394-9bb0-4b14-b11f-12a23327fcd4",
       "label": "Intangibility",
       "activeEffectType": "ontoken",
       "menu": "aefx",
@@ -26244,7 +25927,7 @@
       }
     },
     {
-      "id": "93a24cf0-261d-455a-a78c-c7e429a7885b",
+      "id": "958ce98f-be6f-4604-a39f-1b996c3a364c",
       "label": "Vulnerable",
       "soundOnly": {
         "sound": {
@@ -26371,7 +26054,7 @@
       }
     },
     {
-      "id": "e92bb63a-59ee-4c8b-b2d2-7c8c73358cd7",
+      "id": "ebb8baf4-fdf5-4408-8059-8360c8c50578",
       "label": "Distracted",
       "soundOnly": {
         "sound": {
@@ -26498,7 +26181,7 @@
       }
     },
     {
-      "id": "183c71ad-1b9a-4bdf-8358-741dc26782c0",
+      "id": "5c978b13-792c-4b29-8a12-78fa2953fc9d",
       "label": "Frightened",
       "activeEffectType": "ontoken",
       "menu": "aefx",
@@ -26632,7 +26315,7 @@
       "version": 5
     },
     {
-      "id": "11a0daac-c052-40d1-8934-99490ebf93fa",
+      "id": "2c74d288-9144-4147-9e34-7ad3c9dd79e3",
       "label": "Protection",
       "activeEffectType": "ontoken",
       "menu": "aefx",
@@ -26766,7 +26449,7 @@
       "version": 5
     },
     {
-      "id": "766f2b72-75ad-4376-ab5d-bfd32d1d3b29",
+      "id": "3c46e3ce-790a-4a2e-a4f4-01d5a98b13cd",
       "label": "Boost Trait",
       "activeEffectType": "ontoken",
       "menu": "aefx",
@@ -26898,7 +26581,7 @@
       }
     },
     {
-      "id": "28810a4f-7bda-43eb-8a06-7355459ea685",
+      "id": "9010a162-6c11-4a04-94cc-f969fdaeb52a",
       "label": "Deflection",
       "activeEffectType": "ontoken",
       "menu": "aefx",
@@ -27030,7 +26713,7 @@
       }
     },
     {
-      "id": "df6f7c0b-83d8-4ad3-a165-45dd1b7b2aed",
+      "id": "473cbf1e-7768-467a-b052-735bd89c1668",
       "label": "Defending",
       "soundOnly": {
         "sound": {
@@ -27148,7 +26831,7 @@
       }
     },
     {
-      "id": "6532219f-c4b8-4b8a-a73c-320f35b31bcf",
+      "id": "c36971d4-8083-4cd2-aa69-4cfa96fda424",
       "label": "Entangled",
       "soundOnly": {
         "sound": {
@@ -27275,7 +26958,7 @@
       }
     },
     {
-      "id": "d21b8fb6-6a45-462b-8349-317f776f4beb",
+      "id": "0fefa33a-7497-4bc7-ade5-8b2bf66caefd",
       "label": "Stunned",
       "soundOnly": {
         "sound": {
@@ -27402,7 +27085,7 @@
       }
     },
     {
-      "id": "f3344480-49bb-452f-904f-3a8f176805a7",
+      "id": "4b3d3327-4814-4c06-9f1f-aa89bc42a71d",
       "label": "Shaken",
       "soundOnly": {
         "sound": {
@@ -27520,7 +27203,7 @@
       }
     },
     {
-      "id": "31372404-20e8-4e74-81a1-d32ddaee04a7",
+      "id": "063bcbe3-ebc5-40ac-b53a-4e330e2217ae",
       "label": "Bound",
       "soundOnly": {
         "sound": {
@@ -27647,7 +27330,7 @@
       }
     },
     {
-      "id": "ec728ff2-2ed1-4148-9b87-2d41e22bb214",
+      "id": "e5f42dae-3204-480e-a601-274c621840a8",
       "label": "Smite",
       "activeEffectType": "ontoken",
       "menu": "aefx",
@@ -27780,7 +27463,7 @@
       }
     },
     {
-      "id": "51108b40-3c71-4300-bd02-33f1e73c4012",
+      "id": "bdcbd7a1-35bd-428a-96f2-649ed0140d63",
       "label": "Fly",
       "activeEffectType": "ontoken",
       "menu": "aefx",
