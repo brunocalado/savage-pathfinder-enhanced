@@ -155,7 +155,164 @@ Hooks.once('ready', () => {
       ],
       group: groupName,
       self_add_status: "Vulnerable"
-    }
+    },
+    {
+      id: "ARCANEARCHER01",
+      name: "Arcane Archer",
+      button_name: "Arcane Archer",
+      skillMod: "+1",
+      dmgMod: "+1",
+      defaultChecked: "on",
+      and_selector: [
+        {
+          selector_type: "actor_has_edge",
+          selector_value: "Arcane Archer"
+        },
+        {
+          selector_type: "skill",
+          selector_value: "Shooting"
+        },
+        {
+          selector_type: "item_type",
+          selector_value: "weapon"
+        }
+      ],
+      group: groupName
+    },
+    {
+      id: "POWERFULBLOW01",
+      name: "Powerful Blow",
+      button_name: "Powerful Blow (+2)",
+      dmgMod: "+2",
+      and_selector: [
+        {
+          selector_type: "actor_has_edge",
+          selector_value: "Powerful Blow"
+        },
+        {
+          selector_type: "skill",
+          selector_value: "Fighting"
+        },
+        {
+          selector_type: "item_type",
+          selector_value: "weapon"
+        }
+      ],
+      group: groupName
+    },    
+    {
+      id: "DEADLYBLOW01",
+      name: "Deadly Blow",
+      button_name: "Deadly Blow",
+      dmgMod: "+1",
+      defaultChecked: "on",
+      and_selector: [
+        {
+          selector_type: "actor_has_edge",
+          selector_value: "Deadly Blow"
+        },
+        {
+          selector_type: "item_type",
+          selector_value: "weapon"
+        }
+      ],
+      group: groupName
+    },      
+    
+    
+
+    // ----------------------
+    // PP
+    {
+      id: "CH01PP",
+      name: "1pp",
+      button_name: "+1",
+      "shotsUsed":"+1",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH02PP",
+      name: "2pp",
+      button_name: "+2",
+      "shotsUsed":"+2",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH03PP",
+      name: "3pp",
+      button_name: "+3",
+      "shotsUsed":"+3",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH04PP",
+      name: "4pp",
+      button_name: "+4",
+      "shotsUsed":"+4",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH05PP",
+      name: "5pp",
+      button_name: "+5",
+      "shotsUsed":"+5",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH06PP",
+      name: "6pp",
+      button_name: "+6",
+      "shotsUsed":"+6",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH07PP",
+      name: "7pp",
+      button_name: "+7",
+      "shotsUsed":"+7",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH08PP",
+      name: "8pp",
+      button_name: "+8",
+      "shotsUsed":"+8",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH09PP",
+      name: "9pp",
+      button_name: "+9",
+      "shotsUsed":"+9",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    },
+    {
+      id: "CH10PP",
+      name: "10pp",
+      button_name: "+10",
+      "shotsUsed":"+10",
+      selector_type: "item_type",
+      selector_value: "power",
+      group: "Power Points"
+    }       
     
   ];
   
@@ -174,5 +331,20 @@ Hooks.once('ready', () => {
   } else {
     console.log("!!! Savage Pathfinder - Enhanced: You must activate Torch Module!")        
   }
+  
+  /*
+  // Automated Evocations
+  if ( game.modules.get("automated-evocations")?.active ) { 
+    const customanims = {
+      redportal: {
+        fn: "Red Portal - SWPF",
+        time: 650,
+        name: "Red Portal",
+        group: "Savage Pathfinder"
+      }
+    };
+    game.settings.set(AECONSTS.MN, "customanimations", customanims);  
+  }
+  */
   
 }); // END HOOKS

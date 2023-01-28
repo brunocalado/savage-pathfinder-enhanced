@@ -1,3 +1,8 @@
+# 0.2.1
+- better rolls pp cost
+- legendary boss update
+- docs
+
 # 0.2.0
 - automated animations autorec update
 

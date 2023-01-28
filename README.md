@@ -32,12 +32,16 @@ Macros and other resources for Savage Pathfinder.
 </p>
 
 Better Rolls Global Actions List:
+- Arcane Archer
+- Deadly Blow
 - Desperate Attack +2
 - Desperate Attack +4
 - Environmental Resistance
 - Environmental Weakness
+- Extra Power Points costs
 - Monk Edge
 - Pounce, core p249
+- Powerful Blow
 - Sneak Attack
 
 [Learn more about Better Rolls](https://github.com/javierriveracastro/betteroll-swade)
