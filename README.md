@@ -64,6 +64,9 @@ There is a configuration JSON file which will auto load with Savage Pathfinder d
 
 [Learn more about Torch Module](https://github.com/League-of-Foundry-Developers/torch)
 
+## Automated Animations Integration
+Make attacks and trigger animations! You must have JB2A. Read documentation inside the module.
+
 # Installation
 
 ## Foundry VTT
