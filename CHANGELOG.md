@@ -1,3 +1,9 @@
+# 0.2.2
+- token magic flying macro
+- legendary boss update
+- docs
+- automated animations autorec update
+
 # 0.2.1
 - better rolls pp cost
 - legendary boss update
