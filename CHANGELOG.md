@@ -1,3 +1,7 @@
+# 0.2.3
+- docs
+- automated animations autorec update + token magic
+
 # 0.2.2
 - token magic flying macro
 - legendary boss update
