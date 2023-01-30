@@ -136,7 +136,7 @@ Hooks.once('ready', () => {
     {
       id: "POUNCINGWILDATTACK",
       name: "Pounce",
-      button_name: "Pounce",
+      button_name: "Pounce (Wild Attack)",
       skillMod: "+2",
       dmgMod: "+4",
       and_selector: [
@@ -154,7 +154,7 @@ Hooks.once('ready', () => {
         }
       ],
       group: groupName,
-      self_add_status: "Vulnerable"
+      self_add_status: "vulnerable"
     },
     {
       id: "ARCANEARCHER01",
@@ -182,8 +182,9 @@ Hooks.once('ready', () => {
     {
       id: "POWERFULBLOW01",
       name: "Powerful Blow",
-      button_name: "Powerful Blow (+2)",
-      dmgMod: "+2",
+      button_name: "Powerful Blow (Wild Attack)",
+      skillMod: "+2",
+      dmgMod: "+4",
       and_selector: [
         {
           selector_type: "actor_has_edge",
@@ -198,7 +199,8 @@ Hooks.once('ready', () => {
           selector_value: "weapon"
         }
       ],
-      group: groupName
+      group: groupName,
+      self_add_status: "vulnerable"
     },    
     {
       id: "DEADLYBLOW01",
@@ -303,16 +305,7 @@ Hooks.once('ready', () => {
       selector_type: "item_type",
       selector_value: "power",
       group: "Power Points"
-    },
-    {
-      id: "CH10PP",
-      name: "10pp",
-      button_name: "+10",
-      "shotsUsed":"+10",
-      selector_type: "item_type",
-      selector_value: "power",
-      group: "Power Points"
-    }       
+    }     
     
   ];
   

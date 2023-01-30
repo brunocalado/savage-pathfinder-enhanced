@@ -1,3 +1,6 @@
+# 0.2.4
+- better rolls fix
+
 # 0.2.3
 - docs
 - automated animations autorec update + token magic
