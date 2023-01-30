@@ -1,3 +1,6 @@
+# 0.2.5
+- automated animations autorec update
+
 # 0.2.4
 - better rolls fix
 

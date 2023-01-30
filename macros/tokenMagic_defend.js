@@ -1,5 +1,8 @@
-// v0.1
+// v0.2
 let myToken = canvas.tokens.controlled[0]
+const xspeed = 0.025; // 0.125
+const yspeed = 0.035; // 0.035
+const duration = 1600; // 2400
 
 // ------------------------------------------------
 const params =
@@ -12,16 +15,16 @@ const params =
             translationX:
             {
                 animType: "sinOscillation",
-                val1: -0.125,
-                val2: +0.125,
-                loopDuration: 1400,
+                val1: -xspeed,
+                val2: +xspeed,
+                loopDuration: duration,
             },
             translationY:
             {
                 animType: "cosOscillation",
-                val1: -0.035,
-                val2: +0.035,
-                loopDuration: 1400,
+                val1: -yspeed,
+                val2: +yspeed,
+                loopDuration: duration,
             }
         }
     }];
@@ -34,4 +37,3 @@ if ( TokenMagic.hasFilterId(myToken, "dodgeStance") ) {
     await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
   })()  
 }
-

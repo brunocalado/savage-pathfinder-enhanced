@@ -1,4 +1,4 @@
-// v0.1
+// v0.2
 let myToken = canvas.tokens.controlled[0]
 
 // ------------------------------------------------
@@ -22,9 +22,7 @@ const params =
 if ( TokenMagic.hasFilterId(myToken, "incapacited") ) {
   await TokenMagic.deleteFilters(token, "incapacited");
 } else {
-  (async () => { 
-    await TokenMagic.deleteFilters(token, "incapacited");
-    await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
-  })()  
+  await TokenMagic.deleteFilters(token, "incapacited");
+  await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
 }
 
