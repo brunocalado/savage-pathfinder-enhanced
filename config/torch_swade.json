@@ -3,12 +3,14 @@
     "system": "swade",
     "topology": "standard",
     "quantity" : "quantity",
+    
     "aliases": {
       "Candle (1 hr, 2\" radius)": "Candle",
       "Torch (1 hour, 4\" radius)": "Torch",
       "Lantern, bullseye (10\" cone)": "Lantern, bullseye",
       "Lantern, hooded (6\" radius)": "Lantern, hooded"
     },
+    
     "sources": {
       "Candle (1 hr, 2\" radius)": {
         "states": 2,
@@ -76,23 +78,28 @@
             "animation": { "type": "torch", "speed": 1, "intensity": 3, "reverse": false } 
           } 
         ]
-      }                 
-    }
-  },
-
-  "default": {
-    "system": "default",
-    "topology": "none",
-    "quantity" : "quantity",
-    "sources": {
-      "Self": {
-        "name": "Self",
-        "type": "none",
-        "states": 2,
+      },
+      "Light / Darkness": {
         "light": [
-          {"bright": 40, "dim":20, "angle": 360}
+          {
+            "bright": 1, "dim": 3, "angle": 360, "color": "#e9c40c", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 1, "intensity": 3, "reverse": false } 
+          },          
+          {
+            "bright": 3, "dim": 10, "angle": 120, "color": "#e68805", "alpha": 0.15,
+            "animation": { "type": "torch", "speed": 2, "intensity": 4, "reverse": false }          
+          }                   
         ]
-      }            
-    }
-  }
+      },
+      "Lantern of Revealing": {
+        "light": [
+          {
+            "bright": 1, "dim": 5, "angle": 360, "color": "#a80092", "alpha": 0.15,
+            "animation": { "type": "starlight", "speed": 1, "intensity": 3, "reverse": false } 
+          }                 
+        ]
+      }                           
+      
+    }    
+  }  
 }

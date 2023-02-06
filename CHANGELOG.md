@@ -1,3 +1,7 @@
+# 0.2.6
+- better rolls power modifiers: armor pierce
+- torch: light power, lamp of revealing
+
 # 0.2.5
 - automated animations autorec update
 

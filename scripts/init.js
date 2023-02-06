@@ -29,6 +29,8 @@ Hooks.once('init', () => {
 
 Hooks.once('ready', () => {
   const groupName = "Savage Pathfinder";
+  const groupNamePP = "Power Points";
+  const groupNamePModifiers = "Power Modifiers";
 
   const BETTER_ROLLS_SWPF = [{
         id: "DESPERATE_ATTACK-2",
@@ -305,7 +307,41 @@ Hooks.once('ready', () => {
       selector_type: "item_type",
       selector_value: "power",
       group: "Power Points"
-    }     
+    },
+    
+    // ----------------------
+    // Power Modifiers
+    {
+      id:"boltAP2",
+      name:"boltAP2",
+      button_name:"AP2 (+1)",
+      overrideAp:"2",
+      shotsUsed:"+1",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    },  
+    {
+      id:"boltAP4",
+      name:"boltAP4",
+      button_name:"AP4 (+2)",
+      overrideAp:"4",
+      shotsUsed:"+2",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    },
+    {
+      id:"boltAP6",
+      name:"boltAP6",
+      button_name:"AP6 (+3)",
+      overrideAp:"6",
+      shotsUsed:"+3",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    }
+
     
   ];
   
