@@ -28097,8 +28097,8 @@
           "dbSection": "static",
           "menuType": "conditions",
           "animation": "crackedshield",
-          "variant": "01",
-          "color": "purple"
+          "variant": "03",
+          "color": "darkred"
         }
       },
       "source": {
@@ -28328,7 +28328,7 @@
           "dbSection": "static",
           "menuType": "conditions",
           "animation": "fear",
-          "variant": "01",
+          "variant": "03",
           "color": "darkorange",
           "enableCustom": false,
           "customPath": ""

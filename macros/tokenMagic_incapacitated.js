@@ -1,5 +1,6 @@
-// v0.2
+// v0.3
 let myToken = canvas.tokens.controlled[0]
+let myTarget = Array.from(game.user.targets)[0];
 
 // ------------------------------------------------
 const params =
@@ -19,10 +20,13 @@ const params =
         textureAlphaBlend: false
     }];
 
-if ( TokenMagic.hasFilterId(myToken, "incapacited") ) {
-  await TokenMagic.deleteFilters(token, "incapacited");
-} else {
-  await TokenMagic.deleteFilters(token, "incapacited");
-  await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
-}
+if (!myTarget) {
+  
+  if ( TokenMagic.hasFilterId(myToken, "incapacited") ) {
+    await TokenMagic.deleteFilters(token, "incapacited");
+  } else {
+    await TokenMagic.deleteFilters(token, "incapacited");
+    await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
+  }
 
+}

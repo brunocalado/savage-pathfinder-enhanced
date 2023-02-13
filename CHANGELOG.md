@@ -1,3 +1,9 @@
+# 0.2.7
+- docs 
+- better rolls all generic power modifiers
+- fix incapacited
+- token magic changes
+
 # 0.2.6
 - better rolls power modifiers: armor pierce
 - torch: light power, lamp of revealing

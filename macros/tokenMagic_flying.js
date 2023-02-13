@@ -1,9 +1,10 @@
-// v0.2
+// v0.3
 const variaParaCima = +0.15;  // quanto se move para cima
 const variaParaBaixo = -0.15; // quanto se move para baixo
 const velocidade = 5500;      // quanto maior, mais lenta a animação
 
-let myToken = canvas.tokens.controlled[0]
+let myToken = canvas.tokens.controlled[0];
+let myTarget = Array.from(game.user.targets)[0];
 
 // ------------------------------------------------
 const params =
@@ -58,17 +59,20 @@ const params2 =
 }];
 
 
-if ( TokenMagic.hasFilterId(myToken, "flyTransform") || TokenMagic.hasFilterId(myToken, "flyShadow") ) {
-  //await TokenMagic.deleteFiltersOnSelected(); // Delete all filters on the selected tokens/tiles
-  await TokenMagic.deleteFilters(token, "flyTransform");
-  await TokenMagic.deleteFilters(token, "flyShadow");  
-} else {
-  (async () => { 
+if (!myTarget) {
+
+  if ( TokenMagic.hasFilterId(myToken, "flyTransform") || TokenMagic.hasFilterId(myToken, "flyShadow") ) {
     //await TokenMagic.deleteFiltersOnSelected(); // Delete all filters on the selected tokens/tiles
     await TokenMagic.deleteFilters(token, "flyTransform");
-    await TokenMagic.deleteFilters(token, "flyShadow");
-    await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
-    await TokenMagic.addUpdateFiltersOnSelected(params2);
-  })()  
-}
+    await TokenMagic.deleteFilters(token, "flyShadow");  
+  } else {
+    (async () => { 
+      //await TokenMagic.deleteFiltersOnSelected(); // Delete all filters on the selected tokens/tiles
+      await TokenMagic.deleteFilters(token, "flyTransform");
+      await TokenMagic.deleteFilters(token, "flyShadow");
+      await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
+      await TokenMagic.addUpdateFiltersOnSelected(params2);
+    })()  
+  }
 
+}

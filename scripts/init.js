@@ -88,7 +88,7 @@ Hooks.once('ready', () => {
       {
         id: "ENVIRONMENTALRESISTANCE",
         name: "Environmental Resistance",
-        button_name: "Environmental Resistance",
+        button_name: "Env. Resistance",
         dmgMod: "-4",
         or_selector: [{
             selector_type: "item_type",
@@ -104,7 +104,7 @@ Hooks.once('ready', () => {
       {
         id: "ENVIRONMENTALWEAKNESS",
         name: "Environmental Weakness",
-        button_name: "Environmental Weakness",
+        button_name: "Env. Weakness",
         dmgMod: "+4",
         or_selector: [
         {
@@ -310,11 +310,20 @@ Hooks.once('ready', () => {
     },
     
     // ----------------------
-    // Power Modifiers
+    // Generic Power Modifiers
     {
-      id:"boltAP2",
-      name:"boltAP2",
-      button_name:"AP2 (+1)",
+      id:"ADAPTABLECASTER1",
+      name:"ADAPTABLECASTER1",
+      button_name:"Adaptable Caster (+1)",
+      shotsUsed:"+1",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    },
+    {
+      id:"ARMORPIERCING1",
+      name:"ARMORPIERCING1",
+      button_name:"Armor Piercing 2 (+1)",
       overrideAp:"2",
       shotsUsed:"+1",
       selector_type:"item_type",
@@ -322,9 +331,9 @@ Hooks.once('ready', () => {
       group:"Power Modifiers"
     },  
     {
-      id:"boltAP4",
-      name:"boltAP4",
-      button_name:"AP4 (+2)",
+      id:"ARMORPIERCING2",
+      name:"ARMORPIERCING2",
+      button_name:"Armor Piercing 4 (+2)",
       overrideAp:"4",
       shotsUsed:"+2",
       selector_type:"item_type",
@@ -332,17 +341,79 @@ Hooks.once('ready', () => {
       group:"Power Modifiers"
     },
     {
-      id:"boltAP6",
-      name:"boltAP6",
-      button_name:"AP6 (+3)",
+      id:"ARMORPIERCING3",
+      name:"ARMORPIERCING3",
+      button_name:"Armor Piercing 6 (+3)",
       overrideAp:"6",
       shotsUsed:"+3",
       selector_type:"item_type",
       selector_value:"power",
       group:"Power Modifiers"
-    }
+    },
+    {
+      id:"FATIGUE",
+      name:"FATIGUE",
+      button_name:"Fatigue (+2)",
+      shotsUsed:"+2",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    },    
+    {
+      id:"GLOWSHROUD1",
+      name:"GLOWSHROUD1",
+      button_name:"Glow/Shroud (+1)",
+      shotsUsed:"+1",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    }, 
+    {
+      id:"HEAVYWEAPON2",
+      name:"HEAVYWEAPON2",
+      button_name:"Heavy Weapon (+2)",
+      shotsUsed:"+2",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    }, 
+    {
+      id:"LINGERINGDAMAGE2",
+      name:"LINGERINGDAMAGE2",
+      button_name:"Lingering Damage (+2)",
+      shotsUsed:"+2",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    }, 
+    {
+      id:"RANGE1",
+      name:"RANGE1",
+      button_name:"Range (+1)",
+      shotsUsed:"+1",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    }, 
+    {
+      id:"RANGE2",
+      name:"RANGE2",
+      button_name:"Range (+2)",
+      shotsUsed:"+2",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    }, 
+    {
+      id:"SELECTIVE1",
+      name:"SELECTIVE1",
+      button_name:"Selective (+1)",
+      shotsUsed:"+1",
+      selector_type:"item_type",
+      selector_value:"power",
+      group:"Power Modifiers"
+    }    
 
-    
   ];
   
   const useBetterRollsGA =  game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions");

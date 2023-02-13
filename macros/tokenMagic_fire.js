@@ -1,5 +1,6 @@
-// v0.1
-let myToken = canvas.tokens.controlled[0]
+// v0.2
+let myToken = canvas.tokens.controlled[0];
+let myTarget = Array.from(game.user.targets)[0];
 
 // ------------------------------------------------
 const params = [{
@@ -39,11 +40,15 @@ const params = [{
     }
 }];
 
-if ( TokenMagic.hasFilterId(myToken, "onFireCondition") || TokenMagic.hasFilterId(myToken, "flyShadow") ) {
-  await TokenMagic.deleteFilters(token, "onFireCondition");
-} else {
-  (async () => { 
+if (!myTarget) {
+  
+  if ( TokenMagic.hasFilterId(myToken, "onFireCondition") || TokenMagic.hasFilterId(myToken, "flyShadow") ) {
     await TokenMagic.deleteFilters(token, "onFireCondition");
-    await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
-  })()  
+  } else {
+    (async () => { 
+      await TokenMagic.deleteFilters(token, "onFireCondition");
+      await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
+    })()  
+  }
+
 }

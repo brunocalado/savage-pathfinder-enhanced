@@ -1,5 +1,6 @@
-// v0.2
-let myToken = canvas.tokens.controlled[0]
+// v0.3
+let myToken = canvas.tokens.controlled[0];
+let myTarget = Array.from(game.user.targets)[0];
 const xspeed = 0.025; // 0.125
 const yspeed = 0.035; // 0.035
 const duration = 1600; // 2400
@@ -29,11 +30,15 @@ const params =
         }
     }];
 
-if ( TokenMagic.hasFilterId(myToken, "dodgeStance") ) {
-  await TokenMagic.deleteFilters(token, "dodgeStance");
-} else {
-  (async () => { 
+if (!myTarget) {
+  
+  if ( TokenMagic.hasFilterId(myToken, "dodgeStance") ) {
     await TokenMagic.deleteFilters(token, "dodgeStance");
-    await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
-  })()  
+  } else {
+    (async () => { 
+      await TokenMagic.deleteFilters(token, "dodgeStance");
+      await TokenMagic.addUpdateFiltersOnSelected(params); //aplica
+    })()  
+  }
+
 }
