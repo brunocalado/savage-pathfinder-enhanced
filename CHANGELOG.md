@@ -1,3 +1,6 @@
+# 0.2.8
+- better rolls group name change
+
 # 0.2.7
 - docs 
 - better rolls all generic power modifiers

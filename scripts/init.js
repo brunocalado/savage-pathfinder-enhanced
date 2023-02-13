@@ -31,6 +31,7 @@ Hooks.once('ready', () => {
   const groupName = "Savage Pathfinder";
   const groupNamePP = "Power Points";
   const groupNamePModifiers = "Power Modifiers";
+  const groupNameGenericPModifiers = "Power Modifiers - Generic";
 
   const BETTER_ROLLS_SWPF = [{
         id: "DESPERATE_ATTACK-2",
@@ -318,7 +319,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+1",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     },
     {
       id:"ARMORPIERCING1",
@@ -328,7 +329,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+1",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     },  
     {
       id:"ARMORPIERCING2",
@@ -338,7 +339,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+2",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     },
     {
       id:"ARMORPIERCING3",
@@ -348,7 +349,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+3",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     },
     {
       id:"FATIGUE",
@@ -357,7 +358,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+2",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     },    
     {
       id:"GLOWSHROUD1",
@@ -366,7 +367,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+1",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     }, 
     {
       id:"HEAVYWEAPON2",
@@ -375,7 +376,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+2",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     }, 
     {
       id:"LINGERINGDAMAGE2",
@@ -384,7 +385,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+2",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     }, 
     {
       id:"RANGE1",
@@ -393,7 +394,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+1",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     }, 
     {
       id:"RANGE2",
@@ -402,7 +403,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+2",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     }, 
     {
       id:"SELECTIVE1",
@@ -411,7 +412,7 @@ Hooks.once('ready', () => {
       shotsUsed:"+1",
       selector_type:"item_type",
       selector_value:"power",
-      group:"Power Modifiers"
+      group: groupNameGenericPModifiers
     }    
 
   ];
