@@ -1,3 +1,7 @@
+# 0.2.9
+- legendary boss update
+- removed conditions animations, the old autorec is in the repo if you want
+
 # 0.2.8
 - better rolls group name change
 
