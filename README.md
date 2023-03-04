@@ -31,6 +31,8 @@ Macros and other resources for Savage Pathfinder.
   <img src="docs/docs_betterrolls.webp">
 </p>
 
+**WARNING: The names MUST match to use the power modifiers. It's using the same name from the official module.**
+
 Better Rolls Global Actions List:
 - Arcane Archer
 - Deadly Blow
@@ -43,6 +45,8 @@ Better Rolls Global Actions List:
 - Pounce, core p249
 - Powerful Blow
 - Sneak Attack
+- Power Modifiers: Bolt, Summon Ally (APG), Healing, Burst, Summon Ally, Dispel (APG)
+- Power Modifiers Generic
 
 [Learn more about Better Rolls](https://github.com/javierriveracastro/betteroll-swade)
 

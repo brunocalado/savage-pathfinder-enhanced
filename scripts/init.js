@@ -32,6 +32,7 @@ Hooks.once('ready', () => {
   const groupNamePP = "Power Points";
   const groupNamePModifiers = "Power Modifiers";
   const groupNameGenericPModifiers = "Power Modifiers - Generic";
+  const starIcon = "☆ ";
 
   const BETTER_ROLLS_SWPF = [{
         id: "DESPERATE_ATTACK-2",
@@ -413,8 +414,345 @@ Hooks.once('ready', () => {
       selector_type:"item_type",
       selector_value:"power",
       group: groupNameGenericPModifiers
-    }    
+    },    
 
+    // ----------------------
+    // POWER BOLT
+    {
+      id:"POWERBOLTMODDAMAGE",
+      name:"POWERBOLTMODDAMAGE",
+      button_name:"Damage (+2)",
+      shotsUsed:"+2",
+      dmgMod: "+d6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Bolt" }
+      ],      
+      group: "Bolt Modifiers"
+    },
+    {
+      id:"POWERBOLTMODGREATERBOLT",
+      name:"POWERBOLTMODGREATERBOLT",
+      button_name: starIcon + "Greater Bolt (+4)",
+      shotsUsed:"+4",
+      dmgMod: "+2d6x",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Bolt" }
+      ],      
+      group: "Bolt Modifiers"
+    },
+    {
+      id:"POWERBOLTMODRATEOFFIRE",
+      name:"POWERBOLTMODRATEOFFIRE",
+      button_name: starIcon + "Rate of Fire (+2)",
+      shotsUsed:"+2",
+      rof: "2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Bolt" }
+      ],      
+      group: "Bolt Modifiers"
+    },    
+    {
+      id:"POWERBOLTMODDISINTEGRATE",
+      name:"POWERBOLTMODDISINTEGRATE",
+      button_name: starIcon + "Disintegrate (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Bolt" }
+      ],      
+      group: "Bolt Modifiers"
+    },        
+
+    // ----------------------
+    // POWER BURST
+    {
+      id:"POWERBURSTMODDAMAGE",
+      name:"POWERBURSTMODDAMAGE",
+      button_name:"Damage (+2)",
+      shotsUsed:"+2",
+      dmgMod: "+d6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Burst" }
+      ],
+      group: "Burst Modifiers"
+    },
+    {
+      id:"POWERBURSTMODGREATERBURST",
+      name:"POWERBURSTMODGREATERBURST",
+      button_name: starIcon + "Greater Bolt (+4)",
+      shotsUsed:"+4",
+      dmgMod: "+2d6x",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Burst" }
+      ],
+      group: "Burst Modifiers"
+    },
+
+    // ----------------------
+    // POWER HEALING
+    {
+      id:"POWERHEALINGMODGREATERHEALING",
+      name:"POWERHEALINGMODGREATERHEALING",
+      button_name:"Greater Healing (+10)",
+      shotsUsed:"+10",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Healing" }
+      ],
+      group: "Healing Modifiers"
+    },
+    {
+      id:"POWERHEALINGMODMASSHEALINGMEDIUMBLAST",
+      name:"POWERHEALINGMODMASSHEALINGMEDIUMBLAST",
+      button_name: starIcon + "Mass Healing - Medium Blast (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Healing" }
+      ],
+      group: "Healing Modifiers"
+    },
+    {
+      id:"POWERHEALINGMODMASSHEALINGLARGEBLAST",
+      name:"POWERHEALINGMODMASSHEALINGLARGEBLAST",
+      button_name: starIcon + "Mass Healing - Large Blast (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Healing" }
+      ],
+      group: "Healing Modifiers"
+    },    
+    {
+      id:"POWERHEALINGMODCRIPPLINGINJURIES",
+      name:"POWERHEALINGMODCRIPPLINGINJURIES",
+      button_name:"Crippling Injuries (+15)",
+      shotsUsed:"+15",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Healing" }
+      ],
+      group: "Healing Modifiers"
+    },
+    {
+      id:"POWERHEALINGMODNEUTRALIZEPOISON",
+      name:"POWERHEALINGMODNEUTRALIZEPOISON",
+      button_name:"Neutralize Poison or Disease (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Healing" }
+      ],
+      group: "Healing Modifiers"
+    },
+
+
+    // ----------------------
+    // POWER SUMMON ALLY
+    {
+      id:"POWERSUMMONALLYMODNOVICE",
+      name:"POWERSUMMONALLYMODNOVICE",
+      button_name:"Novice (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Rank"
+    },    
+    {
+      id:"POWERSUMMONALLYMODSEASONED",
+      name:"POWERSUMMONALLYMODSEASONED",
+      button_name:"Seasoned (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Rank"
+    },
+    {
+      id:"POWERSUMMONALLYMODVETERAN",
+      name:"POWERSUMMONALLYMODVETERAN",
+      button_name:"Veteran (+5)",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Rank"
+    },
+    {
+      id:"POWERSUMMONALLYMODHEROIC",
+      name:"POWERSUMMONALLYMODHEROIC",
+      button_name:"Heroic (+7)",
+      shotsUsed:"+7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Rank"
+    },
+    // ----------------------
+    // POWER SUMMON ALLY    
+    {
+      id:"POWERSUMMONALLYMODCOMBATEDGE",
+      name:"POWERSUMMONALLYMODCOMBATEDGE",
+      button_name:"Combat Edge x1 (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Modifiers"
+    },
+    {
+      id:"POWERSUMMONALLYMODCOMBATEDGE2",
+      name:"POWERSUMMONALLYMODCOMBATEDGE2",
+      button_name:"Combat Edge x2 (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Modifiers"
+    },
+    {
+      id:"POWERSUMMONALLYMODCOMBATEDGE3",
+      name:"POWERSUMMONALLYMODCOMBATEDGE3",
+      button_name:"Combat Edge x3 (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Modifiers"
+    },    
+    {
+      id:"POWERSUMMONALLYMODFLIGHT",
+      name:"POWERSUMMONALLYMODFLIGHT",
+      button_name:"Flight (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Modifiers"
+    },
+    {
+      id:"POWERSUMMONALLYMODMINDRIDER",
+      name:"POWERSUMMONALLYMODMINDRIDER",
+      button_name:"Mind Rider (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Summon Ally Modifiers"
+    },
+    
+    // ----------------------
+    // POWER SMITE
+    {
+      id:"POWERSMITEMODGREATERSMITE",
+      name:"POWERSMITEMODGREATERSMITE",
+      button_name: starIcon + "Greater Smite (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Smite" }
+      ],
+      group: "Smite Modifiers"
+    },    
+
+    // ----------------------
+    // POWER Dispel
+    {
+      id:"POWERDISPELMODANTIMAGICFIELD",
+      name:"POWERDISPELMODANTIMAGICFIELD",
+      button_name: starIcon + "Anti-Magic Field (+8)",
+      shotsUsed:"+8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Dispel" }
+      ],
+      group: "Dispel Modifiers"
+    },    
+    {
+      id:"POWERDISPELMODDISENCHANT",
+      name:"POWERDISPELMODDISENCHANT",
+      button_name: "Disenchant (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Dispel" }
+      ],
+      group: "Dispel Modifiers"
+    },  
+    {
+      id:"POWERDISPELMODMULTIPLEPOWERS",
+      name:"POWERDISPELMODMULTIPLEPOWERS",
+      button_name: "Multiple Powers (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Dispel" }
+      ],
+      group: "Dispel Modifiers"
+    }, 
+    {
+      id:"POWERDISPELMODREMOVECURSE",
+      name:"POWERDISPELMODREMOVECURSE",
+      button_name: starIcon + "Remove Curse (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Dispel" }
+      ],
+      group: "Dispel Modifiers"
+    },
+    // ----------------------
+    // POWER Dispel    
+    {
+      id:"POWERDISPELMODLARGEBLAST",
+      name:"POWERDISPELMODLARGEBLAST",
+      button_name: "Large Blast (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Dispel" }
+      ],
+      group: "Dispel Blast Template"
+    },  
+    {
+      id:"POWERDISPELMODMEDIUMBLAST",
+      name:"POWERDISPELMODMEDIUMBLAST",
+      button_name: "Medium Blast (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Dispel" }
+      ],
+      group: "Dispel Blast Template"
+    },  
+    {
+      id:"POWERDISPELMODSMALLBLAST",
+      name:"POWERDISPELMODSMALLBLAST",
+      button_name: "Small Blast (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Dispel" }
+      ],
+      group: "Dispel Blast Template"
+    }    
+    
+    // END ---------------------------------
   ];
   
   const useBetterRollsGA =  game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions");

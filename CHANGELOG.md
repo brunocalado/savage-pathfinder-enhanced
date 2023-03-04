@@ -1,3 +1,6 @@
+# 0.3.0
+- power modifiers for better rolls
+
 # 0.2.9
 - legendary boss update
 - removed conditions animations, the old autorec is in the repo if you want
