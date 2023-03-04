@@ -655,6 +655,106 @@ Hooks.once('ready', () => {
       ],
       group: "Summon Ally Modifiers"
     },
+    // ----------------------
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT",
+      button_name:"(+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT2",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT2",
+      button_name:"(+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT3",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT3",
+      button_name:"(+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT4",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT4",
+      button_name:"(+4)",
+      shotsUsed:"+4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT5",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT5",
+      button_name:"(+5)",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT6",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT6",
+      button_name:"(+6)",
+      shotsUsed:"+6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT7",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT7",
+      button_name:"(+7)",
+      shotsUsed:"+7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT8",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT8",
+      button_name:"(+8)",
+      shotsUsed:"+8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
+    {
+      id:"POWERSUMMONALLYMODINCREASEDTRAIT9",
+      name:"POWERSUMMONALLYMODINCREASEDTRAIT9",
+      button_name:"(+9)",
+      shotsUsed:"+9",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Summon Ally" }
+      ],
+      group: "Increased Trait"
+    },
     
     // ----------------------
     // POWER SMITE
@@ -669,7 +769,18 @@ Hooks.once('ready', () => {
       ],
       group: "Smite Modifiers"
     },    
-
+    {
+      id:"POWERSMITEMODSPIRITUALWEAPON",
+      name:"POWERSMITEMODSPIRITUALWEAPON",
+      button_name: "Spiritual Weapon (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Smite" }
+      ],
+      group: "Smite Modifiers"
+    },   
+    
     // ----------------------
     // POWER Dispel
     {
@@ -750,6 +861,835 @@ Hooks.once('ready', () => {
         { selector_type: "item_name", selector_value: "Dispel" }
       ],
       group: "Dispel Blast Template"
+    },    
+
+    // ----------------------
+    // POWER Arcane Protection    
+    {
+      id:"POWERARCANEPROTECTIONMODGREATERARCANEPROTECTION",
+      name:"POWERARCANEPROTECTIONMODGREATERARCANEPROTECTION",
+      button_name: starIcon + "Greater Arcane Protection (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Arcane Protection" }
+      ],
+      group: "Arcane Protection Modifiers"
+    },  
+
+    // ----------------------
+    // POWER Arcane Protection    
+    {
+      id:"POWERBEASTFRIENDMODBESTIARIUM",
+      name:"POWERBEASTFRIENDMODBESTIARIUM",
+      button_name: starIcon + "Bestiarium (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Beast Friend" }
+      ],
+      group: "Beast Friend Modifiers"
+    },      
+    {
+      id:"POWERBEASTFRIENDMODDURATION",
+      name:"POWERBEASTFRIENDMODDURATION",
+      button_name: "Duration (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Beast Friend" }
+      ],
+      group: "Beast Friend Modifiers"
+    },  
+    {
+      id:"POWERBEASTFRIENDMODMINDRIDER",
+      name:"POWERBEASTFRIENDMODMINDRIDER",
+      button_name: "Mind Rider (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Beast Friend" }
+      ],
+      group: "Beast Friend Modifiers"
+    },
+
+    // ----------------------
+    // POWER Conjure Item
+    {
+      id:"POWERCONJUREITEMMODCOMPLETE",
+      name:"POWERCONJUREITEMMODCOMPLETE",
+      button_name: "Complete  (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Conjure Item Modifiers"
+    },  
+    // ----------------------    
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER",
+      button_name: "1x (1)",
+      shotsUsed:"1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    },  
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER2",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER2",
+      button_name: "2x (2)",
+      shotsUsed:"2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    }, 
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER3",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER3",
+      button_name: "3x (3)",
+      shotsUsed:"3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    }, 
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER4",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER4",
+      button_name: "4x (4)",
+      shotsUsed:"4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    }, 
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER5",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER5",
+      button_name: "5x (5)",
+      shotsUsed:"5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    }, 
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER6",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER6",
+      button_name: "6x (6)",
+      shotsUsed:"6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    }, 
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER7",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER7",
+      button_name: "7x (7)",
+      shotsUsed:"7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    }, 
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER8",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER8",
+      button_name: "8x (8)",
+      shotsUsed:"8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    }, 
+    {
+      id:"POWERCONJUREITEMMODCREATEFOODANDWATER9",
+      name:"POWERCONJUREITEMMODCREATEFOODANDWATER9",
+      button_name: "9x (9)",
+      shotsUsed:"9",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Create Food And Water"
+    },     
+    // ----------------------    
+    {
+      id:"POWERCONJUREITEMMODDURABLE",
+      name:"POWERCONJUREITEMMODDURABLE",
+      button_name: "+1",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },    
+    {
+      id:"POWERCONJUREITEMMODDURABLE2",
+      name:"POWERCONJUREITEMMODDURABLE2",
+      button_name: "+2",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },
+    {
+      id:"POWERCONJUREITEMMODDURABLE3",
+      name:"POWERCONJUREITEMMODDURABLE3",
+      button_name: "+3",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },
+    {
+      id:"POWERCONJUREITEMMODDURABLE4",
+      name:"POWERCONJUREITEMMODDURABLE4",
+      button_name: "+4",
+      shotsUsed:"+4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },    
+    {
+      id:"POWERCONJUREITEMMODDURABLE5",
+      name:"POWERCONJUREITEMMODDURABLE5",
+      button_name: "+5",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },   
+    {
+      id:"POWERCONJUREITEMMODDURABLE6",
+      name:"POWERCONJUREITEMMODDURABLE6",
+      button_name: "+6",
+      shotsUsed:"+6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },
+    {
+      id:"POWERCONJUREITEMMODDURABLE7",
+      name:"POWERCONJUREITEMMODDURABLE7",
+      button_name: "+7",
+      shotsUsed:"+7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },    
+    {
+      id:"POWERCONJUREITEMMODDURABLE8",
+      name:"POWERCONJUREITEMMODDURABLE8",
+      button_name: "+8",
+      shotsUsed:"+8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },    
+    {
+      id:"POWERCONJUREITEMMODDURABLE9",
+      name:"POWERCONJUREITEMMODDURABLE9",
+      button_name: "+9",
+      shotsUsed:"+9",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Conjure Item" }
+      ],
+      group: "Durable (+1 Per Pound)"
+    },
+
+    // ----------------------
+    // POWER Blast
+    {
+      id:"POWERBLASTMODAREAOFEFFECT",
+      name:"POWERBLASTMODAREAOFEFFECT",
+      button_name: "Large Blast (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Blast" }
+      ],
+      group: "Blast Modifiers"
+    },  
+    {
+      id:"POWERBLASTMODDAMAGE",
+      name:"POWERBLASTMODDAMAGE",
+      button_name: "Damage (+2)",
+      shotsUsed:"+2",
+      dmgMod: "+1d6x",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Blast" }
+      ],
+      group: "Blast Modifiers"
+    }, 
+    {
+      id:"POWERBLASTMODGREATERBLAST",
+      name:"POWERBLASTMODGREATERBLAST",
+      button_name: starIcon + "Greater Blast (+4)",
+      shotsUsed:"+4",
+      dmgMod: "+2d6x",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Blast" }
+      ],
+      group: "Blast Modifiers"
+    },
+    
+    // ----------------------
+    // POWER Sanctuary
+    {
+      id:"POWERSANCTUARYMODSTRONG",
+      name:"POWERSANCTUARYMODSTRONG",
+      button_name: "Strong (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sanctuary" }
+      ],
+      group: "Sanctuary Modifiers"
+    },     
+    {
+      id:"POWERSANCTUARYMODMEDIUMBLAST",
+      name:"POWERSANCTUARYMODMEDIUMBLAST",
+      button_name: "Medium Blast (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sanctuary" }
+      ],
+      group: "Sanctuary Modifiers"
+    }, 
+    {
+      id:"POWERSANCTUARYMODLARGEBLAST",
+      name:"POWERSANCTUARYMODLARGEBLAST",
+      button_name: "Large Blast (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sanctuary" }
+      ],
+      group: "Sanctuary Modifiers"
+    }, 
+
+    // ----------------------
+    // POWER Shape Change
+    {
+      id:"POWERSHAPECHANGEMODDURATION",
+      name:"POWERSHAPECHANGEMODDURATION",
+      button_name: "Duration (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Shape Change" }
+      ],
+      group: "Shape Change Modifiers"
+    },       
+    {
+      id:"POWERSHAPECHANGEMODTRANSFORM",
+      name:"POWERSHAPECHANGEMODTRANSFORM",
+      button_name: starIcon + "Transform (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Shape Change" }
+      ],
+      group: "Shape Change Modifiers"
+    },       
+    {
+      id:"POWERSHAPECHANGEMODTRANSFORM3",
+      name:"POWERSHAPECHANGEMODTRANSFORM3",
+      button_name: starIcon + "Transform (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Shape Change" }
+      ],
+      group: "Shape Change Modifiers"
+    },    
+
+    // ----------------------
+    // POWER Fear
+    {
+      id:"POWERFEARMODGREATERFEAR",
+      name:"POWERFEARMODGREATERFEAR",
+      button_name: starIcon + "Greater Fear (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Fear" }
+      ],
+      group: "Fear Modifiers"
+    },  
+    {
+      id:"POWERFEARMODSMALLMEDIUM",
+      name:"POWERFEARMODSMALLMEDIUM",
+      button_name: "Small or Medium Blast (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Fear" }
+      ],
+      group: "Fear Modifiers"
+    },  
+    {
+      id:"POWERFEARMODSMALLLARGE",
+      name:"POWERFEARMODSMALLLARGE",
+      button_name: "Large Blast (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Fear" }
+      ],
+      group: "Fear Modifiers"
+    },  
+    
+    // ----------------------
+    // POWER Empathy
+    {
+      id:"POWEREMPATHYMODCHARM",
+      name:"POWEREMPATHYMODCHARM",
+      button_name: "Charm (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Empathy Modifiers"
+    },      
+    {
+      id:"POWEREMPATHYMODDURATION",
+      name:"POWEREMPATHYMODDURATION",
+      button_name: "Duration (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Empathy Modifiers"
+    },    
+    {
+      id:"POWEREMPATHYMODTRUTH",
+      name:"POWEREMPATHYMODTRUTH",
+      button_name: starIcon + "Truth (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Empathy Modifiers"
+    },  
+    // ----------------------
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS",
+      button_name: "+1",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS2",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS2",
+      button_name: "+2",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS3",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS3",
+      button_name: "+3",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS4",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS4",
+      button_name: "+4",
+      shotsUsed:"+4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS5",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS5",
+      button_name: "+5",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS6",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS6",
+      button_name: "+6",
+      shotsUsed:"+6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS7",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS7",
+      button_name: "+7",
+      shotsUsed:"+7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS8",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS8",
+      button_name: "+8",
+      shotsUsed:"+8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWEREMPATHYMODADDITIONALRECIPIENTS9",
+      name:"POWEREMPATHYMODADDITIONALRECIPIENTS9",
+      button_name: "+9",
+      shotsUsed:"+9",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Empathy" }
+      ],
+      group: "Additional Recipients"
+    },
+
+    // ----------------------
+    // POWER Relief
+    {
+      id:"POWERRELIEFMODRESTORATION",
+      name:"POWERRELIEFMODRESTORATION",
+      button_name: "Restoration (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Relief Modifiers"
+    },  
+    {
+      id:"POWERRELIEFMODSTUNNED",
+      name:"POWERRELIEFMODSTUNNED",
+      button_name: "Stunned (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Relief Modifiers"
+    },  
+    // ----------------------
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS",
+      button_name: "+1",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS2",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS2",
+      button_name: "+2",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS3",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS3",
+      button_name: "+3",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS4",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS4",
+      button_name: "+4",
+      shotsUsed:"+4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS5",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS5",
+      button_name: "+5",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS6",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS6",
+      button_name: "+6",
+      shotsUsed:"+6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS7",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS7",
+      button_name: "+7",
+      shotsUsed:"+7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS8",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS8",
+      button_name: "+8",
+      shotsUsed:"+8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERRELIEFMODDDITIONALRECIPIENTS9",
+      name:"POWERRELIEFMODDDITIONALRECIPIENTS9",
+      button_name: "+9",
+      shotsUsed:"+9",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Relief" }
+      ],
+      group: "Additional Recipients"
+    },
+
+    // ----------------------
+    // POWER Sloth/Speed
+    {
+      id:"POWERSLOTHSPEEDMODDASH",
+      name:"POWERSLOTHSPEEDMODDASH",
+      button_name: "Dash (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Sloth/Speed Modifiers"
+    },     
+    {
+      id:"POWERSLOTHSPEEDMODQUICKNESS",
+      name:"POWERSLOTHSPEEDMODQUICKNESS",
+      button_name: "Quickness (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Sloth/Speed Modifiers"
+    },  
+    {
+      id:"POWERSLOTHSPEEDMODSTRONG",
+      name:"POWERSLOTHSPEEDMODSTRONG",
+      button_name: "Strong (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Sloth/Speed Modifiers"
+    },  
+    {
+      id:"POWERSLOTHSPEEDMODMEDIUM",
+      name:"POWERSLOTHSPEEDMODMEDIUM",
+      button_name: "Medium Blast (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Sloth/Speed Modifiers"
+    },     
+    {
+      id:"POWERSLOTHSPEEDMODLARGE",
+      name:"POWERSLOTHSPEEDMODLARGE",
+      button_name: "Large Blast (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Sloth/Speed Modifiers"
+    },        
+    // ----------------------
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS",
+      button_name: "+1",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS2",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS2",
+      button_name: "+2",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS3",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS3",
+      button_name: "+3",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS4",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS4",
+      button_name: "+4",
+      shotsUsed:"+4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS5",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS5",
+      button_name: "+5",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS6",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS6",
+      button_name: "+6",
+      shotsUsed:"+6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS7",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS7",
+      button_name: "+7",
+      shotsUsed:"+7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS8",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS8",
+      button_name: "+8",
+      shotsUsed:"+8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS9",
+      name:"POWERSLOTHSPEEDMODDDITIONALRECIPIENTS9",
+      button_name: "+9",
+      shotsUsed:"+9",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Sloth/Speed" }
+      ],
+      group: "Additional Recipients"
     }    
     
     // END ---------------------------------
