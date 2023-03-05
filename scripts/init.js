@@ -1690,7 +1690,33 @@ Hooks.once('ready', () => {
         { selector_type: "item_name", selector_value: "Sloth/Speed" }
       ],
       group: "Additional Recipients"
-    }    
+    },
+    
+    // ----------------------
+    // POWER Elemental Manipulation
+    {
+      id:"POWERELEMENTALMANIPULATIONMODPOWER",
+      name:"POWERELEMENTALMANIPULATIONMODPOWER",
+      button_name: starIcon + "Power (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Elemental Manipulation" }
+      ],
+      group: "Elemental Manipulation Modifiers"
+    }, 
+    {
+      id:"POWERELEMENTALMANIPULATIONMODWEATHER",
+      name:"POWERELEMENTALMANIPULATIONMODWEATHER",
+      button_name: starIcon + "Weather (+5)",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Elemental Manipulation" }
+      ],
+      group: "Elemental Manipulation Modifiers"
+    } 
+        
     
     // END ---------------------------------
   ];
