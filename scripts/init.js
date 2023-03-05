@@ -878,7 +878,7 @@ Hooks.once('ready', () => {
     },  
 
     // ----------------------
-    // POWER Arcane Protection    
+    // POWER Beast Friend    
     {
       id:"POWERBEASTFRIENDMODBESTIARIUM",
       name:"POWERBEASTFRIENDMODBESTIARIUM",
@@ -1715,8 +1715,291 @@ Hooks.once('ready', () => {
         { selector_type: "item_name", selector_value: "Elemental Manipulation" }
       ],
       group: "Elemental Manipulation Modifiers"
-    } 
-        
+    }, 
+
+    // ----------------------
+    // POWER Baleful Polymorph
+    {
+      id:"POWERBALEFULPOLYMORPHMODDURATION",
+      name:"POWERBALEFULPOLYMORPHMODDURATION",
+      button_name: starIcon + "Duration (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Baleful Polymorph" }
+      ],
+      group: "Baleful Polymorph Modifiers"
+    },        
+    
+    // ----------------------
+    // POWER Baleful Polymorph
+    {
+      id:"POWERBANISHMODSMALL",
+      name:"POWERBANISHMODSMALL",
+      button_name: starIcon + "Small Blast (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Banish" }
+      ],
+      group: "Area df Effect"
+    },            
+    {
+      id:"POWERBANISHMODMEDIUM",
+      name:"POWERBANISHMODMEDIUM",
+      button_name: starIcon + "Medium Blast (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Banish" }
+      ],
+      group: "Area df Effect"
+    },      
+    {
+      id:"POWERBANISHMODLARGE",
+      name:"POWERBANISHMODLARGE",
+      button_name: starIcon + "Large  Blast (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Banish" }
+      ],
+      group: "Area df Effect"
+    },      
+
+    // ----------------------
+    // POWER Barrier
+    {
+      id:"POWERBARRIERMODDAMAGE",
+      name:"POWERBARRIERMODDAMAGE",
+      button_name: "Damage - Immaterial (+0)",
+      shotsUsed:"+0",
+      dmgOverride: "2d4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Barrier" }
+      ],
+      group: "Barrier Modifiers"
+    },      
+    {
+      id:"POWERBARRIERMODDAMAGE2",
+      name:"POWERBARRIERMODDAMAGE2",
+      button_name: "Damage - Material (+1)",
+      dmgOverride: "2d4",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Barrier" }
+      ],
+      group: "Barrier Modifiers"
+    }, 
+    {
+      id:"POWERBARRIERMODHARDENED",
+      name:"POWERBARRIERMODHARDENED",
+      button_name: "Hardened (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Barrier" }
+      ],
+      group: "Barrier Modifiers"
+    }, 
+    {
+      id:"POWERBARRIERMODSHAPED",
+      name:"POWERBARRIERMODSHAPED",
+      button_name: "Shaped (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Barrier" }
+      ],
+      group: "Barrier Modifiers"
+    }, 
+    {
+      id:"POWERBARRIERMODSIZE",
+      name:"POWERBARRIERMODSIZE",
+      button_name: "Size (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Barrier" }
+      ],
+      group: "Barrier Modifiers"
+    },     
+    {
+      id:"POWERBARRIERMODDEADLY",
+      name:"POWERBARRIERMODDEADLY",
+      button_name: starIcon + "Deadly (+2)",
+      shotsUsed:"+2",
+      dmgOverride: "2d6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Barrier" }
+      ],
+      group: "Barrier Modifiers"
+    },   
+
+    // ----------------------
+    // POWER Blind
+    {
+      id:"POWERBLINDMODSTRONG",
+      name:"POWERBLINDMODSTRONG",
+      button_name: "Strong (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Blind" }
+      ],
+      group: "Blind Modifiers"
+    },    
+    // ----------------------
+    {
+      id:"POWERBLINDMODMEDIUM",
+      name:"POWERBLINDMODMEDIUM",
+      button_name: "Medium Blast (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Blind" }
+      ],
+      group: "Area of Effect"
+    },    
+    {
+      id:"POWERBLINDMODLARGE",
+      name:"POWERBLINDMODLARGE",
+      button_name: "Large Blast (+3)",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Blind" }
+      ],
+      group: "Area of Effect"
+    },
+
+    // ----------------------
+    // POWER Boost/Lower Trait
+    {
+      id:"POWERBOOSTLOWERTRAITMODSTRONG",
+      name:"POWERBOOSTLOWERTRAITMODSTRONG",
+      button_name: "Strong (+1)",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Boost/Lower Trait Modifiers"
+    },    
+    {
+      id:"POWERBOOSTLOWERTRAITMOGREATER",
+      name:"POWERBOOSTLOWERTRAITMOGREATER",
+      button_name: "Greater Boost/Lower Trait (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Boost/Lower Trait Modifiers"
+    },  
+    // ----------------------
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS",
+      button_name: "+1",
+      shotsUsed:"+1",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS2",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS2",
+      button_name: "+2",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS3",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS3",
+      button_name: "+3",
+      shotsUsed:"+3",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },      
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS4",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS4",
+      button_name: "+4",
+      shotsUsed:"+4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS5",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS5",
+      button_name: "+5",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS6",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS6",
+      button_name: "+6",
+      shotsUsed:"+6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS7",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS7",
+      button_name: "+7",
+      shotsUsed:"+7",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS8",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS8",
+      button_name: "+8",
+      shotsUsed:"+8",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    },          
+    {
+      id:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS9",
+      name:"POWERBOOSTLOWERTRAITMODDDITIONALRECIPIENTS9",
+      button_name: "+9",
+      shotsUsed:"+9",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Boost/Lower Trait" }
+      ],
+      group: "Additional Recipients"
+    }
     
     // END ---------------------------------
   ];
