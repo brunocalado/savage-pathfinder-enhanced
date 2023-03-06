@@ -1,3 +1,6 @@
+# 0.3.4
+- power modifiers for better rolls update
+
 # 0.3.3
 - power modifiers for better rolls update
 
