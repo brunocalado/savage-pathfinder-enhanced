@@ -2295,7 +2295,69 @@ Hooks.once('ready', () => {
         { selector_type: "item_name", selector_value: "Light / Darkness" }
       ],
       group: "Light / Darkness Modifiers"
-    } 
+    }, 
+    
+    // ----------------------
+    // POWER Curse
+    {
+      id:"POWERCURSEMODTURNTOSTONE",
+      name: starIcon + "Turn to Stone (+5)",
+      button_name: starIcon + "Turn to Stone (+5)",
+      shotsUsed:"+5",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Curse" }
+      ],
+      group: "Curse Modifiers"
+    }, 
+
+    // ----------------------
+    // POWER Damage Field
+    {
+      id:"POWERDAMAGEFIELDMODDAMAGE",
+      name: "Damage (+2)",
+      button_name: "Damage (+2)",
+      shotsUsed:"+2",
+      dmgOverride: "2d6",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Damage Field" }
+      ],
+      group: "Damage Field Modifiers"
+    }, 
+    {
+      id:"POWERDAMAGEFIELDMODMOBILE",
+      name: "Mobile (+2)",
+      button_name: "Mobile (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Damage Field" }
+      ],
+      group: "Damage Field Modifiers"
+    }, 
+    {
+      id:"POWERDAMAGEFIELDMODGREATERDAMAGE",
+      name: starIcon + "Greater Damage Field (+4)",
+      button_name: starIcon + "Greater Damage Field (+4)",
+      shotsUsed:"+4",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Damage Field" }
+      ],
+      group: "Damage Field Modifiers"
+    }, 
+    {
+      id:"POWERDAMAGEFIELDMODMEDIUM",
+      name: "Medium (+2)",
+      button_name: "Medium (+2)",
+      shotsUsed:"+2",
+      and_selector: [
+        { selector_type: "item_type", selector_value:"power" }, 
+        { selector_type: "item_name", selector_value: "Damage Field" }
+      ],
+      group: "Area of Effect"
+    }
     
     // END ---------------------------------
   ];
