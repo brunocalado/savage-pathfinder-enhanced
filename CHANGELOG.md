@@ -1,3 +1,6 @@
+# 0.3.6
+- power modifiers for better rolls update
+
 # 0.3.5
 - power modifiers for better rolls update
 - token-tooltip-alt config 

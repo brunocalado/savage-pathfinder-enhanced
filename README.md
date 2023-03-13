@@ -45,7 +45,7 @@ Better Rolls Global Actions List:
 - Pounce, core p249
 - Powerful Blow
 - Sneak Attack
-- Power Modifiers: Bolt, Summon Ally (APG), Healing, Burst, Summon Ally, Dispel (APG)
+- Power Modifiers
 - Power Modifiers Generic
 
 [Learn more about Better Rolls](https://github.com/javierriveracastro/betteroll-swade)
