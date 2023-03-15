@@ -317,8 +317,9 @@ export const ppseasoned = [
     ],
     group: "Farsight Modifiers"
   }, 
+  // ----------------------
   {
-    id:"POWERLANGUAGEMODADDITIONALRECIPIENTS",
+    id:"POWERFARSIGHTMODADDITIONALRECIPIENTS",
     name:"Additional Recipients +1",
     button_name: "+1",
     shotsUsed:"+1",

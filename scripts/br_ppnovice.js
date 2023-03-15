@@ -1346,7 +1346,18 @@ export const ppnovice = [
       { selector_type: "item_name", selector_value: "Environmental Protection" }
     ],
     group: "Environmental Protection Modifiers"
-  },     
+  },    
+  {
+    id:"POWERENVPROTECTIONMODPLANAR",
+    name: "Planar Adaptation (+2)",
+    button_name: "Planar Adaptation (+2)",
+    shotsUsed:"+2",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Environmental Protection" }
+    ],
+    group: "Environmental Protection Modifiers"
+  },       
   // ----------------------
   {
     id:"POWERENVPROTECTIONMODADDITIONALRECIPIENTS",
@@ -1836,8 +1847,19 @@ export const ppnovice = [
     group: "Mind Reading"
   },    
 
-  // ---------------------- c
+  // ---------------------- 
   // POWER Protection
+  {
+    id:"POWERPROTECTIONMODSHIELDOTHER",
+    name:"Shield Other (+1)",
+    button_name: "Shield Other (+1)",
+    shotsUsed:"+1",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Protection" }
+    ],
+    group: "Protection Modifiers"
+  },       
   {
     id:"POWERPROTECTIONMODADDITIONALRECIPIENTS",
     name:"Additional Recipients +1",
@@ -2184,6 +2206,28 @@ export const ppnovice = [
     ],
     group: "Sound/Silence Modifiers"
   },
+  {
+    id:"POWERSOUNDMODALARM",
+    name: "Alarm Object (+1)",
+    button_name: "Alarm Object (+1)",
+    shotsUsed:"+1",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Sound/Silence" }
+    ],
+    group: "Sound/Silence Modifiers"
+  },  
+  {
+    id:"POWERSOUNDMODALARM2",
+    name: "Alarm Area (+2)",
+    button_name: "Alarm Area (+2)",
+    shotsUsed:"+2",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Sound/Silence" }
+    ],
+    group: "Sound/Silence Modifiers"
+  },    
   // ----------------------
   {
     id:"POWERSOUNDMODADDITIONALRECIPIENTS",

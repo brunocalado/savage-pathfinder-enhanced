@@ -1,4 +1,5 @@
 const groupName = "Savage Pathfinder";
+const edgesGroupName = "Edges";
   
 export const edges = [
   {
@@ -95,6 +96,70 @@ export const edges = [
       }
     ],
     group: groupName
+  },
+
+  {
+    id: "EDGEWORKTHEROOM",
+    name:"Work the room",
+    button_name:"Work the room",
+    rof: "2",
+    and_selector: [
+      {
+        selector_type:"actor_has_edge",
+        selector_value:"Work the Room"
+      },
+      {
+        or_selector: [
+          {
+            selector_type:"skill",
+            selector_value:"Performance"
+          },
+          {
+            selector_type:"skill",
+            selector_value:"Persuasion"
+          }
+        ]
+      }
+    ],
+    group: edgesGroupName
+  },
+  {
+    id:"EDGEFRENZY",
+    name:"Frenzy",
+    button_name:"BRSW.EdgeName-Frenzy",
+    and_selector:[
+      {
+         selector_type:"skill",
+         selector_value:"Fighting"
+      },
+      {
+         selector_type:"actor_has_edge",
+         selector_value:"Frenzy"
+      }
+    ],
+    defaultChecked:"on",
+    group: edgesGroupName,
+    rof:"2"
+  },
+  {
+    id:"EDGEIMPROVEDFRENZY",
+    name:"Improved Frenzy",
+    button_name:"Improved Frenzy",
+    and_selector:[
+      {
+         selector_type:"skill",
+         selector_value:"Fighting"
+      },
+      {
+         selector_type:"actor_has_edge",
+         selector_value:"Improved Frenzy"
+      }
+    ],
+    defaultChecked:"on",
+    group: edgesGroupName,
+    rof:"3"
   }
   
+  
 ];
+

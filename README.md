@@ -40,13 +40,11 @@ Better Rolls Global Actions List:
 - Desperate Attack +4
 - Environmental Resistance
 - Environmental Weakness
-- Extra Power Points costs
 - Monk Edge
 - Pounce, core p249
 - Powerful Blow
 - Sneak Attack
-- Power Modifiers
-- Power Modifiers Generic
+- Power Modifiers Generic, Power Modifiers for Core Powers and APG Powers, Extra Power Points group
 
 [Learn more about Better Rolls](https://github.com/javierriveracastro/betteroll-swade)
 
