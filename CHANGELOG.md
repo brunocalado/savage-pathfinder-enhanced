@@ -1,3 +1,6 @@
+# 0.3.9
+- fix for summon planar all
+
 # 0.3.8
 - fix for summon planar ally
 

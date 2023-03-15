@@ -2483,9 +2483,9 @@ export const ppnovice = [
   // POWER SUMMON ALLY
   {
     id:"POWERSUMMONALLYMODNOVICE",
-    name:"Novice (+1)",
-    button_name:"Novice (+1)",
-    shotsUsed:"+1",
+    name:"Novice (1)",
+    button_name:"Novice (1)",
+    shotsUsed:"1",
     and_selector: [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Summon Ally" }
@@ -2494,9 +2494,9 @@ export const ppnovice = [
   },    
   {
     id:"POWERSUMMONALLYMODSEASONED",
-    name:"Seasoned (+3)",
-    button_name:"Seasoned (+3)",
-    shotsUsed:"+3",
+    name:"Seasoned (3)",
+    button_name:"Seasoned (3)",
+    shotsUsed:"3",
     and_selector: [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Summon Ally" }
@@ -2505,9 +2505,9 @@ export const ppnovice = [
   },
   {
     id:"POWERSUMMONALLYMODVETERAN",
-    name:"Veteran (+5)",
-    button_name:"Veteran (+5)",
-    shotsUsed:"+5",
+    name:"Veteran (5)",
+    button_name:"Veteran (5)",
+    shotsUsed:"5",
     and_selector: [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Summon Ally" }
@@ -2516,9 +2516,9 @@ export const ppnovice = [
   },
   {
     id:"POWERSUMMONALLYMODHEROIC",
-    name:"Heroic (+7)",
-    button_name:"Heroic (+7)",
-    shotsUsed:"+7",
+    name:"Heroic (7)",
+    button_name:"Heroic (7)",
+    shotsUsed:"7",
     and_selector: [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Summon Ally" }
