@@ -1,3 +1,6 @@
+# 0.3.8
+- fix for summon planar ally
+
 # 0.3.7
 - all powers done for better rolls using APG
 - summons from APG need you to put 1 in the cost. Also a powers which replace the cost need to have 1 

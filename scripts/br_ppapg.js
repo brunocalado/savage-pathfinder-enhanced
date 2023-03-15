@@ -1596,6 +1596,7 @@ export const ppapg = [
     ],
     group: "Rank: Veteran"
   },
+  // ----------------Heroic
   {
     id:"POWERSUMMONPLANARALLYMODDEMONBALOR",
     name:"Demon, Balor (12)",
@@ -1605,7 +1606,7 @@ export const ppapg = [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Summon Planar Ally" }
     ],
-    group: "Rank: Veteran"
+    group: "Rank: Heroic"
   },
   {
     id:"POWERSUMMONPLANARALLYMODDEVILFIEND",
@@ -1616,7 +1617,7 @@ export const ppapg = [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Summon Planar Ally" }
     ],
-    group: "Rank: Veteran"
+    group: "Rank: Heroic"
   },
   {
     id:"POWERSUMMONPLANARALLYMODNIGHTHAG",
@@ -1627,7 +1628,7 @@ export const ppapg = [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Summon Planar Ally" }
     ],
-    group: "Rank: Veteran"
+    group: "Rank: Heroic"
   }
   
 ];
