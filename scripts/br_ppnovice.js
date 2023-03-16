@@ -99,7 +99,7 @@ export const ppnovice = [
     name:"Damage (+2)",
     button_name:"Damage (+2)",
     shotsUsed:"+2",
-    dmgMod: "+d6",
+    dmgMod: "+d6x",
     and_selector: [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Bolt" }

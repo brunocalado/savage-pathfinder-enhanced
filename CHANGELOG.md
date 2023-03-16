@@ -1,3 +1,6 @@
+# 0.4.0
+- fix bolt
+
 # 0.3.9
 - fix for summon planar all
 
