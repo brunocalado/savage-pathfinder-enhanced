@@ -12,7 +12,7 @@ export const ppapg = [
     name: "Spiked (+1)",
     button_name: "Spiked (+1)",
     shotsUsed:"+1",
-    dmgMod: "+d6",
+    dmgMod: "+d6x",
     and_selector: [
       { selector_type: "item_type", selector_value:"power" }, 
       { selector_type: "item_name", selector_value: "Create Pit" }

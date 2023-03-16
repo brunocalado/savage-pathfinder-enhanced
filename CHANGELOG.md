@@ -1,3 +1,6 @@
+# 0.4.1
+- fix burst, Create Pit
+
 # 0.4.0
 - fix bolt
 
