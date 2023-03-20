@@ -1,3 +1,6 @@
+# 0.4.2
+- modifiers for better rolls update
+
 # 0.4.1
 - fix burst, Create Pit
 
