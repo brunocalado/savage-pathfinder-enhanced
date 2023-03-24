@@ -76,6 +76,12 @@ You can have a preview from a actor without open the actor sheet.
   <img src="docs/docs_token-tooltip-alt.webp">
 </p>
 
+## Actions
+You can find actions ready to use in a compendium.
+<p align="center">
+  <img src="docs/docs_actions.webp">
+</p>
+
 # Installation
 
 ## Foundry VTT
