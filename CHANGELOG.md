@@ -1,3 +1,8 @@
+# 0.4.4
+- actions update
+- actions macro: add to all actors the actions in the compendium
+- docs 
+
 # 0.4.2
 - modifiers for better rolls update
 
