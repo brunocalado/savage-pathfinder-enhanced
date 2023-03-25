@@ -1,4 +1,4 @@
-const version = '0.1';
+const version = '0.2';
 let actors = Array.from(game.actors);
 
 main();
@@ -53,6 +53,8 @@ function main() {
 }
 
 async function addActionsToActors(html) {
+  ui.notifications.warn("Adding Actions. Wait!");
+  
   const selectedActors = html.find('[name="select-actors"]')[0].value;
   
   const compendium = await game.packs.find(p => p.metadata.label == "Actions - SWPF - Enhanced");
@@ -96,7 +98,8 @@ async function addActionsToActors(html) {
       
     } // END FOR 
   }
-
+  
+  ui.notifications.warn("Add Actions finished!");
 }
 
 //devs: Marcos/Bruno

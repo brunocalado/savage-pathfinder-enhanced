@@ -1,3 +1,7 @@
+# 0.4.5
+- actions update
+- docs 
+
 # 0.4.4
 - actions update
 - actions macro: add to all actors the actions in the compendium
