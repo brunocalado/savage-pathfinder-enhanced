@@ -1,3 +1,7 @@
+# 0.4.6
+- actions update
+- macro can update actions and remove duplicates
+
 # 0.4.5
 - actions update
 - docs 

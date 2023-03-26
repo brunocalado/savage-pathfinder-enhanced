@@ -1,4 +1,4 @@
-const version = '0.2';
+const version = '0.3';
 let actors = Array.from(game.actors);
 
 main();
@@ -50,10 +50,11 @@ function main() {
     buttons: dialogButtons,
     default: "yes",
   }).render(true);
+  
 }
 
 async function addActionsToActors(html) {
-  ui.notifications.warn("Adding Actions. Wait!");
+  ui.notifications.warn("Adding Actions. Wait! You can check progress in the console (F12).");
   
   const selectedActors = html.find('[name="select-actors"]')[0].value;
   
@@ -76,30 +77,35 @@ async function addActionsToActors(html) {
       var addItem = false;
       
       //selectedActors
-      if (actor_action.length == 0) {
-        if (selectedActors=='character') {
-          if (actors[i].type == "character") {
-            addItem = true;
-          }
-        } else if (selectedActors=='npc') {
-          if (actors[i].type == "npc") {
-            addItem = true;
-          }        
-        } else {
-          if (( (actors[i].type == "character") || (actors[i].type == "npc") ) ) {
-            addItem = true;
-          }   
-        } // IF selectedActors
-      }
-
+      if ( selectedActors=='character' && actors[i].type == "character" ) {
+        await removeActions(actors[i], actor_action);
+        addItem = true;
+      } else if ( selectedActors=='npc' && actors[i].type == "npc" ) {
+        await removeActions(actors[i], actor_action);
+        addItem = true;
+      } else if (( (actors[i].type == "character") || (actors[i].type == "npc") ) ) { // all     
+        await removeActions(actors[i], actor_action);
+        addItem = true;  
+      } // IF selectedActors            
+      
       if (addItem) {
-        actors[i].createEmbeddedDocuments('Item', [actions[j]]);
+        const created = await actors[i].createEmbeddedDocuments('Item', [actions[j]]);
       }
       
+      console.warn("Add Actions: Actor (" + i + ") / Action ( " + j + ")" );
     } // END FOR 
-  }
+    
+  } // END FOR  
   
-  ui.notifications.warn("Add Actions finished!");
+} // END FUNC
+
+async function removeActions(actor, actor_action) {
+  if (actor_action.length != 0) {
+    Array.from(actor_action).forEach(action => { // Delete all actions with the name
+      const deleted = actor.deleteEmbeddedDocuments('Item', [action.id]);
+    });                    
+  }
 }
+
 
 //devs: Marcos/Bruno
