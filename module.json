@@ -11,7 +11,7 @@
     }
   ],
   
-  "version": "0.4.6",
+  "version": "0.4.7",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -53,7 +53,14 @@
       "name": "actions-swpf-enhanced",
       "path": "packs/actions-swpf-enhanced.db",
       "system": "swade"
-    }    
+    },
+    {
+      "label": "Actions Edges- SWPF - Enhanced",
+      "type": "Item",
+      "name": "actions-swpf-enhanced",
+      "path": "packs/actions-edges-swpf-enhanced.db",
+      "system": "swade"
+    }     
   ],
 
   "relationships": {

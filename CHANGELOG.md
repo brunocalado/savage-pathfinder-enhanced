@@ -1,3 +1,9 @@
+# 0.4.7
+- actions update
+- actions edges added
+- swpf summary https://github.com/richardgaywood/foundry-penllawen-compendium-table-maker
+-docs 
+
 # 0.4.6
 - actions update
 - macro can update actions and remove duplicates
