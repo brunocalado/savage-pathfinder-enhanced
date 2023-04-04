@@ -11,7 +11,7 @@
     }
   ],
   
-  "version": "0.4.8",
+  "version": "0.4.9",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
@@ -41,10 +41,10 @@
       "system": "swade"
     },
     {
-      "label": "Legendary Boss",
+      "label": "Adventures - SWPF Enhanced",
       "type": "Adventure",
-      "name": "legendary-boss",
-      "path": "packs/legendary-boss.db",
+      "name": "adventures-swpf-enhanced",
+      "path": "packs/adventures-swpf-enhanced.db",
       "system": "swade"
     },
     {

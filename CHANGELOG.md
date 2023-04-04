@@ -1,3 +1,11 @@
+# 0.4.9
+- masterwork macro filter improve
+- coin macro add weight
+- more edge actions 
+- missing items
+- rework legendary boss
+- actions edges added
+
 # 0.4.8
 - fix actions
 

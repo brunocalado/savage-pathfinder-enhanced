@@ -17,7 +17,7 @@ reduce the Minimum Strength requirement by one die type, to a minimum of d4. Shi
 
 */
 
-const version = 'v0.5';
+const version = 'v0.6';
 const icon = "icons/tools/smithing/anvil.webp";
 let coreRules = false;
 if (game.modules.get("swpf-core-rules")?.active) { coreRules = true; }
@@ -104,7 +104,7 @@ async function getCompendiumEntities( compendiumLabel='Savage Pathfinder Gear' )
     return;
   }
   let items = await compendium.getDocuments();
-  items = await items.filter(p=> (p.type=='armor' || p.type=='weapon'|| p.type=='shield' || p.type=='gear') && p.name!="#[CF_tempEntity]" );
+  items = await items.filter(p=> (p.type=='armor' || p.type=='weapon'|| p.type=='shield' || (p.type=='gear' && p.isAmmo) ) && p.name!="#[CF_tempEntity]" );
   return items;
 }  
 

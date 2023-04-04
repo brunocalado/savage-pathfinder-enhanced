@@ -5,7 +5,7 @@ icon: icons/commodities/currency/coins-plain-gold.webp
 TODO
 */
 
-const version = 'v1.4';
+const version = 'v1.5';
 const icon = "icons/commodities/currency/coins-plain-gold.webp";
 
 const iconCopper = "icons/commodities/currency/coins-assorted-mix-platinum.webp";
@@ -13,6 +13,8 @@ const iconSilver = "icons/commodities/currency/coins-assorted-mix-silver.webp";
 const iconGold = "icons/commodities/currency/coins-plain-gold.webp";
 const iconPlatinum = "icons/commodities/currency/coin-embossed-unicorn-silver.webp";
 
+const coinWeight = 0.02;
+                        
 const rulesLink = '@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000#currency]{CURRENCY}';
 
 let coreRules = false;
@@ -201,7 +203,8 @@ async function createCoin(actorID, coinName) {
     img: missingIcon,    
     data: {
       "description": `<p>${rules}</p>`,
-      "quantity": 0
+      "quantity": 0,
+      "weight": coinWeight
     }
   }];  
   const createCoin = await character.createEmbeddedDocuments('Item', data);

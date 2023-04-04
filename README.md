@@ -82,6 +82,9 @@ You can find actions ready to use in a compendium.
   <img src="docs/docs_actions.webp">
 </p>
 
+## Extra Items
+Examples: Ring of the Skillful - Academics, Spiritual Weapon, Unarmed Strike, Unarmed Strike (Monk), etc.
+
 # Installation
 
 ## Foundry VTT
