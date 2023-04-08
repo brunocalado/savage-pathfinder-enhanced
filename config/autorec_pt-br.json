@@ -8857,7 +8857,7 @@
   "range": [
     {
       "id": "536b6d72-a612-444b-8e58-9e93b664975b",
-      "label": "Axe, Hand",
+      "label": "Machado de Mão",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -9036,7 +9036,7 @@
     },
     {
       "id": "06467b21-855d-4b49-988e-45ba0b5325e4",
-      "label": "Blowgun",
+      "label": "Zarabatana",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -9215,7 +9215,7 @@
     },
     {
       "id": "4f3174de-cd07-492e-a292-b3806952d06a",
-      "label": "Bolas",
+      "label": "Boleadeira",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -9392,7 +9392,7 @@
     },
     {
       "id": "fe410879-cbbc-4532-a62e-efc36b00a171",
-      "label": "Bow (composite)",
+      "label": "Arco Composto",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -9581,7 +9581,7 @@
     },
     {
       "id": "ad15085f-9573-4e67-b33d-f4962d76324b",
-      "label": "Bow (long)",
+      "label": "Arco Longo",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -9770,7 +9770,7 @@
     },
     {
       "id": "daec860b-1f79-460d-9f42-b683029b21f8",
-      "label": "Bow (short)",
+      "label": "Arco Curto",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -9959,7 +9959,7 @@
     },
     {
       "id": "af4e21cb-bbf6-4507-9fe9-85f5e0024ca0",
-      "label": "Crossbow (Hand, repeating)",
+      "label": "Besta de Mão de Repetição",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -10148,7 +10148,7 @@
     },
     {
       "id": "3348d20d-3d01-479b-8ed0-816f4e49b63b",
-      "label": "Crossbow (Hand)",
+      "label": "Besta de Mão",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -10337,7 +10337,7 @@
     },
     {
       "id": "9e8527c8-61db-4359-b3c0-3b66929c0b64",
-      "label": "Crossbow (Heavy, repeating)",
+      "label": "Besta Pesada de Repetição",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -10526,7 +10526,7 @@
     },
     {
       "id": "24f442ec-2899-4494-a9b5-780fb344a77d",
-      "label": "Crossbow (Heavy)",
+      "label": "Besta Pesada",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -10715,7 +10715,7 @@
     },
     {
       "id": "e5ea2bb1-3f2e-4897-a0d9-a0aed371181e",
-      "label": "Crossbow (Light, repeating)",
+      "label": "Besta Leve de Repetição",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -10904,7 +10904,7 @@
     },
     {
       "id": "22be67d2-2c9f-4eae-a7ef-6cebdb2fb9b1",
-      "label": "Crossbow (Light)",
+      "label": "Besta Leve",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -11109,9 +11109,20 @@
           "repeat": 1,
           "repeatDelay": 250,
           "volume": 1
+        },
+        "tokens": {
+          "enable": false,
+          "source": false,
+          "target": false,
+          "sourceType": "twirl",
+          "sourcePlay": "start",
+          "targetType": "shake",
+          "targetPlay": "end"
         }
       },
-      "macro": {},
+      "macro": {
+        "playWhen": "0"
+      },
       "menu": "range",
       "primary": {
         "options": {
@@ -11979,7 +11990,7 @@
     },
     {
       "id": "75ee9b24-20a4-4de2-92c0-0cf30813f992",
-      "label": "Net (Weighted)",
+      "label": "Rede (Balanceada)",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -12691,7 +12702,7 @@
     },
     {
       "id": "2029fe3f-dae2-41d4-afe1-3c08ae70c037",
-      "label": "Sling",
+      "label": "Funda",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -12870,7 +12881,7 @@
     },
     {
       "id": "c33ed2e1-24fa-4297-bf52-44009323fb4c",
-      "label": "Spear",
+      "label": "Lança",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -13049,7 +13060,7 @@
     },
     {
       "id": "0155b7bb-0da7-4ec8-8415-89675a3405b8",
-      "label": "Starknife",
+      "label": "Faca Estrela",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -13228,7 +13239,7 @@
     },
     {
       "id": "9fa6cb26-d728-4c74-8f08-b97642ae0456",
-      "label": "Trident",
+      "label": "Tridente",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -13584,7 +13595,7 @@
     },
     {
       "id": "485fdc3d-af98-439f-ac17-b68cce257146",
-      "label": "Thunderstone",
+      "label": "Pedra Trovão",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -13763,7 +13774,7 @@
     },
     {
       "id": "64984a8d-8c4d-404d-b25d-84a514cd869c",
-      "label": "Telekinesis",
+      "label": "Telecinese",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -13942,7 +13953,7 @@
     },
     {
       "id": "aac980f6-5f6b-4f4a-9b78-d379b73b37bd",
-      "label": "Banish",
+      "label": "Banir",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -14121,7 +14132,7 @@
     },
     {
       "id": "dc5e6fcd-a3fe-48f8-a79e-078e0fbadacb",
-      "label": "Stun",
+      "label": "Atordoar",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -14300,7 +14311,7 @@
     },
     {
       "id": "51f3a74d-afba-4a01-9bb6-b49140a5d28e",
-      "label": "Elemental Manipulation",
+      "label": "Manipulação Elemental",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -14479,7 +14490,7 @@
     },
     {
       "id": "f5a5e308-7480-4117-adc8-80a533afdaa0",
-      "label": "Fear",
+      "label": "Medo",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -14658,7 +14669,7 @@
     },
     {
       "id": "ec70564f-5081-4ae2-afcb-6baf5fba8ed0",
-      "label": "Bolt",
+      "label": "Raio",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -14837,7 +14848,7 @@
     },
     {
       "id": "027f931c-66ca-4305-be01-95168b659fff",
-      "label": "Drain Power Points",
+      "label": "Drenar Pontos de Poder",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -15208,7 +15219,7 @@
     },
     {
       "id": "40bc2a5c-6955-4503-9215-47da3e6b9540",
-      "label": "Bow",
+      "label": "Arco",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -15390,7 +15401,7 @@
   "ontoken": [
     {
       "id": "92c05cb8-dc56-448e-a860-3c08fad5291c",
-      "label": "Natural Claws",
+      "label": "Garra Natural",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -15588,7 +15599,7 @@
     },
     {
       "id": "359ff18d-588a-4ae7-baa7-3edeee3fa55b",
-      "label": "Healing",
+      "label": "Curar",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -16353,7 +16364,7 @@
     },
     {
       "id": "2a22e7c5-7f98-4d68-b15c-f210b1a44264",
-      "label": "Beast Friend",
+      "label": "Amigo das Feras",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -16541,7 +16552,7 @@
     },
     {
       "id": "92135b25-4f66-4db7-b54d-d5fc6f51e465",
-      "label": "Divination",
+      "label": "Adivinhação",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -16729,7 +16740,7 @@
     },
     {
       "id": "9d0cd956-1423-44a3-afa0-f9a70d6ef84d",
-      "label": "Arcane Protection",
+      "label": "Proteção Arcana",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -16917,7 +16928,7 @@
     },
     {
       "id": "fbffa8cf-30c8-41e8-ac3d-5d73972bdf66",
-      "label": "Blind",
+      "label": "Cegar",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -17105,7 +17116,7 @@
     },
     {
       "id": "b69e3c3b-e5f1-4504-b013-a94403e6db00",
-      "label": "Environmental Protection",
+      "label": "Proteção Ambiental",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -17293,7 +17304,7 @@
     },
     {
       "id": "9774b205-84e8-458d-9931-4fb9d7d54ad0",
-      "label": "Growth/Shrink",
+      "label": "Crescimento/Encolhimento",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -17481,7 +17492,7 @@
     },
     {
       "id": "4ea52284-5dd8-4be0-b3d5-affdc54d417b",
-      "label": "Farsight",
+      "label": "Visão Distante",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -17669,7 +17680,7 @@
     },
     {
       "id": "76609dc5-5327-4aaf-a8d7-f0208a363699",
-      "label": "Zombie",
+      "label": "Zumbi",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -17857,7 +17868,7 @@
     },
     {
       "id": "dabb7c65-acdd-40da-9e46-1aff5cbd7a63",
-      "label": "Sloth/Speed",
+      "label": "Morosidade/Velocidade",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -18045,7 +18056,7 @@
     },
     {
       "id": "e2853f6e-e168-4560-8886-a4f3e54c3148",
-      "label": "Baleful Polymorph",
+      "label": "Polimorfia Perniciosa",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -18233,7 +18244,7 @@
     },
     {
       "id": "6e4552b9-d4af-4e9b-b567-e09695e602d9",
-      "label": "Planar Binding",
+      "label": "Âncora Planar",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -18421,7 +18432,7 @@
     },
     {
       "id": "1b6f6eca-9508-453d-8742-d1e4c1520762",
-      "label": "Detect/Conceal Arcana",
+      "label": "Detectar/Ocultar Arcano",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -18609,7 +18620,7 @@
     },
     {
       "id": "bb44d6d1-7312-4561-94d1-6d92fca67086",
-      "label": "Sound/Silence",
+      "label": "Som/Silêncio",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -18797,7 +18808,7 @@
     },
     {
       "id": "4ed04106-342b-455b-a8a6-23c28588d977",
-      "label": "Locate",
+      "label": "Localizar",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -18985,7 +18996,7 @@
     },
     {
       "id": "8621efa1-b304-413d-acc7-d189696b3a93",
-      "label": "Confusion",
+      "label": "Confusão",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -19173,7 +19184,7 @@
     },
     {
       "id": "a7680aec-4e99-4fac-92a8-044ce95109da",
-      "label": "Scrying",
+      "label": "Adivinhação",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -19361,7 +19372,7 @@
     },
     {
       "id": "3ec8233e-8754-4a65-9920-8f506f7b195f",
-      "label": "Puppet",
+      "label": "Fantoche",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -19549,7 +19560,7 @@
     },
     {
       "id": "5e7ac013-62af-4b3c-8d66-f8f947d7fc0f",
-      "label": "Time Stop",
+      "label": "Parar o Tempo",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -19737,7 +19748,7 @@
     },
     {
       "id": "f1010bac-c5fb-46d8-8fed-ce2f2e874d9a",
-      "label": "Mind Link",
+      "label": "Elo Mental",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -19925,7 +19936,7 @@
     },
     {
       "id": "15115938-346b-4354-9835-49092c17aae1",
-      "label": "Speak Language",
+      "label": "Falar Idioma",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -20113,7 +20124,7 @@
     },
     {
       "id": "9bf247e2-eff9-45ad-9262-e0b915dc4509",
-      "label": "Wish",
+      "label": "Desejo",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -20301,7 +20312,7 @@
     },
     {
       "id": "bf1d8fa9-8bf5-4af1-b071-45340636e490",
-      "label": "Darksight",
+      "label": "Visão Sombria",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -20489,7 +20500,7 @@
     },
     {
       "id": "b0a414e4-dd9b-46b2-87bb-4928433543ce",
-      "label": "Wall Walker",
+      "label": "Andar nas Paredes",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -20677,7 +20688,7 @@
     },
     {
       "id": "4e4ad56e-1869-42e3-b1f8-f45342192dde",
-      "label": "Warrior's Gift",
+      "label": "Dádiva do Guerreiro",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -20865,7 +20876,7 @@
     },
     {
       "id": "6908c9c6-b115-4f04-9924-688906c78b66",
-      "label": "Resurrection",
+      "label": "Ressurreição",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -21057,7 +21068,7 @@
     },
     {
       "id": "aa6def95-90b1-496c-9f85-44b4e5d0fc78",
-      "label": "Object Reading",
+      "label": "Leitura de Objeto",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -21245,7 +21256,7 @@
     },
     {
       "id": "58b87e8d-fd87-4b81-95f8-b04abfaf83b5",
-      "label": "Conjure Item",
+      "label": "Conjurar Item",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -21433,7 +21444,7 @@
     },
     {
       "id": "30116fa3-b4c5-4500-9095-0eec9fc3d67b",
-      "label": "Mind Reading",
+      "label": "Leitura Mental",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -21621,7 +21632,7 @@
     },
     {
       "id": "e434f690-638f-43c0-9db4-8b9ed6178937",
-      "label": "Mind Wipe",
+      "label": "Limpeza Mental",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -21809,7 +21820,7 @@
     },
     {
       "id": "7a45a32a-00d2-4ce9-8bb7-14c94d7f3662",
-      "label": "Disguise",
+      "label": "Disfarce",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -21997,7 +22008,7 @@
     },
     {
       "id": "a9869638-514b-43cc-813a-702d036ffca5",
-      "label": "Burrow",
+      "label": "Cavar",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -22186,7 +22197,7 @@
     },
     {
       "id": "98c6712d-1a14-426e-8893-52e90ea844f5",
-      "label": "Relief",
+      "label": "Ajuda",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -22374,7 +22385,7 @@
     },
     {
       "id": "29fb6729-d565-4e50-89ee-386be5c28878",
-      "label": "Empathy",
+      "label": "Empatia",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -22562,7 +22573,7 @@
     },
     {
       "id": "49eea5ef-86f6-480f-aa9e-7bf552ec83f3",
-      "label": "Shape Change",
+      "label": "Mudança de Forma",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -22750,7 +22761,7 @@
     },
     {
       "id": "6fed88dd-24c6-4ba9-9380-18ad25d72256",
-      "label": "Sanctuary",
+      "label": "Santuário",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -22938,7 +22949,7 @@
     },
     {
       "id": "ec680c31-fb15-4b2f-aee5-97f421c958e5",
-      "label": "Slumber",
+      "label": "Sono",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -23126,7 +23137,7 @@
     },
     {
       "id": "9eaac947-531b-4463-aa8f-c4e5d8e89f10",
-      "label": "Curse",
+      "label": "Maldição",
       "levels3d": {
         "type": "explosion",
         "data": {
@@ -23314,7 +23325,7 @@
     },
     {
       "id": "d53aad9e-386d-44b7-9972-e0e32ce36212",
-      "label": "Natural Horns",
+      "label": "Cifres Naturais",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -23514,7 +23525,7 @@
     },
     {
       "id": "ef6a4345-7444-4225-8368-7758d170deaf",
-      "label": "Bite",
+      "label": "Mordida",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -23705,7 +23716,7 @@
     },
     {
       "id": "86ad7bb7-9d3e-4863-a822-75c677ff8a1f",
-      "label": "Claws",
+      "label": "Garras",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -23894,7 +23905,7 @@
     },
     {
       "id": "aa9612a1-37d3-4839-b634-f43f21f8e7f9",
-      "label": "Horns",
+      "label": "Cifres",
       "levels3d": {
         "enable": false,
         "type": "",
@@ -24781,7 +24792,7 @@
     },
     {
       "id": "8f9d7108-3f68-4685-b122-20b82839c9d8",
-      "label": "Entangle",
+      "label": "Enredar",
       "macro": {
         "enable": false,
         "playWhen": "0"
@@ -25113,7 +25124,7 @@
     },
     {
       "id": "a8b160d0-1e43-4f3d-b75f-7a49a6188f61",
-      "label": "Dispel",
+      "label": "Dissipar",
       "macro": {
         "enable": false,
         "playWhen": "0"
@@ -25279,7 +25290,7 @@
     },
     {
       "id": "890bce15-7b92-4250-8c74-458303bba7ca",
-      "label": "Illusion",
+      "label": "Ilusão",
       "macro": {
         "enable": false,
         "playWhen": "0"
@@ -25446,7 +25457,7 @@
     },
     {
       "id": "75d3e13e-1bc9-4d4c-be51-3e983a8ef03e",
-      "label": "Barrier",
+      "label": "Barreira",
       "macro": {
         "enable": false,
         "playWhen": "0"
@@ -27773,7 +27784,7 @@
         "playWhen": "0"
       },
       "presetType": "teleportation",
-      "label": "Teleport",
+      "label": "Teleporte",
       "soundOnly": {
         "sound": {
           "enable": false,
