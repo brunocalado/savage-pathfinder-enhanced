@@ -1,3 +1,6 @@
+# 0.5.0
+- brswReady
+
 # 0.4.9
 - masterwork macro filter improve
 - coin macro add weight

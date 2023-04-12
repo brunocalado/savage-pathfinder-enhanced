@@ -38,24 +38,6 @@ Hooks.once('init', () => {
 }); // END HOOKS
 
 Hooks.once('ready', () => {
-  
-  const useBetterRollsGA =  game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions");
-  if ( useBetterRollsGA && game.modules.get("betterrolls-swade2")?.active ) { 
-    game.brsw.add_actions(EDGES.edges);
-    game.brsw.add_actions(OPTIONS.options);
-    game.brsw.add_actions(ABILITIES.abilities);    
-    game.brsw.add_actions(PPCOMMON.ppcommon);
-    game.brsw.add_actions(PPNOVICE.ppnovice);
-    game.brsw.add_actions(PPSEASONED.ppseasoned);     
-    game.brsw.add_actions(PPVETERAN.ppveteran);    
-    game.brsw.add_actions(PPHEROIC.ppheroic);    
-    game.brsw.add_actions(PPAPG.ppapg);     
-  } else {
-    if ( game.modules.get("betterrolls-swade2")?.active ) { 
-      console.log("!!! Savage Pathfinder - Enhanced: You must activate Better Rolls Module!")    
-    }
-  }
-  
   const useTorchDefault =  game.settings.get("savage-pathfinder-enhanced", "torch_loaddefaults");
   if ( useTorchDefault && game.modules.get("torch")?.active ) { 
     game.settings.set("torch", "gameLightSources", "modules/savage-pathfinder-enhanced/config/torch_swade.json");
@@ -76,6 +58,26 @@ Hooks.once('ready', () => {
     };
     game.settings.set(AECONSTS.MN, "customanimations", customanims);  
   }
-  */
+  */  
+}); // END HOOKS
+  
+Hooks.once('brswReady', () => {
+  
+  const useBetterRollsGA =  game.settings.get("savage-pathfinder-enhanced", "betterrolls_globalactions");
+  if ( useBetterRollsGA && game.modules.get("betterrolls-swade2")?.active ) { 
+    game.brsw.add_actions(EDGES.edges);
+    game.brsw.add_actions(OPTIONS.options);
+    game.brsw.add_actions(ABILITIES.abilities);    
+    game.brsw.add_actions(PPCOMMON.ppcommon);
+    game.brsw.add_actions(PPNOVICE.ppnovice);
+    game.brsw.add_actions(PPSEASONED.ppseasoned);     
+    game.brsw.add_actions(PPVETERAN.ppveteran);    
+    game.brsw.add_actions(PPHEROIC.ppheroic);    
+    game.brsw.add_actions(PPAPG.ppapg);     
+  } else {
+    if ( game.modules.get("betterrolls-swade2")?.active ) { 
+      console.log("!!! Savage Pathfinder - Enhanced: You must activate Better Rolls Module!")    
+    }
+  }
   
 }); // END HOOKS
