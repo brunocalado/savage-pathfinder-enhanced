@@ -1,3 +1,7 @@
+# 0.5.1
+- macro add actions fix
+- special materials
+
 # 0.5.0
 - brswReady
 
