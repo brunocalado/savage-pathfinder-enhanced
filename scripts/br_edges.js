@@ -3,23 +3,6 @@ const edgesGroupName = "Edges";
   
 export const edges = [
   {
-    id: "MONKRAISE",
-    name: "Monk",
-    button_name: "Monk",
-    defaultChecked: "on",
-    raiseDamageFormula: "+1d10x",
-    and_selector: [{
-        selector_type: "actor_has_edge",
-        selector_value: "Monk"
-      },
-      {
-        selector_type: "skill",
-        selector_value: "Fighting"
-      }
-    ],
-    group: "Savage Pathfinder"
-  },
-  {
     id: "ARCANEARCHER01",
     name: "Arcane Archer",
     button_name: "Arcane Archer",

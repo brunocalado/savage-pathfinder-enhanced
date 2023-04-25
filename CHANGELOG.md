@@ -1,3 +1,8 @@
+# 0.5.2
+- automated animations update, update the file
+- monk removed from better rolls, use the weapon  Unarmed Strike (Monk)
+- craft template
+
 # 0.5.1
 - macro add actions fix
 - special materials
