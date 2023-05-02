@@ -85,6 +85,12 @@ You can find actions ready to use in a compendium.
 ## Extra Items
 Examples: Ring of the Skillful - Academics, Spiritual Weapon, Unarmed Strike, Unarmed Strike (Monk), etc.
 
+## Magic Items Location
+You can use the image model to set the [FFS module](https://github.com/xaukael/ffs) to allow your players to visually organize their magic items.
+<p align="center">
+  <img src="docs/docs_ffs.webp">
+</p>
+
 # Installation
 
 ## Foundry VTT

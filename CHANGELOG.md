@@ -1,3 +1,7 @@
+# 0.5.3
+- br2 cleric healing power additional
+- ffs image model for magic items, read docs
+
 # 0.5.2
 - automated animations update, update the file
 - monk removed from better rolls, use the weapon  Unarmed Strike (Monk)
