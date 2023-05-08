@@ -1,3 +1,6 @@
+# 0.5.4
+- ffs image ptbr
+
 # 0.5.3
 - br2 cleric healing power additional
 - ffs image model for magic items, read docs
