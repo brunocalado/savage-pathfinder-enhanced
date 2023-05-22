@@ -1,4 +1,4 @@
-const version = '0.3';
+const version = '0.4';
 let actors = Array.from(game.actors);
 
 main();
@@ -83,7 +83,7 @@ async function addActionsToActors(html) {
       } else if ( selectedActors=='npc' && actors[i].type == "npc" ) {
         await removeActions(actors[i], actor_action);
         addItem = true;
-      } else if (( (actors[i].type == "character") || (actors[i].type == "npc") ) ) { // all     
+      } else if ( selectedActors=='all' && ( (actors[i].type == "character") || (actors[i].type == "npc") ) ) { // all     
         await removeActions(actors[i], actor_action);
         addItem = true;  
       } // IF selectedActors            
@@ -92,9 +92,9 @@ async function addActionsToActors(html) {
         const created = await actors[i].createEmbeddedDocuments('Item', [actions[j]]);
       }
       
-      console.warn("Add Actions: Actor (" + i + ") / Action ( " + j + ")" );
+      
     } // END FOR 
-    
+    console.warn("Add Actions: Actor (" + i+1 + "/" + actors.length + ")" );
   } // END FOR  
   
 } // END FUNC

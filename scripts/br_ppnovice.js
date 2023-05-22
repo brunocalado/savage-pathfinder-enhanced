@@ -1577,6 +1577,116 @@ export const ppnovice = [
     ],
     group: "Healing Modifiers"
   },
+  // ----------------------
+  // Cleric + Healing Additional
+  {
+    id:"POWERLANGUAGEMODADDITIONALRECIPIENTS",
+    name:"Additional Recipients +1",
+    button_name: "+1",
+    shotsUsed:"+1",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },      
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS2",
+    name:"Additional Recipients +2",
+    button_name: "+2",
+    shotsUsed:"+2",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },          
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS3",
+    name:"Additional Recipients +3",
+    button_name: "+3",
+    shotsUsed:"+3",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },      
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS4",
+    name:"Additional Recipients +4",
+    button_name: "+4",
+    shotsUsed:"+4",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },          
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS5",
+    name:"Additional Recipients +5",
+    button_name: "+5",
+    shotsUsed:"+5",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },          
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS6",
+    name:"Additional Recipients +6",
+    button_name: "+6",
+    shotsUsed:"+6",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },          
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS7",
+    name:"Additional Recipients +7",
+    button_name: "+7",
+    shotsUsed:"+7",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },          
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS8",
+    name:"Additional Recipients +8",
+    button_name: "+8",
+    shotsUsed:"+8",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },          
+  {
+    id:"POWERHEALINGMODADDITIONALRECIPIENTS9",
+    name:"Additional Recipients +9",
+    button_name: "+9",
+    shotsUsed:"+9",
+    and_selector: [
+      { selector_type: "item_type", selector_value:"power" }, 
+      { selector_type: "item_name", selector_value: "Healing" },
+      { selector_type: "actor_has_edge", selector_value: "Cleric" }
+    ],
+    group: "Additional Recipients"
+  },  
 
   // ----------------------
   // POWER Illusion

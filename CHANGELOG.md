@@ -1,3 +1,22 @@
+# 0.5.4
+- ffs image ptbr
+
+# 0.5.3
+- br2 cleric healing power additional
+- ffs image model for magic items, read docs
+
+# 0.5.2
+- automated animations update, update the file
+- monk removed from better rolls, use the weapon  Unarmed Strike (Monk)
+- craft template
+
+# 0.5.1
+- macro add actions fix
+- special materials
+
+# 0.5.0
+- brswReady
+
 # 0.4.9
 - masterwork macro filter improve
 - coin macro add weight
