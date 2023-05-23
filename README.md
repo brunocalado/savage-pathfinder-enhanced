@@ -110,5 +110,8 @@ There is a Journal in the compendium. Read it! All instructions in there.
 # Changes
 You can see changes at [CHANGELOG](CHANGELOG.md).
 
+# Acknowledgements
+- Samuel Grave
+
 # License
 Code license at [LICENSE](LICENSE).

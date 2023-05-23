@@ -1,3 +1,6 @@
+# 0.5.5
+- autorec ptbr por Samuel Grave
+
 # 0.5.4
 - ffs image ptbr
 
