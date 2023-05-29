@@ -140,7 +140,7 @@ export const edges = [
     ],
     defaultChecked:"on",
     group: edgesGroupName,
-    rof:"3"
+    rof:"2"
   }
   
   

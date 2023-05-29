@@ -1,3 +1,6 @@
+# 0.5.6
+- frenzy fix, RoF 2
+
 # 0.5.5
 - autorec ptbr por Samuel Grave
 
