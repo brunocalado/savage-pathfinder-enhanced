@@ -11,10 +11,10 @@
     }
   ],
   
-  "version": "0.5.6",
+  "version": "0.6.0",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   },
   
   "scripts": [],  
@@ -25,40 +25,40 @@
       "label": "Macros - SWPF - Enhanced",
       "type": "Macro",
       "name": "macros-swpf-enhanced",
-      "path": "packs/macros-swpf-enhanced.db"
+      "path": "packs/macros-swpf-enhanced"
     },
     {
       "label": "Journal - SWPF - Enhanced",
       "type": "JournalEntry",
       "name": "journal-swpf-enhanced",
-      "path": "packs/journal-swpf-enhanced.db"
+      "path": "packs/journal-swpf-enhanced"
     },
     {
       "label": "Items - SWPF - Enhanced",
       "type": "Item",
       "name": "items-swpf-enhanced",
-      "path": "packs/items-swpf-enhanced.db",
+      "path": "packs/items-swpf-enhanced",
       "system": "swade"
     },
     {
       "label": "Adventures - SWPF Enhanced",
       "type": "Adventure",
       "name": "adventures-swpf-enhanced",
-      "path": "packs/adventures-swpf-enhanced.db",
+      "path": "packs/adventures-swpf-enhanced",
       "system": "swade"
     },
     {
       "label": "Actions - SWPF - Enhanced",
       "type": "Item",
       "name": "actions-swpf-enhanced",
-      "path": "packs/actions-swpf-enhanced.db",
+      "path": "packs/actions-swpf-enhanced",
       "system": "swade"
     },
     {
       "label": "Actions Edges- SWPF - Enhanced",
       "type": "Item",
       "name": "actions-edges-swpf-enhanced",
-      "path": "packs/actions-edges-swpf-enhanced.db",
+      "path": "packs/actions-edges-swpf-enhanced",
       "system": "swade"
     }     
   ],

@@ -1,3 +1,7 @@
+# 0.6.0
+- v11
+- trained items
+
 # 0.5.6
 - frenzy fix, RoF 2
 

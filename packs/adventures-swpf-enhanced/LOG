@@ -1,0 +1,8 @@
+2023/06/13-16:30:10.297 2bcc Recovering log #8
+2023/06/13-16:30:10.308 2bcc Delete type=0 #8
+2023/06/13-16:30:10.308 2bcc Delete type=3 #6
+2023/06/13-16:31:12.924 4944 Level-0 table #14: started
+2023/06/13-16:31:12.924 4944 Level-0 table #14: 0 bytes OK
+2023/06/13-16:31:12.930 4944 Delete type=0 #12
+2023/06/13-16:31:12.937 4944 Manual compaction at level-0 from '!adventures!g4MUDF4RATlCe2Qh' @ 72057594037927935 : 1 .. '!adventures!xYjfGMd4vereuXMB' @ 0 : 0; will stop at (end)
+2023/06/13-16:31:12.937 4944 Manual compaction at level-1 from '!adventures!g4MUDF4RATlCe2Qh' @ 72057594037927935 : 1 .. '!adventures!xYjfGMd4vereuXMB' @ 0 : 0; will stop at (end)
