@@ -1,5 +1,8 @@
+# 0.6.1
+- macro for scroll improved
+
 # 0.6.0
-- v11
+- v11 only
 - trained items
 
 # 0.5.6

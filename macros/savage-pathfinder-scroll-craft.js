@@ -1,11 +1,22 @@
 // CUSTOMIZE
-const compendiumLabel = 'Savage Pathfinder Powers'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
+const compendiumID = 'swpf-core-rules.swpf-powers'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
+const compendiumIDptbr = 'swpf-core-rules-ptbr.swpf-powers'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
+
+// English
 const rankNovice = 'Novice';
 const rankSeasoned = 'Seasoned';
 const rankVeteran = 'Veteran';
 const rankHeroic = 'Heroic';
 const rankLegendary = 'Legendary';
 const craftFolder = 'Craft - Scroll';
+
+// English
+const rankNovicebr = 'Novato';
+const rankSeasonedbr = 'Experiente';
+const rankVeteranbr = 'Veterano';
+const rankHeroicbr = 'Heroico';
+const rankLegendarybr = 'Lendário';
+const craftFolderbr = 'Pergaminhos Mágicos';
 
 /* Scroll Craft for Savage Pathfinder 
 source: 
@@ -18,17 +29,28 @@ power’s Rank × the number of Power Points it uses; then multiply that total b
 
 */
 
-const version = 'v0.7';
+const version = 'v0.8';
 const icon = "icons/sundries/scrolls/scroll-plain-red.webp";
 
 const rulesLink = '@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore06magici.JournalEntryPage.06magicitems0000#scrolls]{SCROLLS}';
 const coreRules = game.modules.get("swpf-core-rules")?.active;
+const coreRulesptbr = game.modules.get("swpf-core-rules-ptbr")?.active;
 
 main();
 
 async function main() {
   let tokenD = canvas.tokens.controlled[0];
-  const powers = await getCompendiumEntities( compendiumLabel ); 
+  const powersEnglish = await getCompendiumEntities( compendiumID ); 
+  const powersPtbr = await getCompendiumEntities( compendiumIDptbr ); 
+  let powers; 
+
+  if (powersEnglish && powersPtbr) {
+    powers = [...powersEnglish, ...powersPtbr];
+  } else if (powersEnglish) {
+    powers = powersEnglish;
+  } else if (powersPtbr) {
+    powers = powersPtbr;
+  }
   
   let powersList = '';
   for (power of powers ) {
@@ -90,12 +112,13 @@ async function main() {
           let shareItem = html.find("#shareItem")[0].checked;
           let modifierMessage = html.find('[name="modifierMessage"]')[0].value;
 
-          let power = await getPower( compendiumLabel, powerLabel );
+          let power = await getPower( powers, powerLabel );
           if(!power) {
             ui.notifications.warn('You must select a power!');
             return;
           }
           let rankMultiplier = rankToNumber( power.system.rank );
+          console.log( power.system.rank )
           let powerPointCost = Number(power.system.pp);
           let finalCraftCost = (rankMultiplier*(powerPointCost+modifierPoints))*25;
           let extraMessage = `<div class="swpf-core">
@@ -114,14 +137,15 @@ async function main() {
 
           let data = {
             "name": `Scroll: ${power.name}`,
-            "type": "consumable",
+            "type": "consumable",            
             "img": icon,
             "folder": folder,
             "system": {
+              "category": power.system.rank,
               "description": extraMessage + power.system.description,
               "quantity": 1,
               "weight": 0.1,
-              "price": finalCraftCost,
+              "price": finalCraftCost*2,
               "charges": {
                 "value": 1,
                 "max": 1
@@ -145,8 +169,9 @@ async function main() {
 
 // -------------------------------------------------------
 // Functions
-async function getCompendiumEntities( compendiumLabel ) {
-  const compendium = await game.packs.find(p=>p.metadata.label==compendiumLabel);
+async function getCompendiumEntities( compendiumIDarg ) {
+  const compendium = await game.packs.find(p=>p.metadata.id==compendiumIDarg);
+  
   if (!compendium) {
     console.warn( "The compendium couldn't be found." );
     return;
@@ -154,28 +179,39 @@ async function getCompendiumEntities( compendiumLabel ) {
   let powers = await compendium.getDocuments();
   powers = powers.filter(p=> p.type=='power');
   return powers;
-}    
+} 
 
-async function getPower( compendiumLabel, powerLabel ) {
-  let powers = await getCompendiumEntities( compendiumLabel );
-  return powers.find(p=> p.name==powerLabel);
-}    
-
+async function getPower(powers, powerLabel ) {
+  return powers.find(power => power.name === powerLabel );
+}
+   
 function rankToNumber( rank ) {
+  console.log(`Unknown rank: ${rank}.`);
   switch (rank) {
     case rankNovice:
+    case rankNovicebr:
       return 1;
+      break;
     case rankSeasoned:
+    case rankSeasonedbr:
       return 2;    
+      break;
     case rankVeteran:
+    case rankVeteranbr:
       return 3;    
+      break;
     case rankHeroic:
+    case rankHeroicbr:
       return 4;   
+      break;
     case rankLegendary:
+    case rankLegendarybr:
       return 5;   
+      break;
     default:
       console.log(`Unknown rank: ${rank}.`);
   }
+   
 }    
 
 // Folder v0.1
