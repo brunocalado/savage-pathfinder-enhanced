@@ -1,3 +1,6 @@
+# 0.6.2
+- removed frenzy https://github.com/brunocalado/savage-pathfinder-enhanced/issues/2
+
 # 0.6.1
 - macro for scroll improved
 

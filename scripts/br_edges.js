@@ -105,42 +105,6 @@ export const edges = [
       }
     ],
     group: edgesGroupName
-  },
-  {
-    id:"EDGEFRENZY",
-    name:"Frenzy",
-    button_name:"BRSW.EdgeName-Frenzy",
-    and_selector:[
-      {
-         selector_type:"skill",
-         selector_value:"Fighting"
-      },
-      {
-         selector_type:"actor_has_edge",
-         selector_value:"Frenzy"
-      }
-    ],
-    defaultChecked:"on",
-    group: edgesGroupName,
-    rof:"2"
-  },
-  {
-    id:"EDGEIMPROVEDFRENZY",
-    name:"Improved Frenzy",
-    button_name:"Improved Frenzy",
-    and_selector:[
-      {
-         selector_type:"skill",
-         selector_value:"Fighting"
-      },
-      {
-         selector_type:"actor_has_edge",
-         selector_value:"Improved Frenzy"
-      }
-    ],
-    defaultChecked:"on",
-    group: edgesGroupName,
-    rof:"2"
   }
   
   
