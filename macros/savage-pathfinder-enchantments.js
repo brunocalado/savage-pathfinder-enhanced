@@ -1,10 +1,11 @@
 // CUSTOMIZE
-const compendiumLabel = 'Savage Pathfinder Gear'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
+const compendiumID = 'swpf-core-rules.swpf-gear'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
+const compendiumIDptbr = 'swpf-core-rules-ptbr.swpf-gear'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
 const craftFolder = 'Craft - Enchantments';
 const suffix = '🔮';
 //const extraGear = []; // You can add items filtered to the search box. Example: you will not find Arrow, you can add 'Arrow', it will try to find it.
 
-const version = 'v0.5';
+const version = 'v0.6';
 
 // RULES
 /*
@@ -288,7 +289,17 @@ if (game.modules.get("swpf-core-rules")?.active) { coreRules = true; }
 main();
 
 async function main() {
-  const items = await getCompendiumEntities( compendiumLabel ); 
+  const itemsEnglish = await getCompendiumEntities( compendiumID ); 
+  const itemsPtbr = await getCompendiumEntities( compendiumIDptbr ); 
+  let items; 
+
+  if (itemsEnglish && itemsPtbr) {
+    items = [...itemsEnglish, ...itemsPtbr];
+  } else if (itemsEnglish) {
+    items = itemsEnglish;
+  } else if (itemsPtbr) {
+    items = itemsPtbr;
+  }
   
   let itemsList = '';
   for (item of items ) {
@@ -331,7 +342,7 @@ async function main() {
         callback: async (html) => {
           let itemLabel = html.find("#aeType")[0].value;
           
-          let item = await getItem( compendiumLabel, itemLabel );
+          let item = await getItem( items, itemLabel );
           if(!item) {
             ui.notifications.warn('You must select an item!');
             return;
@@ -347,21 +358,22 @@ async function main() {
 
 // -------------------------------------------------------
 // Functions
-async function getCompendiumEntities( compendiumLabel='Savage Pathfinder Gear' ) {
-  const compendium = await game.packs.find(p=>p.metadata.label==compendiumLabel);
+// v0.1
+async function getCompendiumEntities( compendiumIDarg ) {
+  const compendium = await game.packs.find(p=>p.metadata.id==compendiumIDarg);
+  
   if (!compendium) {
-    console.warn( "Macros of SWADE: The compendium couldn't be found." );
+    console.warn( "The compendium couldn't be found." );
     return;
   }
-  let items = await compendium.getDocuments();
-  items = await items.filter(p=> (p.type=='armor' || p.type=='weapon'|| p.type=='shield') && p.name!="#[CF_tempEntity]" );
+  const AllItems = await compendium.getDocuments();
+  const items = await AllItems.filter(p=> (p.type=='armor' || p.type=='weapon' || p.type=='shield' || (p.type=='gear' && p.system.isAmmo) ) );
   return items;
-}  
+} 
 
-async function getItem( compendiumLabel='Savage Pathfinder Gear', itemLabel ) {
-  let items = await getCompendiumEntities( compendiumLabel );
-  return items.find(p=> p.name==itemLabel);
-}    
+async function getItem(items, itemLabel ) {
+  return items.find(item => item.name === itemLabel );
+}
 
 async function selectEnchantmentsForWeapon( item ) {
   let message='';
@@ -475,8 +487,8 @@ async function enchantItem( selectedEnchantments, item ) {
   game.items.get(forgedItem[0].id).sheet.render(true);
 }
 
-// v0.3
-async function forgeMasterwork( data ) {
+// v0.4
+async function forgeMasterwork( data, shareItem ) {
   let description = '';
   if ( data.type=='shield') {
     const minStr = parseInt( data.system.minStr.toLowerCase().replace('d', '') );
@@ -487,7 +499,9 @@ async function forgeMasterwork( data ) {
     <h2>Craft Notes</h2>
     <p>Armor and shields reduce the Minimum Strength requirement by one die type, to a minimum of d4.</p>          
     <p>Shields cost an extra 300 gp, while armor costs an extra 150 gp per piece.</p>          
-    </div>`;     
+    </div>
+	<h2>Item Description</h2>
+	`;     
     data.system.description = description + data.system.description;
     data.system.price = data.data.price + 300;    
   } else if ( data.type=='armor') {
@@ -499,14 +513,18 @@ async function forgeMasterwork( data ) {
     <h2>Craft Notes</h2>
     <p>Armor and shields reduce the Minimum Strength requirement by one die type, to a minimum of d4.</p>          
     <p>Shields cost an extra 300 gp, while armor costs an extra 150 gp per piece.</p>          
-    </div>`;     
+    </div>
+	<h2>Item Description</h2>
+	`;     
     data.system.description = description + data.system.description;
     data.system.price = data.data.price + 150;       
   } else if ( data.type=='weapon') {
     description = `<div class="swpf-core">
     <h2>Craft Notes</h2>
     <p>+1 AP. Masterwork melee and ranged weapons add 300 gp to the cost.</p>          
-    </div>`;     
+    </div>
+	<h2>Item Description</h2>
+	`;     
     data.system.description = description + data.system.description;
     data.system.price = data.system.price + 300;    
     data.system.ap = parseInt(data.system.ap) + 1;    
@@ -519,17 +537,28 @@ async function forgeMasterwork( data ) {
     <h2>Craft Notes</h2>
     <p>Armor and shields reduce the Minimum Strength requirement by one die type, to a minimum of d4.</p>          
     <p>Shields cost an extra 300 gp, while armor costs an extra 150 gp per piece.</p>          
-    </div>`;     
+    </div>
+	<h2>Item Description</h2>
+	`;     
     data.system.description = description + data.system.description;
     data.system.price = data.system.price + 150;    
-  } else if (data.type=='gear') {
+  } else if ( data.type=='gear' && data.system.isAmmo ) { // AMMUNITION
     description = `<div class="swpf-core">
     <h2>Craft Notes</h2>
     <p>Masterwork arrows, bolts, or other ammunition subtract 1 point of Range penalty at Long or Extreme Range, and cost six additional gold pieces per unit.</p>          
     <p>Masterwork ammunition loses its bonus after use even if recovered.</p>          
-    </div>`;     
+    </div>
+	<h2>Item Description</h2>
+	`;	
     data.system.description = description + data.system.description;
-    data.system.price = data.system.price + 6;    
+    data.system.price = data.system.price + 6;   
+	
+	data.system.actions.additional[foundry.utils.randomID()] = {
+		"name": "Ammunition Masterwork",
+		"type": "skill",
+		"skillMod": "+1"
+	}
+
   }
   
   const folder = await getFolder(craftFolder, 'Item');

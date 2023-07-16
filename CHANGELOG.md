@@ -1,3 +1,10 @@
+# 0.6.3
+- fixed savage-pathfinder-enchantments macro https://github.com/brunocalado/savage-pathfinder-enhanced/issues/5
+- fixed savage-pathfinder-enchantments ptbr
+- fixed savage-pathfinder-masterwork-forge https://github.com/brunocalado/savage-pathfinder-enhanced/issues/5
+- fixed savage-pathfinder-masterwork-forge ptbr
+- savage-pathfinder-masterwork-forge filter for ammo
+
 # 0.6.2
 - removed frenzy https://github.com/brunocalado/savage-pathfinder-enhanced/issues/2
 
