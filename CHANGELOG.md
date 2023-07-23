@@ -1,3 +1,6 @@
+# 0.6.4
+- macro fix https://github.com/brunocalado/savage-pathfinder-enhanced/issues/5
+
 # 0.6.3
 - fixed savage-pathfinder-enchantments macro https://github.com/brunocalado/savage-pathfinder-enhanced/issues/5
 - fixed savage-pathfinder-enchantments ptbr

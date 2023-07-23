@@ -1,5 +1,5 @@
 // CUSTOMIZE
-const compendiumID = 'swpf-core-rules.swpf-gear'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
+const compendiumID = 'swpf-core-rules.swpf-equipment'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
 const compendiumIDptbr = 'swpf-core-rules-ptbr.swpf-gear'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
 const suffix = '⭐';
 const craftFolder = 'Craft - Masterwork';
@@ -17,7 +17,7 @@ reduce the Minimum Strength requirement by one die type, to a minimum of d4. Shi
 
 */
 
-const version = 'v0.7';
+const version = 'v0.8';
 const icon = "icons/tools/smithing/anvil.webp";
 let coreRules = false;
 if (game.modules.get("swpf-core-rules")?.active) { coreRules = true; }

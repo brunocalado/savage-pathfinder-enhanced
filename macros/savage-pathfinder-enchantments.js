@@ -1,11 +1,11 @@
 // CUSTOMIZE
-const compendiumID = 'swpf-core-rules.swpf-gear'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
+const compendiumID = 'swpf-core-rules.swpf-equipment'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
 const compendiumIDptbr = 'swpf-core-rules-ptbr.swpf-gear'; // YOU CAN REPLACE THIS FOR ANOTHER COMPENDIUM LABEL
 const craftFolder = 'Craft - Enchantments';
 const suffix = '🔮';
 //const extraGear = []; // You can add items filtered to the search box. Example: you will not find Arrow, you can add 'Arrow', it will try to find it.
 
-const version = 'v0.6';
+const version = 'v0.7';
 
 // RULES
 /*
