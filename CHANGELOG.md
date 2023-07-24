@@ -1,3 +1,7 @@
+# 0.6.5
+- rhino hide for br2
+- cantrip
+
 # 0.6.4
 - macro fix https://github.com/brunocalado/savage-pathfinder-enhanced/issues/5
 
