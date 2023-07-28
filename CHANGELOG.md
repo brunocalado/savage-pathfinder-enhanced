@@ -1,3 +1,7 @@
+# 0.6.6
+- Mirror Self - Summon Ally
+- downtime items finished
+
 # 0.6.5
 - rhino hide for br2
 - cantrip
