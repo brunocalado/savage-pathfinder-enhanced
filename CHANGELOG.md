@@ -1,3 +1,6 @@
+# 0.6.7
+- Mirror Self - Summon Ally
+
 # 0.6.6
 - Mirror Self - Summon Ally
 - downtime items finished

@@ -1,7 +1,7 @@
 const folderName = 'Players'; // This is the name of a folder in the actor directory.
 
 // ===================================================================================
-const version = 'v0.1';
+const version = 'v0.2';
 const compendiumAbilitiesName = 'swpf-core-rules.swpf-abilities';
 
 main();
@@ -89,6 +89,7 @@ async function createClone(selectedPCID) {
 
   sourceData.type = "npc";
   sourceData.system.wildcard = false;
+  sourceData.system.wounds.max = 0;
   sourceData.name = `Mirror ${sourceData.name}`;
 
   const skills = sourceData.items.filter((i) => i.type === "skill");
