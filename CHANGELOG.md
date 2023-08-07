@@ -1,3 +1,7 @@
+# 0.6.8
+- extra items: magic item
+- extra items: breath weapon
+
 # 0.6.7
 - Mirror Self - Summon Ally
 
