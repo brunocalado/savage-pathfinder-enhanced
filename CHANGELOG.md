@@ -1,3 +1,6 @@
+# 0.6.9
+https://github.com/brunocalado/savage-pathfinder-enhanced/issues/6
+
 # 0.6.8
 - extra items: magic item
 - extra items: breath weapon
