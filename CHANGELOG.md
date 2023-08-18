@@ -1,3 +1,6 @@
+# 0.7.1
+- gear journal table fixed again
+
 # 0.7.0
 - gear journal table fixed
 
