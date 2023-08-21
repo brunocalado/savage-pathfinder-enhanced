@@ -1,7 +1,7 @@
 /*================================
 You can use a Macro Manager to call macros from compendiums!
 ================================*/
-const macroList = "Active Effect Builder;Masterwork Forge for Savage Pathfinder;Scroll Craft for Savage Pathfinder;Wealth Analysis for Savage Pathfinder;Coin Manager for Savage Pathfinder;Enchantments for Savage Pathfinder;Add Actions to Actors;";
+const macroList = "Active Effect Builder;Masterwork Forge for Savage Pathfinder;Scroll Craft for Savage Pathfinder;Wealth Analysis for Savage Pathfinder;Coin Manager for Savage Pathfinder;Enchantments for Savage Pathfinder;Add Actions to Actors;Tavern Menu;";
 const compendiumList = "Macros - SWPF - Enhanced";
 
 // --------------------

@@ -11,7 +11,7 @@
     }
   ],
   
-  "version": "0.7.1",
+  "version": "0.7.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -55,12 +55,19 @@
       "system": "swade"
     },
     {
-      "label": "Actions Edges- SWPF - Enhanced",
+      "label": "Actions Edges - SWPF - Enhanced",
       "type": "Item",
       "name": "actions-edges-swpf-enhanced",
       "path": "packs/actions-edges-swpf-enhanced",
       "system": "swade"
-    }     
+    },
+    {
+      "label": "Food and Drink - SWPF - Enhanced",
+      "type": "Item",
+      "name": "fooddrink",
+      "path": "packs/fooddrink",
+      "system": "swade"
+    }    
   ],
 
   "relationships": {
