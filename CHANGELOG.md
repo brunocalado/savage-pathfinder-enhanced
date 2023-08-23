@@ -1,3 +1,6 @@
+# 0.7.4
+- improved better rolls options
+
 # 0.7.3
 - BR armor piercing duplicate fix
 

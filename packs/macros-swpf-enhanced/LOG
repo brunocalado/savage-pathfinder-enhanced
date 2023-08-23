@@ -1,3 +1,8 @@
-2023/08/23-10:58:02.237 ef0 Recovering log #178
-2023/08/23-10:58:02.255 ef0 Delete type=0 #178
-2023/08/23-10:58:02.255 ef0 Delete type=3 #176
+2023/08/23-17:45:19.739 2ad8 Recovering log #190
+2023/08/23-17:45:19.747 2ad8 Delete type=0 #190
+2023/08/23-17:45:19.747 2ad8 Delete type=3 #188
+2023/08/23-18:01:43.229 eec Level-0 table #195: started
+2023/08/23-18:01:43.229 eec Level-0 table #195: 0 bytes OK
+2023/08/23-18:01:43.231 eec Delete type=0 #193
+2023/08/23-18:01:43.237 eec Manual compaction at level-0 from '!macros!2ISVEAecMz8Kduzg' @ 72057594037927935 : 1 .. '!macros!pM28f0v0Q5XJk1DG' @ 0 : 0; will stop at (end)
+2023/08/23-18:01:43.237 eec Manual compaction at level-1 from '!macros!2ISVEAecMz8Kduzg' @ 72057594037927935 : 1 .. '!macros!pM28f0v0Q5XJk1DG' @ 0 : 0; will stop at (end)

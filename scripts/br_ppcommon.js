@@ -103,7 +103,7 @@ export const ppcommon = [
   {
     id: "AP1",
     name: "Armor Piercing 2 (+1)",
-    button_name: "Armor Piercing 2 (+1)",
+    button_name: "AP 2 (+1)",
     overrideAp: "2",
     shotsUsed: "+1",
     selector_type: "item_type",
@@ -113,7 +113,7 @@ export const ppcommon = [
   {
     id: "AP2",
     name: "Armor Piercing 4 (+2)",
-    button_name: "Armor Piercing 4 (+2)",
+    button_name: "AP 4 (+2)",
     overrideAp: "4",
     shotsUsed: "+2",
     selector_type: "item_type",
@@ -123,7 +123,7 @@ export const ppcommon = [
   {
     id: "AP3",
     name: "Armor Piercing 6 (+3)",
-    button_name: "Armor Piercing 6 (+3)",
+    button_name: "AP 6 (+3)",
     overrideAp: "6",
     shotsUsed: "+3",
     selector_type: "item_type",
