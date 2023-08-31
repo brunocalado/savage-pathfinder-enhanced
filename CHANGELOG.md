@@ -1,3 +1,6 @@
+# 0.7.5
+- Rhino Hide fix
+
 # 0.7.4
 - improved better rolls options
 

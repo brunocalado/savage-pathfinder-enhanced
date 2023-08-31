@@ -11,7 +11,15 @@ export const gear = [
     and_selector: [{
         selector_type: "actor_equips_item",
         selector_value: "Rhino Hide"
-      }
+      },
+      {
+        selector_type: "item_type",
+        selector_value: "weapon"
+      },
+      {
+        selector_type: "skill",
+        selector_value: "Fighting"
+      },
     ],
     group: groupName
   }  
