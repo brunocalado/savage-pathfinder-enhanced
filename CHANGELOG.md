@@ -1,3 +1,6 @@
+# 0.7.6
+- frenzy fix
+
 # 0.7.5
 - Rhino Hide fix
 
