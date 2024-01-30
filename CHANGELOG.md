@@ -1,3 +1,9 @@
+# 0.7.7
+- actions fixed
+- actions macro minor fix
+- Enchantments for Savage Pathfinder fix
+- Masterwork Forge for Savage Pathfinder fix
+
 # 0.7.6
 - frenzy fix
 

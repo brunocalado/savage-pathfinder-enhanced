@@ -1,4 +1,9 @@
-const version = '0.4';
+/*
+TODO
+- update existing ones
+*/
+
+const version = '0.5';
 let actors = Array.from(game.actors);
 
 main();
@@ -97,6 +102,7 @@ async function addActionsToActors(html) {
     console.warn("Add Actions: Actor (" + i+1 + "/" + actors.length + ")" );
   } // END FOR  
   
+  ui.notifications.warn("Adding Actions Finished!");
 } // END FUNC
 
 async function removeActions(actor, actor_action) {
