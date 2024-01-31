@@ -1,3 +1,6 @@
+# 0.7.8
+- store builder macro
+
 # 0.7.7
 - actions fixed
 - actions macro minor fix
