@@ -1,3 +1,6 @@
+# 0.7.9
+- zen archer in extra items
+
 # 0.7.8
 - store builder macro
 
