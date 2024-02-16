@@ -1,14 +1,14 @@
-2024/02/16-12:45:15.239 2ce0 Recovering log #238
-2024/02/16-12:45:15.245 2ce0 Delete type=0 #238
-2024/02/16-12:45:15.245 2ce0 Delete type=3 #236
-2024/02/16-12:57:23.699 19bc Level-0 table #244: started
-2024/02/16-12:57:23.703 19bc Level-0 table #244: 24050 bytes OK
-2024/02/16-12:57:23.705 19bc Delete type=0 #242
-2024/02/16-12:57:23.713 19bc Manual compaction at level-0 from '!adventures!g4MUDF4RATlCe2Qh' @ 72057594037927935 : 1 .. '!adventures!xYjfGMd4vereuXMB' @ 0 : 0; will stop at '!adventures!xYjfGMd4vereuXMB' @ 10 : 1
-2024/02/16-12:57:23.713 19bc Compacting 1@0 + 1@1 files
-2024/02/16-12:57:23.716 19bc Generated table #245@0: 2 keys, 45763 bytes
-2024/02/16-12:57:23.716 19bc Compacted 1@0 + 1@1 files => 45763 bytes
-2024/02/16-12:57:23.718 19bc compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/02/16-12:57:23.718 19bc Delete type=2 #240
-2024/02/16-12:57:23.719 19bc Delete type=2 #244
-2024/02/16-12:57:23.719 19bc Manual compaction at level-0 from '!adventures!xYjfGMd4vereuXMB' @ 10 : 1 .. '!adventures!xYjfGMd4vereuXMB' @ 0 : 0; will stop at (end)
+2024/02/16-20:20:06.530 1c84 Recovering log #254
+2024/02/16-20:20:06.537 1c84 Delete type=0 #254
+2024/02/16-20:20:06.537 1c84 Delete type=3 #252
+2024/02/16-20:25:13.612 28dc Level-0 table #260: started
+2024/02/16-20:25:13.617 28dc Level-0 table #260: 48171 bytes OK
+2024/02/16-20:25:13.619 28dc Delete type=0 #258
+2024/02/16-20:25:13.619 28dc Manual compaction at level-0 from '!adventures!g4MUDF4RATlCe2Qh' @ 72057594037927935 : 1 .. '!adventures!xYjfGMd4vereuXMB' @ 0 : 0; will stop at '!adventures!xYjfGMd4vereuXMB' @ 12 : 1
+2024/02/16-20:25:13.619 28dc Compacting 1@0 + 1@1 files
+2024/02/16-20:25:13.624 28dc Generated table #261@0: 2 keys, 45841 bytes
+2024/02/16-20:25:13.624 28dc Compacted 1@0 + 1@1 files => 45841 bytes
+2024/02/16-20:25:13.627 28dc compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/02/16-20:25:13.628 28dc Delete type=2 #256
+2024/02/16-20:25:13.628 28dc Delete type=2 #260
+2024/02/16-20:25:13.631 28dc Manual compaction at level-0 from '!adventures!xYjfGMd4vereuXMB' @ 12 : 1 .. '!adventures!xYjfGMd4vereuXMB' @ 0 : 0; will stop at (end)

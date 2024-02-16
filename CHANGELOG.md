@@ -1,3 +1,6 @@
+# 0.8.0
+- zen archer patch
+
 # 0.7.9
 - zen archer in extra items
 
