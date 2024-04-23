@@ -70,6 +70,24 @@
     }    
   ],
 
+  "packFolders": [
+    {
+      "name": "Savage Pathfinder - Enhanced",
+      "sorting": "a",
+      "color": "#a30000",
+      "packs": [
+        "macros-swpf-enhanced",
+        "journal-swpf-enhanced",
+        "items-swpf-enhanced",
+        "adventures-swpf-enhanced",
+        "actions-swpf-enhanced",
+        "actions-edges-swpf-enhanced",
+        "fooddrink"
+      ],
+      "folders": []
+    }
+  ],
+
   "relationships": {
     "systems": [
       {

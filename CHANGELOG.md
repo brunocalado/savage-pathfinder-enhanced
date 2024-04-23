@@ -1,3 +1,7 @@
+# 0.8.1
+- manifest folders
+- mass battle macro and docs
+
 # 0.8.0
 - zen archer patch
 
