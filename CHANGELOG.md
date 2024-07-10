@@ -1,3 +1,6 @@
+# 0.8.2
+- v12
+
 # 0.8.1
 - manifest folders
 - mass battle macro and docs

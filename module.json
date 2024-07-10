@@ -11,10 +11,10 @@
     }
   ],
   
-  "version": "0.8.0",
+  "version": "0.8.1",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   
   "scripts": [],  
@@ -96,11 +96,6 @@
       }
     ],
     "requires": [
-      {
-        "id": "warpgate",
-        "type": "module",
-        "manifest": "https://github.com/trioderegion/warpgate/releases/latest/download/module.json"
-      }
     ]    
   },  
 

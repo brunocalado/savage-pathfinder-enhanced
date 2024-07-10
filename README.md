@@ -1,11 +1,6 @@
 # Savage Pathfinder - Enhanced
 Macros and other resources for Savage Pathfinder.
 
-## Coin Manager
-<p align="center">
-  <img width="500" src="docs/docs_coin.webp">
-</p>
-
 ## Enchantments 
 <p align="center">
   <img width="500" src="docs/docs_enchant.webp">
@@ -19,11 +14,6 @@ Macros and other resources for Savage Pathfinder.
 ## Scroll Craft
 <p align="center">
   <img width="500" src="docs/docs_scroll.webp">
-</p>
-
-## Active Effects Builder and Templates
-<p align="center">
-  <img width="500" src="docs/docs_ae_templates.webp">
 </p>
 
 ## Better Rolls Integration
@@ -68,13 +58,6 @@ There is a configuration JSON file which will auto load with Savage Pathfinder d
 
 ## Automated Animations Integration
 Make attacks and trigger animations! You must have JB2A. Read documentation inside the module.
-
-## Token Tooltip Alt
-You can have a preview from a actor without open the actor sheet.
-
-<p align="center">
-  <img src="docs/docs_token-tooltip-alt.webp">
-</p>
 
 ## Actions
 You can find actions ready to use in a compendium.
