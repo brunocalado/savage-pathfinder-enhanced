@@ -1,3 +1,6 @@
+# 0.8.3
+fix https://github.com/brunocalado/savage-pathfinder-enhanced/issues/8
+
 # 0.8.2
 - v12
 

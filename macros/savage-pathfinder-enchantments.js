@@ -5,7 +5,7 @@ const craftFolder = 'Craft - Enchantments';
 const suffix = '🔮';
 //const extraGear = []; // You can add items filtered to the search box. Example: you will not find Arrow, you can add 'Arrow', it will try to find it.
 
-const version = 'v0.8';
+const version = 'v0.9';
 
 // RULES
 /*
@@ -503,7 +503,7 @@ async function forgeMasterwork( data, shareItem ) {
 	<h2>Item Description</h2>
 	`;     
     data.system.description = description + data.system.description;
-    data.system.price = data.data.price + 300;    
+    data.system.price = data.system.price + 300;    
   } else if ( data.type=='armor') {
     const minStr = parseInt( data.system.minStr.toLowerCase().replace('d', '') );
     if (minStr>=4) {
@@ -517,7 +517,7 @@ async function forgeMasterwork( data, shareItem ) {
 	<h2>Item Description</h2>
 	`;     
     data.system.description = description + data.system.description;
-    data.system.price = data.data.price + 150;       
+    data.system.price = data.system.price + 150;       
   } else if ( data.type=='weapon') {
     description = `<div class="swpf-core">
     <h2>Craft Notes</h2>
